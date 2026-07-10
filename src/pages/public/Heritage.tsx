@@ -78,6 +78,11 @@ export default function Heritage() {
           us, or discussed at the bottom of this page in the section provided
           for that purpose.
         </p>
+        <p className={pub.meta} style={{ marginTop: '0.75rem', maxWidth: '62ch' }}>
+          Historical names are rendered in their modern public forms. Certain
+          period names, while cherished, predate contemporary communications
+          guidance, and several were never intended to be read aloud.
+        </p>
       </div>
 
       {HERITAGE_ERAS.map((era) => (

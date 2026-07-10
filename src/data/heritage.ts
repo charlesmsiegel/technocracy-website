@@ -60,7 +60,7 @@ export const HERITAGE_ERAS: HeritageEra[] = [
     marks: [
       {
         id: 'craftmasons-fellowship',
-        name: 'The Craftmason Fellowship',
+        name: 'The Builders’ Fellowship',
         mark: era1Craftmasons,
         blurb:
           'Master builders for the common good. Charter retired; principles retained; retention involuntary.',
@@ -79,48 +79,48 @@ export const HERITAGE_ERAS: HeritageEra[] = [
     marks: [
       {
         id: 'craftmasons',
-        name: 'The Craftmasons',
+        name: 'The Builders’ Society',
         mark: era2Craftmasons,
         blurb: 'The founding fellowship, continued. See above; see also everything since.',
       },
       {
         id: 'artificers',
-        name: 'The Artificers',
+        name: 'The Society of Instruments & Engines',
         mark: era2Artificers,
         blurb:
           'Instruments, engines, and the dignity of the made thing. The direct ancestor of Iterion.',
       },
       {
         id: 'cabal-of-pure-thought',
-        name: 'The Cabal of Pure Thought',
+        name: 'The Society for Right Understanding',
         mark: era2Cabal,
         blurb:
           'Values-driven information stewardship, from an era in which values were enforced somewhat differently.',
       },
       {
         id: 'celestial-masters',
-        name: 'The Celestial Masters',
+        name: 'The Astronomical Society',
         mark: era2Celestial,
         blurb:
           'Astronomy, celestial navigation, and travel plans their contemporaries considered ambitious. They were ambitious.',
       },
       {
         id: 'high-guild',
-        name: 'The High Guild',
+        name: 'The Honorable Company of Merchants',
         mark: era2HighGuild,
         blurb:
           'Commerce as a civilizing instrument. The ancestor of Exchequer Capital Group, and of the phrase "we should discuss terms."',
       },
       {
         id: 'hippocratic-circle',
-        name: 'The Hippocratic Circle',
+        name: 'The Physicians’ Circle',
         mark: era2Hippocratic,
         blurb:
           'Medicine made rigorous, reproducible, and available. The ancestor of Progenera Life Sciences.',
       },
       {
         id: 'void-seekers',
-        name: 'The Void Seekers',
+        name: 'The Cartographic Society',
         mark: era2VoidSeekers,
         blurb:
           'Cartographers of the world’s remaining blank spaces, and authors of plans for them.',
@@ -147,63 +147,63 @@ export const HERITAGE_ERAS: HeritageEra[] = [
     marks: [
       {
         id: 'mechanicians',
-        name: 'Int’l Brotherhood of Mechanicians',
+        name: 'The Amalgamated Engineering Guild',
         mark: era3Mechanicians,
         blurb: 'Industrial invention and the modern workplace, including the concept of the shift.',
       },
       {
         id: 'analytical-reckoners',
-        name: 'Guild of Analytical Reckoners',
+        name: 'The Statistical Society',
         mark: era3Reckoners,
         blurb: 'Computation before computers. The Guild counted everything, twice, and filed both counts.',
       },
       {
         id: 'electrodyne-engineers',
-        name: 'Guild of Electrodyne Engineers',
+        name: 'The Electrical Research Guild',
         mark: era3Electrodyne,
         blurb: 'The "Frontier Electric." See Divested Divisions, below, and see it with composure.',
       },
       {
         id: 'hippocratic-circle-v',
-        name: 'The Hippocratic Circle',
+        name: 'The Clinical Institute',
         mark: era3Hippocratic,
         blurb: 'Clinical science, sanitation, and public health — delivered at municipal scale.',
       },
       {
         id: 'lightkeepers',
-        name: 'The Lightkeepers',
+        name: 'The Civic Illumination Trust',
         mark: era3Lightkeepers,
         blurb: 'Public information and civic order. Light, aimed responsibly.',
       },
       {
         id: 'skeleton-keys',
-        name: 'The Skeleton Keys',
+        name: 'The Office of Special Inquiries',
         mark: era3SkeletonKeys,
         blurb:
           'Specialized investigations, by royal appointment. The case files are sealed; the cases are closed; the distinction matters.',
       },
       {
         id: 'golden-guild',
-        name: 'The Golden Guild',
+        name: 'The Commercial Arts Guild',
         mark: era3GoldenGuild,
         blurb: 'The persuasion sciences and market development. People want things; someone must be responsible about it.',
       },
       {
         id: 'invisible-exchequers',
-        name: 'The Invisible Exchequers',
+        name: 'The Exchequer Society',
         mark: era3Exchequers,
         blurb:
-          'Finance. You will not have heard of them — that was the point, the name, and their only recorded joke.',
+          'Finance, conducted so discreetly that their period name was a description, a policy, and their only recorded joke. Exchequer Capital Group keeps their books and their habits.',
       },
       {
         id: 'celestial-masters-v',
-        name: 'Society of Celestial Masters',
+        name: 'The Meridian Society',
         mark: era3Celestial,
         blurb: 'Astronomy, meteorology, and the upper air, in an era when the upper air was contested.',
       },
       {
         id: 'void-seekers-v',
-        name: 'The Void Seekers',
+        name: 'The Frontier Survey',
         mark: era3VoidSeekers,
         blurb: 'Exploration and frontier logistics: reaching the blank spaces first, with paperwork.',
       },
@@ -212,32 +212,32 @@ export const HERITAGE_ERAS: HeritageEra[] = [
     marks2: [
       {
         id: 'league-of-constructors',
-        name: 'League of Constructors',
+        name: 'The Industrial Works Council',
         mark: era3BlocConstructors,
         blurb: 'Heavy industry and manufacturing. Became Iterion Advanced Manufacturing.',
       },
       {
         id: 'ivory-tower',
-        name: 'The Ivory Tower',
+        name: 'The Committee on Public Instruction',
         mark: era3BlocIvoryTower,
         blurb: 'Scholarship, policy, and public alignment. Became Nexus Worldwide Operations.',
       },
       {
         id: 'grand-faculty',
-        name: 'The Grand Faculty',
+        name: 'The Research Faculties',
         mark: era3BlocGrandFaculty,
         blurb: 'Research and instruction. Its life-science chairs became Progenera.',
       },
       {
         id: 'syndicate-bloc',
-        name: 'The Syndicate',
+        name: 'The Capital Committee',
         mark: era3BlocSyndicate,
         blurb:
-          'Capital allocation. The name proved durable internally; clients know it today as Exchequer Capital Group.',
+          'Capital allocation, known internally by a blunter period name we no longer print. Clients know it today as Exchequer Capital Group.',
       },
       {
         id: 'exploratory-society',
-        name: 'The Exploratory Society',
+        name: 'The Expeditionary Trust',
         mark: era3BlocExploratory,
         blurb: 'Expeditions, surveys, and the sky. Became Celestine Aerospace.',
       },
