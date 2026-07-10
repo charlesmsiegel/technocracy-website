@@ -48,10 +48,10 @@ await page
   })
 await shot('07-login')
 
-// Log in
+// Log in (as Celestine Aerospace / Void Engineers — the tour visits that board)
 await page.fill('#designation', 'Voss, L.')
 await page.fill('#passphrase', 'hunter2')
-await page.click('button[type="submit"]')
+await page.click('button[aria-label*="Celestine"]')
 await page.waitForURL('**#/portal', { timeout: 8000 })
 await page.waitForTimeout(1600) // let counters animate in
 await shot('08-dashboard', { fullPage: true })
