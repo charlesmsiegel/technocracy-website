@@ -1,0 +1,179 @@
+.page {
+  min-height: 100vh;
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+  background-image: radial-gradient(
+    ellipse at 50% -20%,
+    rgba(63, 208, 192, 0.08),
+    transparent 60%
+  );
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2rem 2rem 1.5rem;
+  box-shadow: var(--shadow);
+}
+
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.22em;
+  color: var(--text-muted);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.seal {
+  display: flex;
+  justify-content: center;
+  margin: 1.25rem 0 0.75rem;
+  color: var(--accent);
+}
+
+.wordmark {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.9rem;
+  text-align: center;
+  color: var(--heading);
+  letter-spacing: 0.04em;
+  margin-bottom: 0.25rem;
+}
+
+.sub {
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  color: var(--text-muted);
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 1.75rem;
+}
+
+.field {
+  margin-bottom: 1rem;
+}
+
+.field label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.35rem;
+}
+
+.field input {
+  width: 100%;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  padding: 0.6rem 0.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.9rem;
+}
+
+.field input:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
+.submit {
+  width: 100%;
+  margin-top: 0.5rem;
+  background: var(--accent);
+  color: var(--accent-contrast);
+  border: none;
+  border-radius: var(--radius);
+  font-family: var(--font-mono);
+  font-weight: 700;
+  font-size: 0.8rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 0.7rem;
+  transition: filter 0.15s;
+}
+
+.submit:hover {
+  filter: brightness(1.12);
+}
+
+.verifyLog {
+  min-height: 7.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  line-height: 1.9;
+  color: var(--text);
+  padding: 0.5rem 0.25rem;
+}
+
+.verifyLine {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  animation: lineIn 0.25s ease-out;
+}
+
+.verifyLine span:last-child {
+  color: var(--accent);
+}
+
+@keyframes lineIn {
+  from {
+    opacity: 0;
+    transform: translateY(3px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.cursor::after {
+  content: '▍';
+  color: var(--accent);
+  animation: blink 0.9s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.notice {
+  margin-top: 1.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  line-height: 1.7;
+  letter-spacing: 0.06em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.back {
+  margin-top: 1.5rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.back a {
+  color: var(--text-muted);
+}
+
+.back a:hover {
+  color: var(--text);
+}

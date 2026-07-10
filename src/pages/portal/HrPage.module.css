@@ -1,0 +1,130 @@
+.head {
+  margin-bottom: 1.4rem;
+}
+
+.head h1 {
+  font-size: 1.35rem;
+  color: var(--heading);
+  font-weight: 600;
+}
+
+.head p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 0.3rem;
+  max-width: 72ch;
+}
+
+.countersign {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--accent);
+  margin-top: 0.55rem;
+  letter-spacing: 0.05em;
+}
+
+.sectionTitle {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--amber);
+  margin: 1.6rem 0 0.7rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.sectionTitle::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border);
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 0.8rem;
+}
+
+.formCard {
+  display: flex;
+  gap: 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+  text-decoration: none;
+  transition: border-color 0.15s;
+  align-items: flex-start;
+}
+
+.formCard:hover {
+  border-color: var(--accent);
+}
+
+.formIcon {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 700;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+  padding: 0.5rem 0.4rem;
+  min-width: 3.4rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.formBody {
+  min-width: 0;
+}
+
+.formTitle {
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: var(--heading);
+  line-height: 1.35;
+}
+
+.formBlurb {
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-top: 0.3rem;
+}
+
+.formMeta {
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  color: var(--text-muted);
+  margin-top: 0.45rem;
+  letter-spacing: 0.05em;
+}
+
+.policyGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 0.8rem;
+}
+
+.policy {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+}
+
+.policyTitle {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--heading);
+}
+
+.policyBody {
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  margin-top: 0.35rem;
+}

@@ -1,0 +1,88 @@
+.head {
+  margin-bottom: 1.2rem;
+}
+
+.head h1 {
+  font-size: 1.35rem;
+  color: var(--heading);
+  font-weight: 600;
+}
+
+.head p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 0.3rem;
+  max-width: 70ch;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 0.9rem;
+}
+
+.tile {
+  display: block;
+  text-decoration: none;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem;
+  transition: border-color 0.15s, transform 0.15s;
+}
+
+.tile:hover {
+  border-color: var(--tile-accent, var(--accent));
+  transform: translateY(-2px);
+}
+
+.tileHead {
+  display: flex;
+  align-items: center;
+  gap: 0.7rem;
+  color: var(--tile-accent, var(--accent));
+}
+
+.tileName {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.tileCodename {
+  font-family: var(--font-display);
+  font-size: 1.45rem;
+  font-weight: 700;
+  color: var(--heading);
+  line-height: 1.1;
+}
+
+.tileBrief {
+  margin-top: 0.55rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.tileStats {
+  margin-top: 0.7rem;
+  display: flex;
+  gap: 0.9rem;
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+}
+
+.tileStats strong {
+  color: var(--text);
+}
+
+.hidden {
+  color: var(--status-critical);
+}

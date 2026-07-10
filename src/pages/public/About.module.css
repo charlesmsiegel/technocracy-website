@@ -1,0 +1,61 @@
+.charter {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 2.5rem;
+  max-width: 720px;
+}
+
+.charterTitle {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 1.9rem;
+  color: var(--heading);
+  margin-bottom: 0.35rem;
+}
+
+.charterSub {
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 1.5rem;
+}
+
+.charterList {
+  display: grid;
+  gap: 1.1rem;
+  padding-left: 0;
+  list-style: none;
+  counter-reset: article;
+}
+
+.charterList li {
+  counter-increment: article;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  align-items: start;
+}
+
+.charterList li::before {
+  content: counter(article, upper-roman);
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: var(--accent);
+  min-width: 2.2rem;
+  line-height: 1.3;
+}
+
+.charterList strong {
+  display: block;
+  color: var(--heading);
+}
+
+.charterList span {
+  color: var(--text-muted);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}

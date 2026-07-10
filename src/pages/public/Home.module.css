@@ -1,0 +1,88 @@
+.hero {
+  background:
+    radial-gradient(ellipse at 80% -30%, rgba(15, 76, 129, 0.14), transparent 55%),
+    linear-gradient(180deg, var(--surface) 0%, var(--bg) 100%);
+  border-bottom: 1px solid var(--border);
+}
+
+.heroInner {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 5.5rem 1.25rem 4rem;
+}
+
+.heroEyebrow {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.heroTitle {
+  margin-top: 0.9rem;
+  font-size: clamp(2.1rem, 5.5vw, 3.4rem);
+  font-weight: 800;
+  color: var(--heading);
+  letter-spacing: -0.02em;
+  line-height: 1.08;
+  max-width: 18ch;
+}
+
+.heroLede {
+  margin-top: 1.25rem;
+  font-size: 1.12rem;
+  line-height: 1.7;
+  color: var(--text-muted);
+  max-width: 58ch;
+}
+
+.heroActions {
+  margin-top: 2rem;
+  display: flex;
+  gap: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.tickerStrip {
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+  overflow: hidden;
+}
+
+.tickerInner {
+  display: flex;
+  gap: 3.5rem;
+  width: max-content;
+  padding: 0.55rem 0;
+  animation: publicTicker 70s linear infinite;
+}
+
+.tickerStrip:hover .tickerInner {
+  animation-play-state: paused;
+}
+
+@keyframes publicTicker {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.tickerItem {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.tickerItem strong {
+  color: var(--heading);
+}
+
+.tickerUp::before {
+  content: '▲ ';
+  color: var(--status-nominal);
+}
