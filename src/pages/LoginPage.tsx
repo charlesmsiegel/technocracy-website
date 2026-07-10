@@ -6,9 +6,9 @@ import styles from './LoginPage.module.css'
 
 const VERIFY_STEPS: [string, string][] = [
   ['CREDENTIALS RECEIVED', 'OK'],
+  ['DEVICE POSTURE', 'COMPLIANT'],
   ['BIOMETRIC CADENCE', 'MATCHED'],
   ['LOYALTY INDEX', 'WITHIN TOLERANCE'],
-  ['ENLIGHTENMENT QUOTIENT', 'ON FILE'],
   ['CLEARANCE', 'VERIFIED'],
 ]
 
@@ -47,12 +47,12 @@ export default function LoginPage() {
   return (
     <div className={styles.page} data-theme="internal">
       <div className={styles.card}>
-        <div className={styles.eyebrow}>Consensus Holdings · Personnel Access</div>
+        <div className={styles.eyebrow}>Consensus Holdings</div>
         <div className={styles.seal}>
           <UnionSeal size={56} />
         </div>
-        <h1 className={styles.wordmark}>Technocratic Union</h1>
-        <div className={styles.sub}>Enlightened Operations Network</div>
+        <h1 className={styles.wordmark}>Personnel Access</h1>
+        <div className={styles.sub}>Integrated Operations Network</div>
 
         {verifying ? (
           <div className={styles.verifyLog} role="status" aria-live="polite">
