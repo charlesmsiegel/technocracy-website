@@ -26,6 +26,7 @@ import Dashboard from './pages/portal/Dashboard'
 import OperationsIndex from './pages/portal/OperationsIndex'
 import BoardPage from './pages/portal/BoardPage'
 import MethodologyPage from './pages/portal/MethodologyPage'
+import PlanPage from './pages/portal/PlanPage'
 import HrPage from './pages/portal/HrPage'
 import PortalNotFound from './pages/portal/PortalNotFound'
 
@@ -66,6 +67,7 @@ function App() {
                 path="operations/:convention/:methodology"
                 element={<MethodologyPage />}
               />
+              <Route path="plan" element={<PlanPage />} />
               <Route path="hr" element={<HrPage />} />
               <Route path="*" element={<PortalNotFound />} />
             </Route>

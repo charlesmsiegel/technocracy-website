@@ -78,7 +78,8 @@ export interface KanbanColumnData {
 }
 
 export interface Board {
-  convention: ConventionSlug
+  /** Owning Convention, or 'union' for Union-wide coordination boards. */
+  convention: ConventionSlug | 'union'
   /** Operation codename, e.g. "DEEP PERIMETER" */
   codename: string
   /** File designation, e.g. "LONG-HORIZON RESPONSE FILE VE-2004-0001" */

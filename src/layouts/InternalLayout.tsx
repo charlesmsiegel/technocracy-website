@@ -8,6 +8,7 @@ import styles from './InternalLayout.module.css'
 const NAV = [
   { to: '/portal', label: 'COMMAND DASHBOARD', end: true },
   { to: '/portal/operations', label: 'OPERATIONS' },
+  { to: '/portal/plan', label: 'FIVE-YEAR PLAN' },
   { to: '/portal/hr', label: 'HUMAN RESOURCES' },
 ]
 
