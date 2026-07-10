@@ -9,6 +9,7 @@ const NAV = [
   { to: '/initiatives', label: 'Initiatives' },
   { to: '/careers', label: 'Careers' },
   { to: '/about', label: 'About' },
+  { to: '/heritage', label: 'Heritage' },
 ]
 
 function ScrollToTop() {
@@ -55,6 +56,7 @@ export default function PublicLayout() {
             <h3>Company</h3>
             <ul>
               <li><Link to="/about">About us</Link></li>
+              <li><Link to="/heritage">Heritage</Link></li>
               <li><Link to="/divisions">Our divisions</Link></li>
               <li><Link to="/initiatives">Global initiatives</Link></li>
               <li><Link to="/careers">Careers</Link></li>
