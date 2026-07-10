@@ -3,15 +3,31 @@ import styles from './CookieBanner.module.css'
 
 const KEY = 'ch-consent'
 
+/* Users who block site storage entirely would otherwise crash the page —
+   an outcome the banner's own copy would struggle to spin. Fail open. */
+function readConsent(): boolean {
+  try {
+    return sessionStorage.getItem(KEY) === 'agreed'
+  } catch {
+    return false
+  }
+}
+
+function writeConsent(): void {
+  try {
+    sessionStorage.setItem(KEY, 'agreed')
+  } catch {
+    // The preference is noted, if not recorded. It is usually recorded.
+  }
+}
+
 export default function CookieBanner() {
-  const [dismissed, setDismissed] = useState(
-    () => sessionStorage.getItem(KEY) === 'agreed',
-  )
+  const [dismissed, setDismissed] = useState(readConsent)
 
   if (dismissed) return null
 
   const agree = () => {
-    sessionStorage.setItem(KEY, 'agreed')
+    writeConsent()
     setDismissed(true)
   }
 

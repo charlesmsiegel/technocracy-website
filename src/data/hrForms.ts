@@ -62,4 +62,54 @@ export const HR_FORMS: HrForm[] = [
     file: 'forms/mx-2.pdf',
     pages: 2,
   },
+  {
+    id: 'px-1',
+    code: 'PX-1',
+    title: 'Procedural Recoil Incident Report',
+    revision: 'Rev. 11 · Effective 04/2026',
+    blurb:
+      'Report any procedural recoil (reality assertion event) within 24 hours. One form per flaw manifested. Filing is not an admission of fault; fault is determined separately, using this form.',
+    file: 'forms/px-1.pdf',
+    pages: 2,
+  },
+  {
+    id: 'cd-4',
+    code: 'CD-4',
+    title: 'Public Explanation Requisition',
+    revision: 'Rev. 19 · Effective 02/2026',
+    blurb:
+      'Requisition an approved public explanation for an observed event. Explanations lose 40% effectiveness per news cycle; file immediately. Do not construct your own.',
+    file: 'forms/cd-4.pdf',
+    pages: 2,
+  },
+  {
+    id: 'tr-8',
+    code: 'TR-8',
+    title: 'Travel Authorization: Non-Standard Destinations',
+    revision: 'Rev. 7 · Effective 05/2026',
+    blurb:
+      'Request authorization for travel to destinations not serviced by commercial carriers. Return dates are commitments. Items acquired at destination must be declared and may be declared hostile.',
+    file: 'forms/tr-8.pdf',
+    pages: 2,
+  },
+  {
+    id: 'am-3',
+    code: 'AM-3',
+    title: 'Amalgam Cohesion Concern Report',
+    revision: 'Rev. 4 · Effective 12/2025',
+    blurb:
+      'Document a cohesion concern within your amalgam. Both parties receive complete copies of all filings, which historically resolves most concerns before Part II.',
+    file: 'forms/am-3.pdf',
+    pages: 2,
+  },
+  {
+    id: 'eol-9',
+    code: 'EOL-9',
+    title: 'Continuity of Service Directive',
+    revision: 'Rev. 2 · Effective 06/2026',
+    blurb:
+      'Record your directives in the event of a discontinuity of service. Mandatory for all personnel T1 and above. Discontinuity is an operational category, not a conclusion.',
+    file: 'forms/eol-9.pdf',
+    pages: 2,
+  },
 ]

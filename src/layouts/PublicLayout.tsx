@@ -86,7 +86,7 @@ export default function PublicLayout() {
           <span>
             © {new Date().getFullYear()} Consensus Holdings. A better world, by
             design.™ All observations recorded. ·{' '}
-            <Link to="/privacy" className={styles.personnel}>
+            <Link to="/privacy" className={styles.legalLink}>
               Privacy Policy
             </Link>
           </span>
