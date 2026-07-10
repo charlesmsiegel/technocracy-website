@@ -25,6 +25,8 @@ import LoginPage from './pages/LoginPage'
 import Dashboard from './pages/portal/Dashboard'
 import OperationsIndex from './pages/portal/OperationsIndex'
 import BoardPage from './pages/portal/BoardPage'
+import MethodologyPage from './pages/portal/MethodologyPage'
+import PlanPage from './pages/portal/PlanPage'
 import HrPage from './pages/portal/HrPage'
 import PortalNotFound from './pages/portal/PortalNotFound'
 
@@ -61,6 +63,11 @@ function App() {
               <Route index element={<Dashboard />} />
               <Route path="operations" element={<OperationsIndex />} />
               <Route path="operations/:convention" element={<BoardPage />} />
+              <Route
+                path="operations/:convention/:methodology"
+                element={<MethodologyPage />}
+              />
+              <Route path="plan" element={<PlanPage />} />
               <Route path="hr" element={<HrPage />} />
               <Route path="*" element={<PortalNotFound />} />
             </Route>

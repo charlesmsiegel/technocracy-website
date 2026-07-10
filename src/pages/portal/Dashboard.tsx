@@ -24,12 +24,21 @@ function renderMetric(metric: Metric) {
 }
 
 export default function Dashboard() {
-  const { operativeName } = useSession()
+  const { operativeName, convention } = useSession()
 
-  const gauges = DASHBOARD_METRICS.filter((m) => m.kind === 'gauge')
-  const counters = DASHBOARD_METRICS.filter((m) => m.kind === 'counter')
-  const sparks = DASHBOARD_METRICS.filter((m) => m.kind === 'sparkline')
-  const statuses = DASHBOARD_METRICS.filter((m) => m.kind === 'status')
+  // Telemetry is compartmented: untagged items are Union-wide; tagged items
+  // surface only on their own Convention's dashboard.
+  const visible = DASHBOARD_METRICS.filter(
+    (m) => !m.convention || m.convention === convention,
+  )
+  const tickerItems = TICKER_ITEMS.filter(
+    (t) => !t.convention || t.convention === convention,
+  )
+
+  const gauges = visible.filter((m) => m.kind === 'gauge')
+  const counters = visible.filter((m) => m.kind === 'counter')
+  const sparks = visible.filter((m) => m.kind === 'sparkline')
+  const statuses = visible.filter((m) => m.kind === 'status')
 
   return (
     <div>
@@ -41,7 +50,7 @@ export default function Dashboard() {
         </p>
       </div>
 
-      <IncidentTicker items={TICKER_ITEMS} />
+      <IncidentTicker items={tickerItems} />
 
       <div className={styles.section}>
         <div className={styles.sectionTitle}>Consensus telemetry</div>

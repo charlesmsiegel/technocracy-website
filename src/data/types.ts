@@ -78,7 +78,8 @@ export interface KanbanColumnData {
 }
 
 export interface Board {
-  convention: ConventionSlug
+  /** Owning Convention, or 'union' for Union-wide coordination boards. */
+  convention: ConventionSlug | 'union'
   /** Operation codename, e.g. "DEEP PERIMETER" */
   codename: string
   /** File designation, e.g. "LONG-HORIZON RESPONSE FILE VE-2004-0001" */
@@ -94,6 +95,8 @@ export interface Board {
 /* ---------- Dashboard ---------- */
 
 export interface StatMetric {
+  /** When set, shown only to personnel of this Convention. */
+  convention?: ConventionSlug
   kind: 'counter'
   id: string
   label: string
@@ -105,6 +108,8 @@ export interface StatMetric {
 }
 
 export interface GaugeMetric {
+  /** When set, shown only to personnel of this Convention. */
+  convention?: ConventionSlug
   kind: 'gauge'
   id: string
   label: string
@@ -118,6 +123,8 @@ export interface GaugeMetric {
 }
 
 export interface SparkMetric {
+  /** When set, shown only to personnel of this Convention. */
+  convention?: ConventionSlug
   kind: 'sparkline'
   id: string
   label: string
@@ -126,6 +133,8 @@ export interface SparkMetric {
 }
 
 export interface StatusMetric {
+  /** When set, shown only to personnel of this Convention. */
+  convention?: ConventionSlug
   kind: 'status'
   id: string
   label: string
@@ -136,7 +145,31 @@ export interface StatusMetric {
 export type Metric = StatMetric | GaugeMetric | SparkMetric | StatusMetric
 
 export interface TickerItem {
+  /** When set, shown only to personnel of this Convention. */
+  convention?: ConventionSlug
   id: string
   /** Preformatted line, e.g. "[RDI-2026-0447] SECTOR EU-7 · TAMURD · DTFT 3 · CONTAINED" */
   text: string
+}
+
+/* ---------- Methodology desks ---------- */
+
+export interface MethodologyPanel {
+  /** kebab-case slug, unique within its Convention */
+  id: string
+  convention: ConventionSlug
+  /** Methodology name as used internally, e.g. "Statisticians" */
+  name: string
+  /** One-line description of the desk's remit */
+  role: string
+  /** A desk is either a working kanban or a telemetry dashboard */
+  kind: 'board' | 'dashboard'
+  /** Present when kind === 'board' */
+  board?: Board
+  /** Present when kind === 'dashboard' */
+  metrics?: Metric[]
+  /** Optional ticker line(s) shown above a dashboard desk */
+  tickerItems?: TickerItem[]
+  /** Optional footnote under a dashboard (e.g. data-quality caveats) */
+  note?: string
 }
