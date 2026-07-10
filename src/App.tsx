@@ -13,6 +13,13 @@ import Careers from './pages/public/Careers'
 import About from './pages/public/About'
 import Heritage from './pages/public/Heritage'
 import Privacy from './pages/public/Privacy'
+import Investors from './pages/public/Investors'
+import Portfolio from './pages/public/Portfolio'
+import Transparency from './pages/public/Transparency'
+import Explained from './pages/public/Explained'
+import Research from './pages/public/Research'
+import ResearchPaper from './pages/public/ResearchPaper'
+import Accessibility from './pages/public/Accessibility'
 import NotFound from './pages/public/NotFound'
 import LoginPage from './pages/LoginPage'
 import Dashboard from './pages/portal/Dashboard'
@@ -37,6 +44,13 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="heritage" element={<Heritage />} />
             <Route path="privacy" element={<Privacy />} />
+            <Route path="investors" element={<Investors />} />
+            <Route path="portfolio" element={<Portfolio />} />
+            <Route path="transparency" element={<Transparency />} />
+            <Route path="explained" element={<Explained />} />
+            <Route path="research" element={<Research />} />
+            <Route path="research/:slug" element={<ResearchPaper />} />
+            <Route path="accessibility" element={<Accessibility />} />
             <Route path="*" element={<NotFound />} />
           </Route>
 
