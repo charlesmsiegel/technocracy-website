@@ -3,7 +3,7 @@ name: Tomas Reyes
 designation: Perimeter Operations Officer (Extraordinary Citizen)
 tier: Extraordinary Citizen
 convention: Void Engineers
-division: Void Engineering — Perimeter Services, Canaveral Operations Campus
+division: Celestine Aerospace — Perimeter Services, Canaveral Operations Campus
 methodology: Border Corps Division support (extraordinary-citizen console operator)
 sixTP-tier: T1 (extraordinary citizen)
 role-on-site: >
@@ -17,15 +17,17 @@ damian-scale: n/a (no Enlightened Science)
 
 # Tomas Reyes
 
+**Nature:** Explorer | **Demeanor:** Loner
+
 ## Attributes
 - **Physical** — Strength 2, Dexterity 3, Stamina 3
 - **Social** — Charisma 3, Manipulation 2, Appearance 2
 - **Mental** — Perception 5, Intelligence 4, Wits 4
 
 ## Abilities
-- **Talents** — Alertness 5, Awareness 3, Vigilance (Focus) 4, Expression 2
+- **Talents** — Alertness 5 (Sector Vigilance), Awareness 3, Expression 2
 - **Skills** — Technology 4, Meditation 3, Firearms 2, Drive 2
-- **Knowledges** — Science 3 (Orbital Tracking), Computer 4, Astronomy 3, Investigation 3, Enlightened Science 0
+- **Knowledges** — Science 3 (Orbital Tracking & Astronomy), Computer 4, Investigation 3, Esoterica (Enlightened Science) 0
 
 ## Enhancement & Gear (in place of Spheres)
 - **Enhancement 2** — a "sleepteaching"-installed sensor-fusion familiarity and a mild optic implant that lets Tomas hold a full sector's object catalogue in working memory. Hypertrained, not Enlightened: the tools carry the impossible weight; Tomas carries the attention.
@@ -49,4 +51,4 @@ Steady, watchful, a little lonely; the ideal shift officer, who finds genuine pe
 To clear his sector cleanly every shift, bank the retention bonus, and be told — just once — what the retention bonus is actually *for*.
 
 ## Secret
-Three shifts ago Tomas catalogued an object that resolved to a satellite registry number belonging to a Void Engineering craft lost in 1999. The system auto-assigned a "satisfactory explanation" and closed the flag before he could log a note. He photographed the screen with his personal phone, which is a firing offense, and he looks at the photo every night.
+Three shifts ago Tomas catalogued an object that resolved to a satellite registry number belonging to a Celestine Aerospace craft lost in 1999. The system auto-assigned a "satisfactory explanation" and closed the flag before he could log a note. He photographed the screen with his personal phone, which is a firing offense, and he looks at the photo every night.

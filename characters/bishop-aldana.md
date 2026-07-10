@@ -3,7 +3,7 @@ name: Bishop Aldana
 designation: Sentinel-Class Security Asset (Extraordinary Citizen)
 tier: Extraordinary Citizen
 convention: Iteration X (BioMechanics)
-division: Iteration X Advanced Manufacturing — Construct security detail, ground station THULE ANVIL
+division: Iterion Advanced Manufacturing — Construct security detail, ground station THULE ANVIL
 methodology: BioMechanics (extraordinary-citizen cyborg)
 sixTP-tier: T1 (extraordinary citizen)
 role-on-site: >
@@ -16,6 +16,8 @@ damian-scale: n/a (no Enlightened Science)
 
 # Bishop Aldana
 
+**Nature:** Guardian | **Demeanor:** Caregiver
+
 ## Attributes
 - **Physical** — Strength 5*, Dexterity 4*, Stamina 5* (*augmented; see Enhancement)
 - **Social** — Charisma 2, Manipulation 2, Appearance 2
@@ -23,8 +25,8 @@ damian-scale: n/a (no Enlightened Science)
 
 ## Abilities
 - **Talents** — Alertness 4, Athletics 3, Brawl 4, Intimidation 3, Awareness 2
-- **Skills** — Firearms 4, Melee 3, Drive 3, Security 4, Survival 2, Technology 2
-- **Knowledges** — Investigation 3, Science 1, Enlightened Science 0 (uses hypertech, does not understand it)
+- **Skills** — Firearms 4, Melee 3, Drive 3, Larceny 4 (Security Systems), Survival 2, Technology 2
+- **Knowledges** — Investigation 3, Science 1, Esoterica (Enlightened Science) 0 — uses hypertech, does not understand it
 
 ## Enhancement & Gear (in place of Spheres)
 - **Enhancement 4** — Myoelectric arm and legs with full haptic feedback and DermaTrue™ synthetic skin (BioMechanics Access Program hardware), subdermal impact plating, an Implant Radio, and telemetered lifetime calibration. Bishop's limbs are "registered, telemetered, and continuously improved through over-the-air refinement" — which is to say the Convention can see, and adjust, exactly where Bishop is at all times.

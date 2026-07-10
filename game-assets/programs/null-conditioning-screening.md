@@ -1,11 +1,13 @@
+---
 name: Null Conditioning Screening Protocol (Deprocessing)
 type: Program — counter-conditioning screening and quarantine protocol
 convention: Void Engineers (Border Corps Division, DEEP PERIMETER)
-arete/rank: administered by Enlightenment 3+ screening officers; instrument-based, augmented by Mind ●●
-spheres-replicated: Mind ●● (psychometric truth/loyalty reading), Mind ●●● (Deprocessing counter-conditioning), Correspondence ●● (baseline correlation)
+enlightenment: administered by 3+ screening officers; instrument-based, augmented by Mind 2
+procedures-replicated: Mind 2 (psychometric truth/loyalty reading), Mind 3 (Deprocessing counter-conditioning), Data 2 (baseline correlation)
 background-cost: N/A — an institutional protocol, not an item
 damian-scale: 3 (clinical screening reads as HR; the counter-conditioning and the failure cases do not)
 site-appearance: boards/void-engineers.ts — DEEP PERIMETER banner ("NULL CONDITIONING SCREEN CURRENT WITHIN 90 DAYS") and cards ve-06, ve-09, ve-10; ve-01 (Deprocessing)
+---
 
 ## Public face
 To Void Engineer personnel: a mandatory **90-day loyalty and wellness screening**, framed as
@@ -33,12 +35,12 @@ The protocol's grim inversions, straight off the board:
   is not absent" hypothesis alone (ve-02), with no positive detection to justify it.
 
 **Mechanics** — running screening as a scene:
-- **Detection:** an officer rolls **Mind ●● psychometrics + instrument** vs. the subject's
+- **Detection:** an officer rolls **Mind 2 psychometrics + instrument** vs. the subject's
   ability to feign a *believably imperfect* baseline. A subject who is genuinely fine passes
   with normal human flaws intact; a Null-Conditioned subject is *too* clean, prompt, and uniform
   — success is detecting the *absence* of expected noise. Officer Ashe's method (ve-10):
   introduce deliberate procedural errors and watch whether the crew corrects them.
-- **Deprocessing (Mind ●●●):** a counter-conditioning course that strips both Union Social
+- **Deprocessing (Mind 3):** a counter-conditioning course that strips both Union Social
   Conditioning (see procedures/social-conditioning-refresh.md) *and* adversary Null Conditioning,
   leaving the subject able to be briefed on Threat Null without being converted by the briefing.
   Extended procedure; failure or partial Deprocessing leaves an "attack surface."

@@ -1,11 +1,14 @@
+---
 name: THV-9 "Thornveldt" Specimen Line
 type: Biological — engineered chimeric predator (uncontained)
 convention: Progenitors (Facility GREEN WILLOW; Damage Control oversight)
-arete/rank: design work Enlightenment 4 (Life ●●●●●); the animals are self-sustaining and require no roll to exist
-spheres-replicated in the design: Life ●●●●● (chimeric multi-species chassis), Life ●●●● (adaptive dermis, symbiote flora), Life ●●● (parthenogenic fallback)
+enlightenment: design work 4 (Life 5); the animals are self-sustaining and require no roll to exist
+dom-status: Not a person under the Doctrine of Mutuality — specimen/property, Damage Control custody (Experimental Being)
+procedures-replicated in the design: Life 5 (chimeric multi-species chassis), Life 4 (adaptive dermis, symbiote flora), Life 3 (parthenogenic fallback)
 background-cost: N/A — this is a loose population, not an issued asset
 damian-scale: 3 (a "hybrid canid" reads as mundane cryptozoology until someone sequences the dermis)
 site-appearance: boards/progenitors.ts — FERAL BLOOM entire board (specimen line THV-9 "Thornveldt")
+---
 
 ## Public face
 Officially a natural **"northern hybrid canid"** — a coyote-wolf variant — with two placed
@@ -34,7 +37,11 @@ ledger has been quietly buying up evidence since 2014 (pg-05, pg-07). Damage Con
 buying the escape for a decade.
 
 **Mechanics** (a single THV-9 adult as an antagonist):
-- **Physical:** treat as a dire wolf-scale predator — high Strength/Dexterity/Stamina, Brawl
+- **Suggested traits:** Strength 5, Dexterity 4, Stamina 5, Perception 4 (symbiote scent-sense),
+  Intelligence 2, Wits 4; Alertness 3, Brawl 4, Stealth 5; Willpower 5; Health Levels
+  OK/OK/−1/−1/−2/−2/−5/Incapacitated; Attacks: bite Str+2 L, claw Str+1 L. Adjust for
+  chronicle power level; MOTHER-4 runs a dot higher across the board.
+- **Physical:** a dire wolf-scale predator — Brawl
   and Stealth at specialist levels, Perception boosted by symbiote scent-sense.
 - **Adaptive dermis:** effectively the **Cloaking**/Chameleon effect while motionless or
   stalking — difficulty to detect it by sight or camera is significantly increased; ambush

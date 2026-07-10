@@ -1,11 +1,14 @@
+---
 name: BioMechanics Access Limb (Iteration X donated prosthetic)
-type: Wonder — Extraordinary Device / cybernetic implant
+category: Enhancement (permanent cybernetic implant); donated civilian units are fixed-function Gadget-grade hardware
 convention: Iteration X (BioMechanics Access Program)
-arete/rank: recipient needs no Enlightenment; an operative-grade limb uses the wearer's Enlightenment
-spheres-replicated: Life ●● (neural-response alignment), Correspondence ●● (lifetime telemetry), Mind ● (over-the-air "refinement")
-background-cost: 2 pts as an Enhancement (myoelectric limb w/ haptic feedback); the donated civilian unit is free and permanent
+enlightenment: 2 to fabricate/refit; the recipient needs none — an operative-grade limb uses the wearer's Enlightenment
+primal-energy: 10 (operative-grade reserve; civilian units draw telemetry-network power)
+procedures-replicated: Life 2 (neural-response alignment), Data 2 (lifetime telemetry), Mind 1 (over-the-air "refinement")
+background-cost: operative-grade 6 pts via Requisitions (or Enhancement Background 2 — myoelectric limb w/ haptic feedback); the donated civilian unit is free and permanent
 damian-scale: 1 (a coincidental medical device with an antenna)
 site-appearance: divisions.ts — Iteration X (BioMechanics Access Program, 2.4M limbs, "lifetime telemetry-assisted calibration… never out of touch"); pressReleases.ts — prosthetics-donation-milestone
+---
 
 ## Public face
 "The largest prosthetics philanthropy in history": 2.4 million advanced limbs donated, each
@@ -23,12 +26,12 @@ over-the-air refinement, with them at all times* is a live uplink the recipient 
 off and legally does not own (all Devices remain Union property post-implantation, RSP-3).
 
 **Mechanics** — donated civilian limb:
-- Grants normal limb function; **neural-response alignment** is a coincidental **Life ●●**
+- Grants normal limb function; **neural-response alignment** is a coincidental **Life 2**
   Effect (why fittings that "once took months" now take one session).
-- **Correspondence ●● telemetry**: continuous position + biometric feed. A monitoring Iterator
+- **Data 2 telemetry**: continuous position + biometric feed. A monitoring Iterator
   rolls to query the network, not the wearer. "Lifetime calibration" = lifetime tracking.
-- **Over-the-air refinement (Mind ●)**: firmware can subtly retune haptics and response.
-  Nominally therapeutic; a **Mind ●●●** override can degrade or lock the limb, or feed
+- **Over-the-air refinement (Mind 1)**: firmware can subtly retune haptics and response.
+  Nominally therapeutic; a **Mind 3** override can degrade or lock the limb, or feed
   conditioning cues through it.
 
 **Operative-grade** (Enhancement Background 2+): add strength/precision as a myoelectric

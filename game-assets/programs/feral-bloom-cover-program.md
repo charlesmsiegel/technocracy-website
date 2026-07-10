@@ -1,11 +1,13 @@
+---
 name: FERAL BLOOM / Northern Range Invasive Predator Response Unit
 type: Program — public-facing cover operation
 convention: Progenitors (Damage Control)
-arete/rank: N/A — an organizational cover, not a Wonder
-spheres-replicated: none directly; sustained by Narrative De-Amplification (Entropy ●●● / Mind ●●) and Adjustment (Mind ●●●) as needed
+enlightenment: N/A — an organizational cover, not a Wonder
+procedures-replicated: none directly; sustained by Narrative De-Amplification (Entropy 3 / Mind 2) and Adjustment (Mind 3) as needed
 background-cost: N/A — institutional
 damian-scale: 0 (the whole point is that it is indistinguishable from a legitimate wildlife program)
 site-appearance: boards/progenitors.ts — FERAL BLOOM brief and cards pg-03, pg-09, pg-10, pg-12, pg-14, pg-15
+---
 
 ## Public face
 The **Northern Range Invasive Predator Response Unit**: a legitimate-looking wildlife-management

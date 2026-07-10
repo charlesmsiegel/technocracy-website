@@ -3,7 +3,7 @@ name: Yuki Tanabe
 designation: Field Medic / Recovery Biologist (Extraordinary Citizen)
 tier: Extraordinary Citizen
 convention: Progenitors
-division: Progenitors Life Sciences — Damage Control field team (FERAL BLOOM)
+division: Progenera Life Sciences — Damage Control field team (FERAL BLOOM)
 methodology: FACADE-adjusted personnel (Progenitor enhancement)
 sixTP-tier: T1 (extraordinary citizen)
 role-on-site: >
@@ -17,6 +17,8 @@ damian-scale: n/a (no Enlightened Science)
 
 # Yuki Tanabe
 
+**Nature:** Caregiver | **Demeanor:** Celebrant
+
 ## Attributes
 - **Physical** — Strength 3, Dexterity 4*, Stamina 4* (*Progenitor-adjusted)
 - **Social** — Charisma 3, Manipulation 2, Appearance 3
@@ -25,7 +27,7 @@ damian-scale: n/a (no Enlightened Science)
 ## Abilities
 - **Talents** — Alertness 4, Athletics 4, Awareness 2, Empathy 3
 - **Skills** — Medicine 4, Survival 4, Animal Ken 3, Firearms 3 (Tranquilizer), Stealth 3, Drive 2
-- **Knowledges** — Science 4 (Field Biology & Genetics), Investigation 2, Enlightened Science 0
+- **Knowledges** — Science 4 (Field Biology & Genetics), Investigation 2, Esoterica (Enlightened Science) 0
 
 ## Enhancement & Gear (in place of Spheres)
 - **Enhancement 3** — Progenitor "wellness plan" adjustments: accelerated wound closure, a Pharmacopoeia-tuned metabolism (the associates are "measurably in the best shape of anyone's lives"), enhanced night vision, and a fear response chemically dialed down for work around the THV-9 line. Yuki heals bruises overnight and has not had a cold in four years.

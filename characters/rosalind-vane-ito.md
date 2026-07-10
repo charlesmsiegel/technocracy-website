@@ -3,11 +3,11 @@ name: Dr. Rosalind Vane-Ito
 designation: Provost, The Ivory Tower Institute
 tier: Enlightened
 convention: New World Order
-division: New World Order Group (Ivory Tower Institute)
+division: Nexus Worldwide Operations (Ivory Tower Institute)
 methodology: Ivory Tower
 sixTP-tier: T4 (upper Management)
 role-on-site: >
-  Quoted in press release "New World Order Group Launches Global Community Standards & Media
+  Quoted in press release "Nexus Worldwide Operations Launches Global Community Standards & Media
   Literacy Partnership" (media-literacy-partnership). Named Provost of the Ivory Tower Institute.
   Her office issues the MIRRORGLASS counterintelligence file (Ivory Tower distribution).
 sds-degree: 1 (Total loyalty)
@@ -15,6 +15,8 @@ damian-scale: 1 (Vanishing point)
 ---
 
 # Dr. Rosalind Vane-Ito
+
+**Nature:** Pedagogue | **Demeanor:** Caregiver
 
 ## Attributes
 - **Physical** — Strength 2, Dexterity 2, Stamina 2
@@ -24,16 +26,18 @@ damian-scale: 1 (Vanishing point)
 ## Abilities
 - **Talents** — Leadership 4, Subterfuge 5, Expression 4, Empathy 4, Awareness 3
 - **Skills** — Etiquette 4, Research 4, Meditation 3
-- **Knowledges** — Academics 5 (Pedagogy & Rhetoric), Psychology 5, Politics 4, Enigmas 3, Enlightened Science 4, Bureaucracy 4
+- **Knowledges** — Academics 5 (Pedagogy & Rhetoric), Science 5 (Behavioral Psychology), Politics 4 (incl. Bureaucracy), Enigmas 3, Esoterica 4 (Enlightened Science)
 
 ## Enlightenment & Spheres
-- **Enlightenment (Arete)** 4
-- **Spheres** — Mind 5, Data 4 (the Feed), Entropy 3, Correspondence 2, Time 2
-- **Foci / Instruments** — curriculum, syllabus, and the accredited citation; the Feed's nine-billion-interaction dataset; the certificate "issued to all participants" and "maintained in perpetuity." She works through *consensus*: she does not tell anyone what to think, she helps them notice they already agree.
+- **Enlightenment** 5
+- **Spheres** — Mind 5, Data 4 (the Feed), Entropy 3, Time 2
+- **Focus** — *Paradigm:* A Mechanistic Cosmos (a mind is a garden, and gardens have rules). *Practice:* Dominion 5. *Tenets:* [Metaphysical] Consensus is a curriculum, and someone must write it; [Personal] Never let them notice the lesson; [Ascension] A calm, coherent public that thanks its teachers.
+- **Instruments (apparatus — she cannot work Enlightened Science without them)** — curriculum, syllabus, and the accredited citation; the Feed's nine-billion-interaction dataset; the certificate "issued to all participants" and "maintained in perpetuity." She works through *consensus*: she does not tell anyone what to think, she helps them notice they already agree.
 - **Genius / Paradox** — Her Genius is the conviction that a well-tended mind is a garden and she is its gentle gardener. Vanishing-point Damian rating: her Effects are indistinguishable from good teaching. Paradox rarely finds her because almost no one witnesses her working — that is the entire design.
 
-## Willpower
-9
+## Willpower, Primal Energy & Paradox
+- **Willpower** 9 · **Primal Energy** 4 (= Genius rating) · **Paradox** 0 at baseline (see Genius / Paradox note)
+- **Resonance** — Soothing 4 (arguments lose their heat in her office and cannot say why)
 
 ## Backgrounds
 - Influence 5 (Academia & Media), Requisitions 4, Resources 4, Allies 3 (placed faculty), Cloaking 4, Genius 4

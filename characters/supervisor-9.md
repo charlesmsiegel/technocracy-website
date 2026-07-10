@@ -3,7 +3,7 @@ name: Supervisor 9 (Ivory Tower) — legal identity "Dr. Nine Halloran," a manuf
 designation: Supervisor 9
 tier: Enlightened
 convention: New World Order
-division: New World Order Group — Social Deprogramming Services / Ivory Tower
+division: Nexus Worldwide Operations — Social Deprogramming Services / Ivory Tower
 methodology: Social Conditioning (Q Division adjacent)
 sixTP-tier: T3 (supervisor)
 role-on-site: >
@@ -16,24 +16,28 @@ damian-scale: 2 (Undetectable)
 
 # Supervisor 9
 
+**Nature:** Perfectionist | **Demeanor:** Caregiver
+
 ## Attributes
 - **Physical** — Strength 2, Dexterity 3, Stamina 3
 - **Social** — Charisma 4, Manipulation 5, Appearance 3
 - **Mental** — Perception 4, Intelligence 4, Wits 4
 
 ## Abilities
-- **Talents** — Subterfuge 4, Empathy 4 (read, not feel), Intimidation 3, Leadership 3, Awareness 3
-- **Skills** — Etiquette 3, Interrogation 4, Meditation 3, Drive 2
-- **Knowledges** — Psychology 5 (Reprogramming), Medicine 3 (Pharmacology), Bureaucracy 4, Enlightened Science 3, Investigation 3
+- **Talents** — Subterfuge 4, Empathy 4 (Interrogation — read, not feel), Intimidation 3, Leadership 3, Awareness 3
+- **Skills** — Etiquette 3, Meditation 3, Drive 2
+- **Knowledges** — Academics 5 (Psychology: Reprogramming), Medicine 3 (Pharmacology), Politics 4 (Records & HR Bureaucracy), Esoterica 3 (Enlightened Science), Investigation 3
 
 ## Enlightenment & Spheres
-- **Enlightenment (Arete)** 3
-- **Spheres** — Mind 4, Prime (Primal Utility) 2, Data 2, Life 2, Time 1
-- **Foci / Instruments** — the interview room, the polygraph, the scheduled "refresh"; pharmacology and calibrated lighting; the ten-stage Social Conditioning procedure (Indoctrination → Reverence). Their signature Effect is *Initial Processing* (Mind 3 / Prime 2), delivered as a wellness appointment.
+- **Enlightenment** 3
+- **Spheres** — Mind 3, Prime 2, Data 2, Life 2, Time 1
+- **Focus** — *Paradigm:* A Mechanistic Cosmos (a mind is a record, and records can be corrected). *Practice:* Dominion 3. *Tenets:* [Metaphysical] A mind is a record and records can be corrected; [Personal] Leave no seam; [Ascension] A citizenry that no longer needs correcting.
+- **Instruments (apparatus — they cannot work Enlightened Science without them)** — the interview room, the polygraph, the scheduled "refresh"; pharmacology and calibrated lighting; the ten-stage Social Conditioning procedure (Indoctrination → Reverence). Their signature Effect is *Initial Processing* (Mind 3 / Prime 2), delivered as a wellness appointment.
 - **Genius / Paradox** — Genius as the tidy satisfaction of a corrected record. Undetectable by trade; refreshed personnel "report improved sleep and no longer remember why they needed it." Paradox is managed by never letting the subject notice the seam.
 
-## Willpower
-7
+## Willpower, Primal Energy & Paradox
+- **Willpower** 7 · **Primal Energy** 3 (= Genius rating) · **Paradox** 0 at baseline (see Genius / Paradox note)
+- **Resonance** — Sterile 2 (rooms feel recently cleaned; memories near them feel the same)
 
 ## Backgrounds
 - Requisitions 3, Influence 3 (Records & HR), Backup 3, Cloaking 3, Allies 2 (conditioned staff), Genius 3

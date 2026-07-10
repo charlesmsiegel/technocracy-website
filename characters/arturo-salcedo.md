@@ -2,8 +2,8 @@
 name: Arturo Salcedo
 designation: Facilities Custodian, Night Shift (Sleeper)
 tier: Sleeper
-convention: n/a — Void Engineering Canaveral Operations Campus (T0)
-division: Void Engineering — Canaveral Operations Campus (Perimeter Services facility)
+convention: n/a — Celestine Aerospace Canaveral Operations Campus (T0)
+division: Celestine Aerospace — Canaveral Operations Campus (Perimeter Services facility)
 methodology: none (genuinely mundane)
 sixTP-tier: T0 (unEnlightened citizen; classified "Associate")
 role-on-site: >
@@ -15,6 +15,8 @@ sds-degree: n/a (Sleeper; loyalty rated off the top of the instrument)
 ---
 
 # Arturo Salcedo
+
+**Nature:** Caregiver | **Demeanor:** Eye of the Storm
 
 ## Attributes
 - **Physical** — Strength 3, Dexterity 2, Stamina 3
@@ -33,7 +35,9 @@ The man who empties the bins around the most-watched sky on Earth and has never 
 6
 
 ## Backgrounds
-- Resources 1, Contacts 2 (every night-shift worker on campus), Loyalty (rated, by an instrument, at a level reserved for people who have been *given a reason*)
+- Resources 1, Contacts 2 (every night-shift worker on campus)
+
+*Not a Background, but on file: his loyalty is rated, by an instrument, at a level reserved for people who have been given a reason.*
 
 ## Merits & Flaws
 - **Merit: Common Sense** — He notices the human things the instruments miss: who's grieving, who's lying, who left the coffee on.
@@ -46,4 +50,4 @@ Gentle, unhurried, quick with a nod and slow with words; keeps a transistor radi
 For the young ones on the night shift to eat, sleep, and get home safe — and to keep the job long enough to send the last of the money home.
 
 ## Secret
-Twenty-two years ago Void Engineering's Search & Rescue brought his brother home from an "industrial accident" that no one would explain — brought him *home*, when everyone said there'd be nothing to bring. Arturo doesn't know what the company is. He knows only that they returned his brother's body when they didn't have to, and he has quietly, gratefully cleaned their floors ever since. That is the whole of the anomalous loyalty score, and no instrument on the campus can read what it actually says.
+Twenty-two years ago Celestine Aerospace's Search & Rescue brought his brother home from an "industrial accident" that no one would explain — brought him *home*, when everyone said there'd be nothing to bring. Arturo doesn't know what the company is. He knows only that they returned his brother's body when they didn't have to, and he has quietly, gratefully cleaned their floors ever since. That is the whole of the anomalous loyalty score, and no instrument on the campus can read what it actually says.
