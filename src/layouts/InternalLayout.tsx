@@ -11,6 +11,14 @@ const NAV = [
   { to: '/portal/hr', label: 'HUMAN RESOURCES' },
 ]
 
+const MOTTOS: Record<string, string> = {
+  'iteration-x': 'PERFECTION IS ITERATIVE.',
+  'new-world-order': 'ORDER IS KINDNESS.',
+  progenitors: 'LIFE IS A DRAFT. WE EDIT.',
+  syndicate: 'EVERYTHING HAS A PRICE. WE SET IT.',
+  'void-engineers': 'THE PERIMETER HOLDS.',
+}
+
 export default function InternalLayout() {
   const { operativeName, convention, logout } = useSession()
   const affiliation = convention ? CONVENTIONS[convention] : null
@@ -27,7 +35,18 @@ export default function InternalLayout() {
   }
 
   return (
-    <div className={styles.shell} data-theme="internal">
+    <div
+      className={styles.shell}
+      data-theme="internal"
+      style={
+        affiliation
+          ? ({
+              // Re-accent the whole console to the operative's Convention.
+              '--accent': `var(--cv-${affiliation.slug}-bright)`,
+            } as React.CSSProperties)
+          : undefined
+      }
+    >
       <div className={styles.banner}>
         Union internal — compartmented // unauthorized access is an infraction
         of the second degree
@@ -45,7 +64,7 @@ export default function InternalLayout() {
           <div className={styles.operative}>
             <strong>{operativeName}</strong>
             {affiliation && (
-              <span style={{ color: `var(${affiliation.accentVar})` }}>
+              <span style={{ color: 'var(--accent)' }}>
                 {' '}
                 · <ConventionSigil convention={affiliation.slug} size={12} />{' '}
                 {affiliation.name}
@@ -77,6 +96,14 @@ export default function InternalLayout() {
           <div className={styles.sideNote}>
             <PanopticonMark size={22} />
             <br />
+            {affiliation && (
+              <>
+                <span style={{ color: 'var(--accent)' }}>
+                  {MOTTOS[affiliation.slug]}
+                </span>
+                <br />
+              </>
+            )}
             THIS TERMINAL SERVES THE UNION.
             <br />
             THE UNION SERVES HUMANITY.

@@ -38,6 +38,14 @@
 
 [data-theme='internal'] {
   color-scheme: dark;
+
+  /* Brightened Convention accents, tuned for the dark console. The portal
+     shell overrides --accent with one of these once affiliation is known. */
+  --cv-iteration-x-bright: #9aa8ba;
+  --cv-new-world-order-bright: #7b96ff;
+  --cv-progenitors-bright: #35c39a;
+  --cv-syndicate-bright: #e0b356;
+  --cv-void-engineers-bright: #a884e8;
   --bg: #0a0e12;
   --surface: #10161d;
   --surface-alt: #161e27;

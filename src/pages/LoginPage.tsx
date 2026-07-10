@@ -98,7 +98,7 @@ export default function LoginPage() {
                   className={styles.divisionButton}
                   style={
                     {
-                      '--division-accent': `var(--cv-${division.slug})`,
+                      '--division-accent': `var(--cv-${division.slug}-bright, var(--cv-${division.slug}))`,
                     } as React.CSSProperties
                   }
                   onClick={() => requestAccess(division.slug)}

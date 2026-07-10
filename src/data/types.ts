@@ -150,3 +150,25 @@ export interface TickerItem {
   /** Preformatted line, e.g. "[RDI-2026-0447] SECTOR EU-7 · TAMURD · DTFT 3 · CONTAINED" */
   text: string
 }
+
+/* ---------- Methodology desks ---------- */
+
+export interface MethodologyPanel {
+  /** kebab-case slug, unique within its Convention */
+  id: string
+  convention: ConventionSlug
+  /** Methodology name as used internally, e.g. "Statisticians" */
+  name: string
+  /** One-line description of the desk's remit */
+  role: string
+  /** A desk is either a working kanban or a telemetry dashboard */
+  kind: 'board' | 'dashboard'
+  /** Present when kind === 'board' */
+  board?: Board
+  /** Present when kind === 'dashboard' */
+  metrics?: Metric[]
+  /** Optional ticker line(s) shown above a dashboard desk */
+  tickerItems?: TickerItem[]
+  /** Optional footnote under a dashboard (e.g. data-quality caveats) */
+  note?: string
+}
