@@ -34,6 +34,9 @@ export default function OperationsIndex() {
               <div className={styles.tileHead} title={info.name}>
                 <ConventionSigil convention={slug} size={30} />
                 <ConventionWordmark convention={slug} width={120} height={26} />
+                {/* the wordmark is a masked, aria-hidden image — keep a real
+                    text label for screen readers and mask-less environments */}
+                <span className="sr-only">{info.name}</span>
               </div>
               <div className={styles.tileCodename}>{board.codename}</div>
               <div className={styles.tileBrief}>{board.brief}</div>

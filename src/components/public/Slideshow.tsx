@@ -1,4 +1,4 @@
-import { useCallback, useState } from 'react'
+import { useCallback, useRef, useState } from 'react'
 import { SLIDES } from '../../data/photos'
 import { useInterval } from '../../hooks/useInterval'
 import styles from './Slideshow.module.css'
@@ -7,7 +7,29 @@ const ADVANCE_MS = 5500
 
 export default function Slideshow() {
   const [index, setIndex] = useState(0)
-  const [paused, setPaused] = useState(false)
+  // Hover and focus pause independently — a single boolean lets one
+  // condition ending resume the carousel while the other still holds.
+  const [hovered, setHovered] = useState(false)
+  const [focused, setFocused] = useState(false)
+  const paused = hovered || focused
+
+  // Only the active slide and its neighbors get a src, so the home page
+  // doesn't fetch the whole carousel payload up front. Once a slide has
+  // loaded it stays loaded to avoid re-fetch flicker.
+  const loadedRef = useRef(new Set<number>())
+  const shouldLoad = (i: number) => {
+    const n = SLIDES.length
+    if (
+      i === index ||
+      i === (index + 1) % n ||
+      i === (index - 1 + n) % n ||
+      loadedRef.current.has(i)
+    ) {
+      loadedRef.current.add(i)
+      return true
+    }
+    return false
+  }
 
   const go = useCallback(
     (delta: number) =>
@@ -22,10 +44,12 @@ export default function Slideshow() {
   return (
     <div
       className={styles.frame}
-      onMouseEnter={() => setPaused(true)}
-      onMouseLeave={() => setPaused(false)}
-      onFocus={() => setPaused(true)}
-      onBlur={() => setPaused(false)}
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+      onFocus={() => setFocused(true)}
+      onBlur={(e) => {
+        if (!e.currentTarget.contains(e.relatedTarget)) setFocused(false)
+      }}
       role="region"
       aria-roledescription="carousel"
       aria-label="Selected accomplishments"
@@ -36,7 +60,9 @@ export default function Slideshow() {
           className={i === index ? styles.slideActive : styles.slide}
           aria-hidden={i !== index}
         >
-          <img src={slide.photo} alt={slide.alt} loading="lazy" />
+          {shouldLoad(i) && (
+            <img src={slide.photo} alt={slide.alt} loading="lazy" />
+          )}
           <div className={styles.caption}>
             <div className={styles.eyebrow}>{slide.eyebrow}</div>
             <div className={styles.headline}>{slide.headline}</div>

@@ -1,7 +1,10 @@
 import { Link } from 'react-router-dom'
+import { HERITAGE_ERAS } from '../../data/heritage'
+import type { HeritageMark } from '../../data/heritage'
 import sigilSonsOfEther from '../../assets/logos/sigil-sons-of-ether.png'
 import sigilVirtualAdepts from '../../assets/logos/sigil-virtual-adepts.png'
 import pub from './Public.module.css'
+import styles from './Heritage.module.css'
 
 interface DefunctDivision {
   name: string
@@ -46,64 +49,130 @@ const DEFUNCT: DefunctDivision[] = [
   },
 ]
 
+function MarkCard({ mark }: { mark: HeritageMark }) {
+  return (
+    <div className={styles.markCard}>
+      <img
+        src={mark.mark}
+        alt={`Historical mark of ${mark.name}`}
+        className={`${styles.markImg} ${mark.uncertain ? styles.markUncertain : ''}`}
+        loading="lazy"
+      />
+      <div>
+        <div className={styles.markName}>{mark.name}</div>
+        <div className={styles.markBlurb}>{mark.blurb}</div>
+      </div>
+    </div>
+  )
+}
+
 export default function Heritage() {
   return (
     <div className={pub.container}>
       <div className={pub.pageHead}>
         <h1>Heritage</h1>
         <p>
-          A company that has been building tomorrow for this long accumulates
-          history — including chapters we have, after careful review,
-          outgrown. We present them here in the spirit of transparency, which
-          our Newsroom colleagues assure us is fashionable again.
+          Seven centuries of building tomorrow, presented in the spirit of
+          transparency — which our Newsroom colleagues assure us is fashionable
+          again. Every organization below is either part of us, descended into
+          us, or discussed at the bottom of this page in the section provided
+          for that purpose.
         </p>
       </div>
 
-      <div className={pub.section} style={{ paddingTop: 0 }}>
-        {DEFUNCT.map((division) => (
-          <div
-            key={division.name}
-            className={pub.card}
-            style={{ marginBottom: '1.5rem' }}
-          >
-            <span className={pub.eyebrow}>
-              {division.years} · {division.sector}
-            </span>
-            <span className={pub.cardTitle}>{division.name}</span>
-            {division.paragraphs.map((para, i) => (
-              <p key={i} className={pub.cardBlurb}>
-                {para}
-              </p>
+      {HERITAGE_ERAS.map((era) => (
+        <section key={era.id} className={styles.era}>
+          <div className={styles.eraYears}>{era.years}</div>
+          <h2 className={styles.eraTitle}>{era.title}</h2>
+          <div className={styles.eraIntro}>
+            {era.intro.map((para, i) => (
+              <p key={i}>{para}</p>
             ))}
-            <div
-              style={{
-                display: 'flex',
-                alignItems: 'center',
-                gap: '1rem',
-                borderTop: '1px solid var(--border)',
-                paddingTop: '1rem',
-              }}
-            >
-              <img
-                src={division.successorMark}
-                alt={`Insignia associated with former ${division.name} personnel`}
-                style={{ height: 64, width: 'auto', opacity: 0.75 }}
-              />
-              <span className={pub.meta} style={{ maxWidth: '46ch' }}>
-                {division.successorCaption}
-              </span>
-            </div>
-            <p className={pub.meta}>{division.footnote}</p>
           </div>
-        ))}
-      </div>
+          <div className={styles.marksLabel}>{era.marksLabel}</div>
+          <div className={styles.markGrid}>
+            {era.marks.map((mark) => (
+              <MarkCard key={mark.id} mark={mark} />
+            ))}
+          </div>
+          {era.marks2 && (
+            <>
+              <div className={styles.marksLabel}>{era.marks2Label}</div>
+              <div className={styles.markGrid}>
+                {era.marks2.map((mark) => (
+                  <MarkCard key={mark.id} mark={mark} />
+                ))}
+              </div>
+            </>
+          )}
+        </section>
+      ))}
 
-      <div className={pub.section} style={{ paddingTop: 0 }}>
+      <section className={styles.era}>
+        <div className={styles.eraYears}>1904 – Present</div>
+        <h2 className={styles.eraTitle}>The Modern Structure</h2>
+        <div className={styles.eraIntro}>
+          <p>
+            The Strategic Review of 1904 consolidated ten guilds and five blocs
+            into the five divisions you know today — a ratio the Board still
+            regards as its finest single piece of work. The divisions have
+            carried the mission since: order from disorder, tomorrow on
+            schedule, no surprises.
+          </p>
+          <p>
+            <Link to="/divisions">Meet the five divisions →</Link>
+          </p>
+        </div>
+      </section>
+
+      <hr className={styles.timelineRule} />
+
+      <section className={styles.era}>
+        <div className={styles.eraYears}>Divested Divisions</div>
+        <h2 className={styles.eraTitle}>Chapters we have outgrown</h2>
+        <div className={pub.section} style={{ paddingTop: 0 }}>
+          {DEFUNCT.map((division) => (
+            <div
+              key={division.name}
+              className={pub.card}
+              style={{ marginBottom: '1.5rem' }}
+            >
+              <span className={pub.eyebrow}>
+                {division.years} · {division.sector}
+              </span>
+              <span className={pub.cardTitle}>{division.name}</span>
+              {division.paragraphs.map((para, i) => (
+                <p key={i} className={pub.cardBlurb}>
+                  {para}
+                </p>
+              ))}
+              <div
+                style={{
+                  display: 'flex',
+                  alignItems: 'center',
+                  gap: '1rem',
+                  borderTop: '1px solid var(--border)',
+                  paddingTop: '1rem',
+                }}
+              >
+                <img
+                  src={division.successorMark}
+                  alt={`Insignia associated with former ${division.name} personnel`}
+                  style={{ height: 64, width: 'auto', opacity: 0.75 }}
+                />
+                <span className={pub.meta} style={{ maxWidth: '46ch' }}>
+                  {division.successorCaption}
+                </span>
+              </div>
+              <p className={pub.meta}>{division.footnote}</p>
+            </div>
+          ))}
+        </div>
         <div className={pub.prose}>
           <p>
             Divestiture is not failure. It is quality control, applied to
-            ourselves, which is the highest compliment we know how to pay.
-            We remain on excellent terms with all former colleagues — wherever
+            ourselves, which is the highest compliment we know how to pay. We
+            remain on excellent terms with all former colleagues — wherever
             they are, whatever they are currently claiming — and we mean that
             in the fullest sense: <em>we know</em>.
           </p>
@@ -113,7 +182,7 @@ export default function Heritage() {
             Requests are processed in the order in which they are anticipated.
           </p>
         </div>
-      </div>
+      </section>
     </div>
   )
 }
