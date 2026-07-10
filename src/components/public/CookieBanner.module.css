@@ -1,0 +1,33 @@
+.banner {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 60;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  max-width: min(560px, calc(100vw - 2rem));
+  background: var(--heading);
+  color: #dbe6f2;
+  padding: 0.8rem 1.1rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(11, 37, 69, 0.35);
+  font-size: 0.85rem;
+  line-height: 1.45;
+}
+
+.agree {
+  flex-shrink: 0;
+  background: #ffffff;
+  color: var(--heading);
+  border: none;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.82rem;
+  padding: 0.45rem 1.1rem;
+}
+
+.agree:hover {
+  filter: brightness(0.92);
+}

@@ -1,6 +1,7 @@
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import { ConsensusMark } from '../components/shared/logos'
+import CookieBanner from '../components/public/CookieBanner'
 import styles from './PublicLayout.module.css'
 
 const NAV = [
@@ -84,13 +85,17 @@ export default function PublicLayout() {
         <div className={styles.legal}>
           <span>
             © {new Date().getFullYear()} Consensus Holdings. A better world, by
-            design.™ All observations recorded.
+            design.™ All observations recorded. ·{' '}
+            <Link to="/privacy" className={styles.personnel}>
+              Privacy Policy
+            </Link>
           </span>
           <Link to="/personnel" className={styles.personnel}>
             Personnel Access
           </Link>
         </div>
       </footer>
+      <CookieBanner />
     </div>
   )
 }

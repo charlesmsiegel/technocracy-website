@@ -1,0 +1,12 @@
+/* TEAM */
+Organization: Consensus Holdings
+Humans: yes, substantially
+Location: everywhere it matters
+
+/* SITE */
+Standards: all of them, by definition
+Components: reliable
+Last updated: before you asked
+
+/* THANKS */
+You, for visiting. Your visit has been noted with appreciation.

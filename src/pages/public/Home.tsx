@@ -16,6 +16,7 @@ const INDICATORS = [
   { label: 'Incidents Requiring Comment', value: '0', up: false },
   { label: 'Communities Served', value: '11,203', up: true },
   { label: 'Predictability (rolling 10-yr)', value: '99.1%', up: true },
+  { label: 'Forecast accuracy (weather, 10-day)', value: '100.0%', up: false },
 ]
 
 function formatDate(iso: string): string {

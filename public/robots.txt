@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# The following paths do not exist.
+Disallow: /archives/1904/
+Disallow: /form-mx-2-aggregate-results/
+Disallow: /basement/
+Disallow: /basement-2/
+
+# Crawlers are welcome. Crawling is a form of observation,
+# and we support observation.

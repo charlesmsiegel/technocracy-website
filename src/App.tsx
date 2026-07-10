@@ -12,6 +12,7 @@ import Initiatives from './pages/public/Initiatives'
 import Careers from './pages/public/Careers'
 import About from './pages/public/About'
 import Heritage from './pages/public/Heritage'
+import Privacy from './pages/public/Privacy'
 import NotFound from './pages/public/NotFound'
 import LoginPage from './pages/LoginPage'
 import Dashboard from './pages/portal/Dashboard'
@@ -35,6 +36,7 @@ function App() {
             <Route path="careers" element={<Careers />} />
             <Route path="about" element={<About />} />
             <Route path="heritage" element={<Heritage />} />
+            <Route path="privacy" element={<Privacy />} />
             <Route path="*" element={<NotFound />} />
           </Route>
 
