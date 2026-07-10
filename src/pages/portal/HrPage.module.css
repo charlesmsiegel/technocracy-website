@@ -81,7 +81,12 @@
   min-width: 0;
 }
 
+.formBody {
+  display: block;
+}
+
 .formTitle {
+  display: block;
   font-size: 0.88rem;
   font-weight: 600;
   color: var(--heading);
@@ -89,17 +94,19 @@
 }
 
 .formBlurb {
+  display: block;
   font-size: 0.76rem;
   color: var(--text-muted);
   line-height: 1.5;
-  margin-top: 0.3rem;
+  margin-top: 0.35rem;
 }
 
 .formMeta {
+  display: block;
   font-family: var(--font-mono);
   font-size: 0.62rem;
   color: var(--text-muted);
-  margin-top: 0.45rem;
+  margin-top: 0.5rem;
   letter-spacing: 0.05em;
 }
 
