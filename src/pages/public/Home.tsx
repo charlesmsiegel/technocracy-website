@@ -3,6 +3,7 @@ import { DIVISIONS } from '../../data/divisions'
 import { PRESS_RELEASES } from '../../data/pressReleases'
 import { INITIATIVES } from '../../data/initiatives'
 import { ConventionSigil } from '../../components/shared/logos'
+import { HERO_PHOTO } from '../../data/photos'
 import pub from './Public.module.css'
 import styles from './Home.module.css'
 
@@ -30,7 +31,10 @@ export default function Home() {
 
   return (
     <>
-      <section className={styles.hero}>
+      <section
+        className={styles.hero}
+        style={{ '--hero-photo': `url(${HERO_PHOTO})` } as React.CSSProperties}
+      >
         <div className={styles.heroInner}>
           <div className={styles.heroEyebrow}>Consensus Holdings</div>
           <h1 className={styles.heroTitle}>A better world, by design.</h1>

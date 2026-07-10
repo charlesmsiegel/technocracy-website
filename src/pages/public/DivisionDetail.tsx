@@ -2,6 +2,7 @@ import { Link, useParams } from 'react-router-dom'
 import { getDivision } from '../../data/divisions'
 import { PRESS_RELEASES } from '../../data/pressReleases'
 import { ConventionSigil } from '../../components/shared/logos'
+import { DIVISION_PHOTOS, DIVISION_PHOTO_ALT } from '../../data/photos'
 import pub from './Public.module.css'
 
 export default function DivisionDetail() {
@@ -40,6 +41,18 @@ export default function DivisionDetail() {
         <h1 style={{ marginTop: '0.5rem' }}>{division.sector}</h1>
         <p>{division.tagline}</p>
       </div>
+
+      <img
+        src={DIVISION_PHOTOS[division.slug]}
+        alt={DIVISION_PHOTO_ALT[division.slug]}
+        style={{
+          width: '100%',
+          maxHeight: '340px',
+          objectFit: 'cover',
+          borderRadius: 'var(--radius)',
+          boxShadow: 'var(--shadow)',
+        }}
+      />
 
       <div className={pub.section}>
         <div className={pub.statStrip}>

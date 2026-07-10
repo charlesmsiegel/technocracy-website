@@ -1,4 +1,11 @@
-import { createContext, useCallback, useContext, useMemo, useState } from 'react'
+import {
+  createContext,
+  startTransition,
+  useCallback,
+  useContext,
+  useMemo,
+  useState,
+} from 'react'
 import type { ReactNode } from 'react'
 
 export const DEFAULT_OPERATIVE = 'Operative 7741-C'
@@ -22,8 +29,13 @@ export function SessionProvider({ children }: { children: ReactNode }) {
   }, [])
 
   const logout = useCallback(() => {
-    setAuthenticated(false)
-    setOperativeName('')
+    // As a transition, this batches with the router's own (transition-based)
+    // navigation to '/' — a synchronous update here would re-render the still
+    // mounted RequireClearance first and bounce logout to the login page.
+    startTransition(() => {
+      setAuthenticated(false)
+      setOperativeName('')
+    })
   }, [])
 
   const value = useMemo(

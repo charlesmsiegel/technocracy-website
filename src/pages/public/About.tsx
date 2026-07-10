@@ -1,3 +1,4 @@
+import { ABOUT_PHOTO } from '../../data/photos'
 import pub from './Public.module.css'
 import styles from './About.module.css'
 
@@ -30,6 +31,17 @@ export default function About() {
         </p>
       </div>
 
+      <img
+        src={ABOUT_PHOTO}
+        alt="An empty boardroom with a long table and rows of chairs"
+        style={{
+          width: '100%',
+          maxHeight: '320px',
+          objectFit: 'cover',
+          borderRadius: 'var(--radius)',
+          boxShadow: 'var(--shadow)',
+        }}
+      />
       <div className={pub.section} style={{ paddingTop: 0 }}>
         <div className={pub.prose}>
           <p>

@@ -20,8 +20,8 @@ export default function InternalLayout() {
   }, [pathname])
 
   const terminate = () => {
-    logout()
     navigate('/')
+    logout()
   }
 
   return (

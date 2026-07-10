@@ -34,7 +34,7 @@ export default function Dashboard() {
   return (
     <div>
       <div className={styles.greeting}>
-        <h1>Welcome back, {operativeName}.</h1>
+        <h1>Welcome back, {operativeName.replace(/\.$/, '')}.</h1>
         <p>
           The Union thanks you for your continued loyalty. Session for{' '}
           {operativeName} is being monitored for quality assurance.

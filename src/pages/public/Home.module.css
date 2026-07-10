@@ -1,7 +1,13 @@
 .hero {
   background:
-    radial-gradient(ellipse at 80% -30%, rgba(15, 76, 129, 0.14), transparent 55%),
-    linear-gradient(180deg, var(--surface) 0%, var(--bg) 100%);
+    linear-gradient(
+      100deg,
+      rgba(247, 250, 252, 0.97) 0%,
+      rgba(247, 250, 252, 0.9) 45%,
+      rgba(247, 250, 252, 0.45) 75%,
+      rgba(11, 37, 69, 0.25) 100%
+    ),
+    var(--hero-photo) center 30% / cover no-repeat;
   border-bottom: 1px solid var(--border);
 }
 

@@ -1,4 +1,5 @@
 import { INITIATIVES } from '../../data/initiatives'
+import { INITIATIVES_PHOTO } from '../../data/photos'
 import pub from './Public.module.css'
 
 export default function Initiatives() {
@@ -12,6 +13,17 @@ export default function Initiatives() {
           notices. These are the programs we are permitted to be proudest of.
         </p>
       </div>
+      <img
+        src={INITIATIVES_PHOTO}
+        alt="Wind turbines in a wheat field at sunrise"
+        style={{
+          width: '100%',
+          maxHeight: '320px',
+          objectFit: 'cover',
+          borderRadius: 'var(--radius)',
+          boxShadow: 'var(--shadow)',
+        }}
+      />
       <div className={pub.section}>
         <div className={pub.grid2}>
           {INITIATIVES.map((init) => (

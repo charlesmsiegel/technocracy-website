@@ -34,14 +34,14 @@ export default function Gauge({ metric }: { metric: GaugeMetric }) {
         >
           <path
             className={styles.gaugeTrack}
-            d={`M 7 46 A ${R} ${R} 0 0 1 77 46`}
+            d={`M 12 46 A ${R} ${R} 0 0 1 72 46`}
             fill="none"
             strokeWidth="7"
             strokeLinecap="round"
           />
           <path
             className={styles.gaugeFill}
-            d={`M 7 46 A ${R} ${R} 0 0 1 77 46`}
+            d={`M 12 46 A ${R} ${R} 0 0 1 72 46`}
             fill="none"
             stroke={color}
             strokeWidth="7"
