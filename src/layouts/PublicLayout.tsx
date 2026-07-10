@@ -42,6 +42,9 @@ export default function PublicLayout() {
                 {item.label}
               </NavLink>
             ))}
+            <Link to="/personnel" className={styles.loginButton}>
+              Employee Login
+            </Link>
           </nav>
         </div>
       </header>

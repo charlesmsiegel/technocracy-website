@@ -68,6 +68,23 @@
   background: var(--accent);
 }
 
+.loginButton {
+  text-decoration: none;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  margin-left: 0.5rem;
+  transition: background 0.15s, color 0.15s;
+}
+
+.loginButton:hover {
+  background: var(--accent);
+  color: var(--accent-contrast);
+}
+
 .main {
   flex: 1;
 }
