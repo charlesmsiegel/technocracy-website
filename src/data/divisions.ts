@@ -77,6 +77,7 @@ export const DIVISIONS: Division[] = [
       { label: 'Countries with active engagements', value: '141' },
       { label: 'Narratives clarified (2025)', value: '48,317' },
       { label: 'Client incidents publicized', value: '0' },
+      { label: 'Median inquiry response time', value: '11 sec' },
     ],
   },
   {
@@ -118,6 +119,7 @@ export const DIVISIONS: Division[] = [
       { label: 'Species sequenced', value: '1.1M' },
       { label: 'Organs regrown', value: '180,412' },
       { label: 'Clinical trials underway', value: '3,844' },
+      { label: 'Influenza incidence, served regions', value: '−94%' },
     ],
   },
   {
@@ -200,6 +202,7 @@ export const DIVISIONS: Division[] = [
       { label: 'Launch success rate', value: '99.4%' },
       { label: 'Objects tracked', value: '118,000+' },
       { label: 'Personnel recovered', value: '1,406' },
+      { label: 'Unexplained aerial phenomena (26 yrs)', value: '0' },
     ],
   },
 ]

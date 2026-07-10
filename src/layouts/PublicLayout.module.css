@@ -151,3 +151,13 @@
 .personnel:hover {
   color: #b9c6d6;
 }
+
+/* Unlike Personnel Access, the privacy policy is meant to be found. */
+.legalLink {
+  color: #b9c6d6;
+  text-decoration: underline;
+}
+
+.legalLink:hover {
+  color: #ffffff;
+}

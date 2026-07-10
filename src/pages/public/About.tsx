@@ -65,6 +65,10 @@ export default function About() {
             and the things you half-remember from childhood nightmares stayed
             imaginary — you are already one of our satisfied customers.
           </p>
+          <p className={pub.meta}>
+            Founded: our records begin when records begin. Offices worldwide
+            close annually on 25 March in observance of Founders’ Day.
+          </p>
         </div>
       </div>
 

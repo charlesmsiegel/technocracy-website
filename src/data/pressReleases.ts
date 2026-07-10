@@ -2,6 +2,21 @@ import type { PressRelease } from './types'
 
 export const PRESS_RELEASES: PressRelease[] = [
   {
+    slug: 'statement-agricultural-campus-vandalism',
+    date: '2026-07-02',
+    division: 'progenitors',
+    headline:
+      'Consensus Holdings Statement on Criminal Vandalism at Agricultural Research Campus',
+    summary:
+      'A self-styled radical environmentalist group trespassed at a Progenera research campus in Iowa this week. Operations resumed within 36 hours. No employees were harmed, and all personnel counts are confirmed.',
+    body: [
+      'DES MOINES \u2014 Progenera Life Sciences confirms that on the evening of June 29, individuals affiliated with a self-styled radical environmentalist movement unlawfully entered the grounds of an agricultural research campus in Iowa and committed acts of deliberate biological vandalism, including the introduction of aggressive, non-catalogued plant growth into two secured greenhouse wings.',
+      'The irony of attacking the research campus that helps feed two billion people daily \u2014 in the name of nature \u2014 speaks for itself, and we will let it. Remediation crews removed the introduced growth within 36 hours, an operation made more complex by the material\u2019s unusual vigor, which our agronomists describe as \u201cimpressive, in the way that a fire is impressive.\u201d The affected wings had, fortunately, been scheduled for renovation.',
+      '\u201cWe respect passionate disagreement; we do not respect trespass, destruction, or the endangerment of researchers,\u201d said a spokesperson for Cobalt Security Solutions, the campus\u2019s protective services partner. \u201cThe individuals departed the site before responders arrived, by routes that remain under review. They should not interpret that as having gone unnoticed. Nothing goes unnoticed.\u201d',
+      'No arrests have been announced. The individuals\u2019 descriptions have been shared with relevant authorities, and Consensus Holdings has extended its standing offer of enhanced perimeter services to all research partners. Weekly harvest schedules are unaffected. The harvest arrives on schedule.',
+    ],
+  },
+  {
     slug: 'ccri-carbon-drawdown-milestone',
     date: '2026-06-11',
     division: 'iteration-x',
