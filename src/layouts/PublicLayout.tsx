@@ -2,12 +2,15 @@ import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
 import { useEffect } from 'react'
 import { ConsensusMark } from '../components/shared/logos'
 import CookieBanner from '../components/public/CookieBanner'
+import NewsletterSignup from '../components/public/NewsletterSignup'
 import styles from './PublicLayout.module.css'
 
 const NAV = [
   { to: '/divisions', label: 'Divisions' },
+  { to: '/research', label: 'Research' },
   { to: '/newsroom', label: 'Newsroom' },
   { to: '/initiatives', label: 'Initiatives' },
+  { to: '/investors', label: 'Investors' },
   { to: '/careers', label: 'Careers' },
   { to: '/about', label: 'About' },
   { to: '/heritage', label: 'Heritage' },
@@ -70,16 +73,28 @@ export default function PublicLayout() {
             <h3>Newsroom</h3>
             <ul>
               <li><Link to="/newsroom">Press releases</Link></li>
-              <li><Link to="/newsroom">Media resources</Link></li>
+              <li><Link to="/explained">Consensus Explained</Link></li>
+              <li><Link to="/research">Our Research</Link></li>
+            </ul>
+          </div>
+          <div className={styles.footerCol}>
+            <h3>Investors</h3>
+            <ul>
+              <li><Link to="/investors">Investor relations</Link></li>
+              <li><Link to="/portfolio">Operating companies</Link></li>
             </ul>
           </div>
           <div className={styles.footerCol}>
             <h3>Commitments</h3>
             <ul>
               <li><Link to="/initiatives">Sustainability</Link></li>
-              <li><Link to="/initiatives">Public safety</Link></li>
+              <li><Link to="/transparency">Narrative Integrity Report</Link></li>
+              <li><Link to="/accessibility">Accessibility</Link></li>
               <li><Link to="/initiatives">Community standards</Link></li>
             </ul>
+          </div>
+          <div className={styles.footerCol}>
+            <NewsletterSignup />
           </div>
         </div>
         <div className={styles.legal}>
