@@ -56,6 +56,7 @@ export const DASHBOARD_METRICS: Metric[] = [
   {
     kind: 'gauge',
     id: 'primal-utility-reserve',
+    convention: 'syndicate',
     label: 'Primal Utility Reserve',
     value: 57,
     thresholds: [45, 30],
@@ -77,6 +78,7 @@ export const DASHBOARD_METRICS: Metric[] = [
   {
     kind: 'sparkline',
     id: 'feed-sentiment-variance',
+    convention: 'new-world-order',
     label: 'The Feed — Sentiment Variance',
     history: [1.9, 2.1, 1.8, 2.4, 2.2, 2.7, 2.5, 3.1, 2.9, 3.4],
   },
@@ -90,6 +92,7 @@ export const DASHBOARD_METRICS: Metric[] = [
   {
     kind: 'status',
     id: 'autochthonia-uplink',
+    convention: 'iteration-x',
     label: 'Autochthonia Uplink',
     status: 'critical',
     note: 'No valid handshake since 2005. See continuity file IX-2005-0007.',
@@ -97,6 +100,7 @@ export const DASHBOARD_METRICS: Metric[] = [
   {
     kind: 'status',
     id: 'copernicus-station',
+    convention: 'void-engineers',
     label: 'Copernicus Station',
     status: 'elevated',
     note: 'Approach corridor restricted. Reason withheld per policy.',

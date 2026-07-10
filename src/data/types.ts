@@ -94,6 +94,8 @@ export interface Board {
 /* ---------- Dashboard ---------- */
 
 export interface StatMetric {
+  /** When set, shown only to personnel of this Convention. */
+  convention?: ConventionSlug
   kind: 'counter'
   id: string
   label: string
@@ -105,6 +107,8 @@ export interface StatMetric {
 }
 
 export interface GaugeMetric {
+  /** When set, shown only to personnel of this Convention. */
+  convention?: ConventionSlug
   kind: 'gauge'
   id: string
   label: string
@@ -118,6 +122,8 @@ export interface GaugeMetric {
 }
 
 export interface SparkMetric {
+  /** When set, shown only to personnel of this Convention. */
+  convention?: ConventionSlug
   kind: 'sparkline'
   id: string
   label: string
@@ -126,6 +132,8 @@ export interface SparkMetric {
 }
 
 export interface StatusMetric {
+  /** When set, shown only to personnel of this Convention. */
+  convention?: ConventionSlug
   kind: 'status'
   id: string
   label: string
@@ -136,6 +144,8 @@ export interface StatusMetric {
 export type Metric = StatMetric | GaugeMetric | SparkMetric | StatusMetric
 
 export interface TickerItem {
+  /** When set, shown only to personnel of this Convention. */
+  convention?: ConventionSlug
   id: string
   /** Preformatted line, e.g. "[RDI-2026-0447] SECTOR EU-7 · TAMURD · DTFT 3 · CONTAINED" */
   text: string

@@ -29,7 +29,8 @@ export default function BoardPage() {
   }
 
   if (board.convention !== session.convention) {
-    const info = CONVENTIONS[board.convention]
+    // Full compartmentalization: do not confirm the file exists, let alone
+    // whose it is. Identical language to a genuinely nonexistent address.
     return (
       <div>
         <h1
@@ -39,12 +40,13 @@ export default function BoardPage() {
             letterSpacing: '0.1em',
           }}
         >
-          ACCESS DENIED — COMPARTMENTED
+          NO RECORD AT YOUR AFFILIATION
         </h1>
         <p style={{ color: 'var(--text-muted)', marginTop: '0.75rem', maxWidth: '62ch' }}>
-          This response file is restricted to {info.name} personnel. Your
-          affiliation does not extend to it, and in the spirit of the Doctrine
-          of Mutuality, this attempt has been recorded and forgiven. Once.
+          No response file exists at this address for personnel of your
+          affiliation. If you were given this address, complete Form MX-2 and
+          identify who gave it to you. This attempt has been recorded and, in
+          the spirit of the Doctrine of Mutuality, forgiven. Once.
         </p>
         <p style={{ marginTop: '0.75rem' }}>
           <Link to="/portal/operations" style={{ color: 'var(--accent)' }}>
