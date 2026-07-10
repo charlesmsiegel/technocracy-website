@@ -3,7 +3,7 @@ name: Wynn Castellano
 designation: Behavioral Economics Analyst (Extraordinary Citizen)
 tier: Extraordinary Citizen
 convention: Syndicate
-division: Syndicate Capital Group — Behavioral Economics desk (Zurich / New York)
+division: Exchequer Capital Group — Behavioral Economics desk (Zurich / New York)
 methodology: Financiers (extraordinary-citizen "Magic Man" Associate)
 sixTP-tier: T1 (extraordinary citizen)
 role-on-site: >
@@ -17,15 +17,17 @@ damian-scale: n/a (no Enlightened Science — but see Flaw)
 
 # Wynn Castellano
 
+**Nature:** Thrill-Seeker | **Demeanor:** Bon Vivant
+
 ## Attributes
 - **Physical** — Strength 2, Dexterity 3, Stamina 2
 - **Social** — Charisma 4, Manipulation 4, Appearance 4
 - **Mental** — Perception 4, Intelligence 4, Wits 5
 
 ## Abilities
-- **Talents** — Subterfuge 4, Awareness 3 (untrained; "always felt they could see the pattern"), Expression 3, Streetwise 3, Alertness 3
-- **Skills** — Finance 4, Etiquette 3, Gambling (Focus) 4, Drive 2, Technology 3
-- **Knowledges** — Finance 4, Investigation 3, Academics 3 (Behavioral Economics), Computer 3, Enlightened Science 0
+- **Talents** — Subterfuge 4 (Gambling & Negotiation), Awareness 3 (untrained; "always felt they could see the pattern"), Expression 3, Streetwise 3, Alertness 3
+- **Skills** — Etiquette 3, Drive 2, Technology 3
+- **Knowledges** — Finance 4, Investigation 3, Academics 3 (Behavioral Economics), Computer 3, Esoterica (Enlightened Science) 0
 
 ## Enhancement & Gear (in place of Spheres)
 - **No Enhancement dots, no cyberware.** Wynn's edge is a native, un-Enlightened aptitude — "an unusual relationship with luck," in the words of the Exceptional Talent Assessment Program. Wynn reads a room's wants the way others read a ticker and has a preternatural, statistically inexplicable win rate on any wager Wynn actually intends to win.

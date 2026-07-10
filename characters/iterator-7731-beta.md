@@ -16,27 +16,31 @@ damian-scale: 2 (Undetectable)
 
 # Iterator 7731-Beta
 
+**Nature:** Loner | **Demeanor:** Conformist
+
 ## Attributes
 - **Physical** — Strength 2, Dexterity 3, Stamina 3
 - **Social** — Charisma 2, Manipulation 2, Appearance 2
 - **Mental** — Perception 4, Intelligence 4, Wits 4
 
 ## Abilities
-- **Talents** — Alertness 3, Awareness 3, Vigilance (Focus) 3, Expression 1
+- **Talents** — Alertness 3 (Console Vigilance), Awareness 3, Expression 1
 - **Skills** — Technology 4, Crafts 2 (Antenna Rigging), Meditation 2
-- **Knowledges** — Computer 4, Science 4 (Signal Processing), Cryptography 4, Enigmas 3, Enlightened Science 2
+- **Knowledges** — Computer 4, Science 4 (Signal Processing), Cryptography 4, Enigmas 3, Esoterica 2 (Enlightened Science)
 
 ## Enlightenment & Spheres
-- **Enlightenment (Arete)** 2
-- **Spheres** — Forces 3 (signal/EM), Data 2, Time 2, Matter 1
-- **Foci / Instruments** — the THULE ANVIL ground station itself; a raised cipher's programmed procedures ("raised within the Convention," never a name, only a designation); the challenge-response handshake ritual. Her magick is precise, quiet, and almost entirely diagnostic — she does not command the signal, she *listens correctly*.
+- **Enlightenment** 2
+- **Spheres** — Forces 2 (signal/EM), Data 2, Time 2, Matter 1
+- **Focus** — *Paradigm:* Everything Is Data (a signal is either verified or it is noise). *Practice:* Hypertech (Signal Analysis) 2. *Tenets:* [Metaphysical] Every signal has a source, and every source can be authenticated; [Personal] Listen before you transmit; [Ascension] A universe in clean handshake with itself.
+- **Instruments (apparatus — she cannot work Enlightened Science without them)** — the THULE ANVIL ground station itself; a raised cipher's programmed procedures ("raised within the Convention," never a name, only a designation); the challenge-response handshake ritual. Her Enlightened Science is precise, quiet, and almost entirely diagnostic — she does not command the signal, she *listens correctly*. (Her Sphere ratings are capped by Enlightenment 2, per standard limits.)
 - **Genius / Paradox** — Genius as a cold, patient attentiveness. Very low Paradox; her whole role is Undetectable by design. She is unsettled that the incoming responses arrive at an invariant 11.000-second cadence that light-lag forbids.
 
-## Willpower
-6
+## Willpower, Primal Energy & Paradox
+- **Willpower** 6 · **Primal Energy** 2 (= Genius rating) · **Paradox** 0 at baseline (see Genius / Paradox note)
+- **Resonance** — Attentive 2 (rooms feel listened-to while she is in them)
 
 ## Backgrounds
-- Device 2 (console suite), Requisitions 2, Backup 2, Cloaking 3, Genius 2
+- Certification 2 (THULE ANVIL console access), Requisitions 2, Backup 2, Cloaking 3, Genius 2
 
 ## Merits & Flaws
 - **Merit: Concentration** — Twelve-hour console rotations do not degrade her accuracy.

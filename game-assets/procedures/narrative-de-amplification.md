@@ -1,11 +1,14 @@
+---
 name: Narrative De-Amplification (Feed Suppression / Hoax Seeding)
-type: Procedure (rote) — mass-media reality maintenance
+type: Adjustment — mass-media reality maintenance (coincidental by design at every layer)
 convention: New World Order (PSYOPS / The Feed), executed for every Convention's cover teams
-sphere-requirements: Entropy ●●● + Mind ●● (Healthy Skepticism) to kill a specific supernatural narrative; Mind ●● + Prime ●● (Motivational Speaking) to seed a replacement belief; Correspondence ●● (Surveillance) to find the signal
+sphere-requirements: Entropy 3 + Mind 2 (Healthy Skepticism) to kill a specific supernatural narrative; Mind 2 + Prime 2 (Motivational Speaking) to seed a replacement belief; Data 2 (Surveillance) to find the signal
+apparatus: REQUIRED — Feed Analytics access (the sensor), algorithmic/editorial channels and commissioned content (the delivery system). No channel access, no Effect.
 roll: Enlightenment for the Effect; extended Manipulation + (Media/Subterfuge) for the mundane campaign layer
 duration: until the narrative is dead / permanently reframed
 damian-scale: 1 (algorithmic and editorial on the surface; the Enlightened layer is coincidental)
 site-appearance: boards/progenitors.ts — FERAL BLOOM pg-03, pg-15 ("algorithmically de-amplified, re-captioned as a costumed hoax, and buried under identical hoax videos we commissioned"); boards/new-world-order.ts — MIRRORGLASS nwo-14 (outlet acquisition), nwo-09 (Feed monitoring); divisions.ts — NWO ("narrative drift", Feed Analytics)
+---
 
 ## Public face
 "Media literacy." "Community Standards." Teaching citizens to recognize "unreliable
@@ -19,12 +22,12 @@ The Union's routine for making a true-but-inconvenient story — a THV-9 sightin
 metropolitan "unusual event" — fail to reach or hold Consensus. It layers a mundane
 information-operations campaign over Enlightened Procedures:
 
-- **Find it:** **Correspondence ●● (Surveillance)** across The Feed / Feed Analytics flags the
+- **Find it:** **Data 2 (Surveillance)** across The Feed / Feed Analytics flags the
   emerging narrative before it spreads (nwo-09; and see programs/feed-analytics.md).
-- **Kill the specific claim:** **Entropy ●●● + Mind ●● (Healthy Skepticism)** — requires a
+- **Kill the specific claim:** **Entropy 3 + Mind 2 (Healthy Skepticism)** — requires a
   "vulgar witness" (a Sleeper) and works like Unweaving *without a mystical component*:
   explaining the impossible away actually dispels the supernatural charge of the story.
-- **Bury and replace:** algorithmic de-amplification + **Mind ●● + Prime ●● (Motivational
+- **Bury and replace:** algorithmic de-amplification + **Mind 2 + Prime 2 (Motivational
   Speaking / Impulse framing)** seeds a mundane counter-narrative. The 2019 THV-9 daylight
   video (pg-15) was re-captioned as a costumed hoax and drowned under commissioned identical
   hoaxes; the original uploader was hired into a subsidiary "and films nothing."

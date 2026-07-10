@@ -1,7 +1,7 @@
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
 import { useSession } from '../session/SessionContext'
-import { UnionSeal } from '../components/shared/logos'
+import { PanopticonMark, UnionSeal } from '../components/shared/logos'
 import styles from './InternalLayout.module.css'
 
 const NAV = [
@@ -66,6 +66,8 @@ export default function InternalLayout() {
             </NavLink>
           ))}
           <div className={styles.sideNote}>
+            <PanopticonMark size={22} />
+            <br />
             THIS TERMINAL SERVES THE UNION.
             <br />
             THE UNION SERVES HUMANITY.

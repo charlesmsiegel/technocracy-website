@@ -1,11 +1,14 @@
+---
 name: Social Conditioning Refresh
-type: Procedure (rote) — maintenance application of Social Conditioning
+type: Procedure — maintenance application of Social Conditioning (delivered as a coincidental Adjustment through therapy/interview framing)
 convention: New World Order (Ivory Tower / Special Directives)
-sphere-requirements: Mind ●●●, Prime ●● (per canonical Social Conditioning, GttT pp.213–214)
+sphere-requirements: Mind 3, Prime 2 (per canonical Social Conditioning, GttT pp.213–214)
+apparatus: REQUIRED — the interview room and scheduled "wellness" frame, polygraph/psychometric instruments, calibrated pharmacology and lighting. No clinical frame, no Effect.
 roll: Enlightenment vs. subject's Willpower + 3
 duration: permanent (the point of the Procedure)
 damian-scale: 4 (coincidental if delivered through media/therapy framing; vulgar if the subject is aware and resisting)
 site-appearance: boards/new-world-order.ts — MIRRORGLASS nwo-06, nwo-08 ("Conditioning-refresh of all Watcher residuals", "refreshed personnel report improved sleep and no longer remember why they needed it"); referenced in hrForms.ts context
+---
 
 ## Public face
 Internally styled as "wellness screening," "verification interviews," and "Conditioning
@@ -27,7 +30,7 @@ their own turn.
    per day** up to the desired Conditioning level (each level = one more layer of
    unquestioning obedience / one more erased objection).
 - **Refresh vs. fresh install:** a refresh targets an already-conditioned subject; it re-seats
-  slipped Conditioning and can be paired with **Mind ●●● memory edit** (see procedures/
+  slipped Conditioning and can be paired with **Mind 3 memory edit** (see procedures/
   adjustment-memory-revision.md) so the subject "no longer remembers why they needed it."
 - **Delivery/blatancy:** framed as therapy or a routine interview, it is a coincidental
   **Adjustment**. If the subject knows what is happening and resists openly, it becomes a
@@ -40,7 +43,7 @@ their own turn.
 - Not gear; a **standing NWO capability**. Scheduling authority sits with Ivory Tower
   Supervisors (nwo-08 assignee: "Supervisor 9 (Ivory Tower)"). HOAR-gated: refreshing a
   *fellow operative* above your SDS grade requires directorate sign-off.
-- Applied to Sleepers, the mission-length version is **Programming** (Mind ●●●) — five-minute
+- Applied to Sleepers, the mission-length version is **Programming** (Mind 3) — five-minute
   brainwash, one simple-sentence command per success over Willpower.
 
 ## Story hooks

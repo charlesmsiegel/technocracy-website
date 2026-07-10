@@ -1,11 +1,13 @@
+---
 name: DOAA Resilient Cultivars & Seed Assurance
 type: Program — engineered agriculture / biological + control network
 convention: Progenitors (Department of Advanced Agriculture)
-arete/rank: design Enlightenment 3–4; cultivars are self-propagating Life Effects made static
-spheres-replicated: Life ●●● (accelerated, climate-agnostic growth), Life ●● + Matter ●● (soil optimization), Correspondence ●● (Seed Assurance usage monitoring), Entropy ●● (yield prediction "regardless of what the weather believes it is doing")
+enlightenment: design 3–4; cultivars are self-propagating Life Effects made static
+procedures-replicated: Life 3 (accelerated, climate-agnostic growth), Life 2 + Matter 2 (soil optimization), Data 2 (Seed Assurance usage monitoring), Entropy 2 (yield prediction "regardless of what the weather believes it is doing")
 background-cost: N/A — a global agricultural program, not an issued item
 damian-scale: 2 (super-crops read as ordinary biotech; the weather-defiance and the leash are the tells)
 site-appearance: divisions.ts — Progenitors (DOAA yield programs, ~2 billion meals/day); pressReleases.ts — doaa-harvest-record (Seed Assurance licensing, "stopped accepting the weather's opinion as final")
+---
 
 ## Public face
 "Approximately two billion meals a day… resilient cultivars outperforming legacy crops in
@@ -17,7 +19,7 @@ operations with "certified genetics, renewal scheduling, and comprehensive usage
 ## What it actually is
 Genuine food security used as a **terranorming and dependency engine**. Read the Research
 Director's quote literally — "We simply stopped accepting the weather's opinion as final" —
-and the crops are not merely hardy; they are **Life ●●● growth Effects made static and
+and the crops are not merely hardy; they are **Life 3 growth Effects made static and
 self-propagating**, thriving where the local climate says they should not. Two growing cycles
 in one season and drought/flood indifference are Enlightened agriculture wearing an agribusiness
 label.
@@ -25,7 +27,7 @@ label.
 The leash is **Seed Assurance**:
 - **Renewal scheduling** = the crops do not reliably reproduce true; farmers must return each
   season (a control mechanism, not a convenience).
-- **Comprehensive usage monitoring** = **Correspondence ●● (Surveillance/Tracking)** over 1.4
+- **Comprehensive usage monitoring** = **Data 2 (Surveillance/Tracking)** over 1.4
   million farms — who plants what, where, and when. Feeds the same intelligence apparatus as
   everything else the Union grows.
 - Feeding two billion people a day means two billion people whose food supply the Union owns
@@ -36,7 +38,7 @@ The leash is **Seed Assurance**:
   Resources/Influence stranglehold on agriculture; cutting a community off is a bloodless
   weapon.
 - **Cultivar as biological asset:** a DOAA crop can be a delivery substrate — the same
-  platform that grows food can, with **Life ●●● + Mind/Prime**, grow **Polysorbate**-style
+  platform that grows food can, with **Life 3 + Mind/Prime**, grow **Polysorbate**-style
   emotional "aftertaste" additives or CCRI "engineered sequestration flora." Nothing on the
   board says the food is only food.
 - **Monitoring:** a Progenitor can query Seed Assurance to locate and profile any licensed

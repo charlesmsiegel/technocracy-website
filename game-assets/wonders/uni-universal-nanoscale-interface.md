@@ -1,11 +1,14 @@
+---
 name: Universal Nanoscale Interface (UNI)
-type: Wonder — Extraordinary Device
+category: Trinket (reusable nanotech interface; no Enlightenment required for baseline function)
 convention: Iteration X
-arete/rank: user's Enlightenment; Device requires no roll for baseline function
-spheres-replicated: Matter ● / Data (Correspondence) ●● — infiltration and control of any electronics
-background-cost: 3 pts (per canonical UNI, CB: Iteration X Revised, pp.76–77)
+enlightenment: 4 (design); baseline function needs no roll — pushed effects use the wielder's Enlightenment
+primal-energy: 10
+procedures-replicated: Matter 1 / Data 2 — infiltration and control of any electronics
+background-cost: 3 pts (per canonical UNI, CB: Iteration X Revised, pp.76–77; within the 2–6 pt Trinket band)
 damian-scale: 2 (coincidental against real hardware; vulgar when it drives devices that have no such capability)
 site-appearance: divisions.ts — Iteration X ("UNI industrial interface standard… lets any certified device communicate with any other — even legacy hardware never designed for connectivity")
+---
 
 ## Public face
 "The Universal Nanoscale Interface lets any certified device communicate with any other —

@@ -2,8 +2,8 @@
 name: Kip Marlow
 designation: Same-Hour Courier (Sleeper)
 tier: Sleeper
-convention: n/a — Mercury Logistics, a Syndicate Capital portfolio company (T0)
-division: Syndicate Capital Group — Mercury Logistics
+convention: n/a — Mercury Logistics, an Exchequer Capital portfolio company (T0)
+division: Exchequer Capital Group — Mercury Logistics
 methodology: none (genuinely mundane)
 sixTP-tier: T0 (unEnlightened citizen; classified "Asset" — provides a service while ignorant of its purpose)
 role-on-site: >
@@ -14,6 +14,8 @@ sds-degree: n/a (Sleeper)
 ---
 
 # Kip Marlow
+
+**Nature:** Competitor | **Demeanor:** Celebrant
 
 ## Attributes
 - **Physical** — Strength 2, Dexterity 4, Stamina 3
@@ -32,7 +34,9 @@ The perfect Mercury courier: fast, reliable, and trained not to wonder. Kip runs
 5
 
 ## Backgrounds
-- Resources 2, Contacts 3 (dispatchers, doormen, other couriers), Device 1 (the handset, which Kip does not realize is the interesting part)
+- Resources 2, Contacts 3 (dispatchers, doormen, other couriers)
+
+*Issued gear (Union property, not a Background): the Plexic-routed courier handset — a Technocratic Trinket, which Kip does not realize is the interesting part.*
 
 ## Merits & Flaws
 - **Merit: Perfect Sense of Direction** — Kip never gets lost, even on the routes that shouldn't connect.

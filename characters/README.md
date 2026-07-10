@@ -13,9 +13,13 @@ sympathetic, not cartoonish.** Even the receptionist has a secret. The janitor's
 
 ## The three tiers
 - **Enlightened Technocrats** — the named executives and board assignees, statted with full M20
-  blocks: Attributes, Abilities, Enlightenment (Arete), Spheres (Technocratic names — **Data** for
-  Correspondence, **Dimensional Science** for Spirit, **Primal Utility** for Prime), Foci, Genius/
-  Paradox notes, Willpower, and Backgrounds. All five Conventions are covered.
+  blocks: Nature/Demeanor, Attributes, Abilities, Enlightenment (the Technocratic Arete), Spheres
+  (Technocratic names — **Data** for Correspondence, **Dimensional Science** for Spirit; Prime and
+  the rest keep their names, and Quintessence is styled **Primal Energy**), Focus (Paradigm /
+  Practice / Tenets / Instruments), Genius/Paradox notes, Resonance, Willpower, Primal Energy, and
+  Backgrounds. All five Conventions are covered. Stat blocks follow the Faces-of-Magick NPC
+  convention: treat every number as *suggested* and scale to the chronicle — but Sphere ratings
+  never exceed Enlightenment.
 - **Extraordinary Citizens** — unEnlightened but exceptional personnel (T1): cyborg security,
   Progenitor-adjusted field medic, hypertrained analyst, sensor-prodigy operator. Attributes and
   Abilities plus **Enhancement** dots and special gear — no Spheres.

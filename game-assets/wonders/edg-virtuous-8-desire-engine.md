@@ -1,11 +1,14 @@
+---
 name: EDG Virtuous 8 (Desire Engine)
-type: Wonder — Extraordinary Device (mass-market consumer)
+category: Trinket (mass-market consumer unit — reusable, simple, no Enlightenment required to use); the fleet backhaul is Convention infrastructure
 convention: Syndicate — portfolio company Eris Design Group (EDG)
-arete/rank: no user Enlightenment required; the Device runs the Effect for the operator/Control
-spheres-replicated: Entropy ● (Nonlinear Prediction / desire modeling), Mind ●● (Impulse Purchase), Correspondence ●● (Surveillance)
-background-cost: not requisitioned per-agent — it is Consensus infrastructure; treat a controlled unit as a 2-pt Device
+enlightenment: 3 (design); none required to operate — the unit runs the Effect for the operator/Control
+primal-energy: 10 per unit (effectively unlimited fleet-side)
+procedures-replicated: Entropy 1 (Nonlinear Prediction / desire modeling), Mind 2 (Impulse Purchase), Data 2 (Surveillance)
+background-cost: not requisitioned per-agent — it is Consensus infrastructure; treat a controlled unit as a 2-pt Trinket
 damian-scale: 1 (everything it does is coincidental; that is the entire product thesis)
 site-appearance: pressReleases.ts — virtuous-8-launch ("knows what you want before you do"); divisions.ts — Syndicate (Eris Design Group)
+---
 
 ## Public face
 "The phone that understands you." The on-device **Desire Engine** studies each owner's habits,
@@ -20,16 +23,16 @@ visible camera apertures" is not a design flourish — the apertures are *sub-su
 device sees and hears continuously without a lens the user can cover. The Desire Engine is a
 productized stack of Procedures:
 
-- **Correspondence ●● (Surveillance)** — every Virtuous 8 is a consenting monitoring node.
+- **Data 2 (Surveillance)** — every Virtuous 8 is a consenting monitoring node.
   Feeds directly into Feed Analytics (see programs/feed-analytics.md).
-- **Entropy ● (Nonlinear Prediction)** — models the single most probable next want. "Almost
+- **Entropy 1 (Nonlinear Prediction)** — models the single most probable next want. "Almost
   never wrong" is a literal Entropy success statement.
-- **Mind ●● + Prime ●● (Impulse Purchase, store-woven variant)** — the device is the store.
+- **Mind 2 + Prime 2 (Impulse Purchase, store-woven variant)** — the device is the store.
   Any owner can be nudged into a purchase or a mood (a calming playlist "moments before news
   breaks" is *pre-emptive Adjustment of affect*).
 
 **Mechanics.** Against an individual owner, an operator running the fleet may attempt **Mind
-●●** to plant an impulse or emotion: extended roll, must beat the target's Willpower; strong-
+2** to plant an impulse or emotion: extended roll, must beat the target's Willpower; strong-
 willed users resist. All effects are *coincidental* — the phone suggested it. Mass deployment
 lets Control shift a metropolitan Overton Window by degrees without any single vulgar act.
 

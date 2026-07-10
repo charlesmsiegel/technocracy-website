@@ -1,11 +1,14 @@
+---
 name: Canary-Trap Document Seeding
-type: Procedure (rote-assisted tradecraft) — leak attribution
+type: Adjustment-assisted tradecraft — leak attribution (baseline is fully mundane)
 convention: New World Order (Watchers / Ivory Tower counterintelligence)
-sphere-requirements: baseline is mundane tradecraft (no Sphere); Enlightened variant adds Correspondence ●● (Tracking Device) and Entropy ● (Nonlinear Prediction) to narrow the suspect field
+sphere-requirements: baseline is mundane tradecraft (no Sphere); Enlightened variant adds Data 2 (Tracking Device) and Entropy 1 (Nonlinear Prediction) to narrow the suspect field
+apparatus: REQUIRED for the Enlightened assist — the seeded documents themselves (planted foci) plus a monitoring terminal with Feed access; the paper trick needs only a document system.
 roll: mundane — Intelligence + Investigation / Bureaucracy to construct variants; Enlightened tracking rolls as Tracking Device
 duration: until the marked variant surfaces
 damian-scale: 0 (pure tradecraft; the Enlightened assist is a coincidental Adjustment)
 site-appearance: boards/new-world-order.ts — MIRRORGLASS nwo-04 (canary-trap wave 3, variant 17), nwo-12 (chain-of-custody), brief (canary-trap wave 3 in distribution)
+---
 
 ## Public face
 None — this is an internal counterintelligence method, never spoken of outside the Watchers.
@@ -25,10 +28,10 @@ nine days.
 - **Detection:** monitor outlets, drafts, and refuse (see procedures/narrative-de-amplification
   .md for The Feed monitoring); when a variant appears, attribution is automatic.
 - **Enlightened assist (optional Adjustment):**
-  - **Correspondence ●● (Tracking Device):** treat each seeded document as a planted focus —
+  - **Data 2 (Tracking Device):** treat each seeded document as a planted focus —
     three successes let a Watcher passively track the physical document as a "familiar
     possession," tightening chain-of-custody reconstruction (nwo-12).
-  - **Entropy ● (Nonlinear Prediction):** pre-rank suspects by who is *most likely* to leak,
+  - **Entropy 1 (Nonlinear Prediction):** pre-rank suspects by who is *most likely* to leak,
     shrinking the pool before a single variant moves.
 - **The failure mode is the plot:** MIRRORGLASS variant 17 surfaced carrying variant 17's
   statistic but variant 16's clause ordering — meaning the leak passes through two hands, or
@@ -37,7 +40,7 @@ nine days.
 ## Requisition notes
 - **Not gear.** A standing Watcher method. Constructing a wave requires Ivory Tower
   authorization and access to a genuinely sensitive document to mutilate.
-- The Enlightened tracking assist is HOAR-gated only in that it consumes a Correspondence-
+- The Enlightened tracking assist is HOAR-gated only in that it consumes a Data-
   capable operative's time; the paper trick itself is available to any competent analyst.
 
 ## Story hooks

@@ -1,11 +1,16 @@
+---
 name: SPD Reality-Toxin Hardware (Batch 29–33, Rotterdam bond store)
-type: Talisman — tainted / degrading Wonder (NOT safe to use)
+type: Talisman — tainted / malevolent Wonder (NOT safe to use)
+rank: 6 (estimated from Primal assay; Powers unverified — "none of which does what its casing says it does")
+primal-energy: ~30 (Rank × 5), and rising ~14%/year with the leach rate
+resonance: Malignant, totaling Rank — Corrupted 3, Hungry 2, Seductive 1 (perceptible even to mundane handlers as the dreams and the urge to "use it")
 convention: formerly Special Projects Division; now custody of the Syndicate (LEDGER file)
-arete/rank: unknown / not to be activated; original build quality Enlightenment 4+
-spheres-replicated: unknown by design ("none of which does what its casing says it does") — Prime/Entropy-corrupt, Nephandi-adjacent
+arete: unknown / not to be activated; original build quality Enlightenment 4+
+procedures-replicated: unknown by design ("none of which does what its casing says it does") — Prime/Entropy-corrupt, Nephandi-adjacent
 background-cost: N/A — cannot be requisitioned; these are quarantined hazards
 damian-scale: 6 and rising (the inventory is "not degrading but ripening")
 site-appearance: boards/syndicate.ts — LEDGER sy-06 (Reality-Toxin assay, Batch 31), sy-08 (Nephandi linkage), sy-09 (archiving, phase 3)
+---
 
 ## Public face
 There is none. This hardware never had a legitimate consumer story; the casings *claim* to be

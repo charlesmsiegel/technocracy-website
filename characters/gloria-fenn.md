@@ -2,8 +2,8 @@
 name: Gloria Fenn
 designation: Front Desk Coordinator (Sleeper)
 tier: Sleeper
-convention: n/a — Syndicate Capital Group front office (T0)
-division: Syndicate Capital Group — Atlanta regional front office (LEDGER perimeter, sy-12)
+convention: n/a — Exchequer Capital Group front office (T0)
+division: Exchequer Capital Group — Atlanta regional front office (LEDGER perimeter, sy-12)
 methodology: none (genuinely mundane)
 sixTP-tier: T0 (unEnlightened citizen; classified "Associate" — a guard/greeter at a Syndicate front)
 role-on-site: >
@@ -15,6 +15,8 @@ sds-degree: n/a (Sleeper; loyalty rated "exemplary")
 
 # Gloria Fenn
 
+**Nature:** Conformist | **Demeanor:** Caregiver
+
 ## Attributes
 - **Physical** — Strength 2, Dexterity 2, Stamina 3
 - **Social** — Charisma 4, Manipulation 2, Appearance 3
@@ -23,7 +25,7 @@ sds-degree: n/a (Sleeper; loyalty rated "exemplary")
 ## Abilities
 - **Talents** — Empathy 3, Alertness 3, Expression 2, Awareness 1
 - **Skills** — Etiquette 3, Technology 2, Drive 2, Security 1
-- **Knowledges** — Bureaucracy 2, Investigation 1
+- **Knowledges** — Politics 2 (Corporate Bureaucracy), Investigation 1
 
 ## Sleeper Notes (no Spheres, no Enhancement)
 The face of an office that barely exists. Gloria greets a stream of couriers, contractors, and consultants who never seem to be the same person twice, buzzes them through, and signs for crates addressed to a floor she's never been asked to visit. She has a warm word for everyone and a name for every regular. She is, without knowing it, the most reliable part of the LEDGER vacancy buffer.

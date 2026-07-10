@@ -3,6 +3,7 @@ import { DIVISIONS } from '../../data/divisions'
 import { PRESS_RELEASES } from '../../data/pressReleases'
 import { INITIATIVES } from '../../data/initiatives'
 import { ConventionSigil } from '../../components/shared/logos'
+import Slideshow from '../../components/public/Slideshow'
 import { HERO_PHOTO } from '../../data/photos'
 import pub from './Public.module.css'
 import styles from './Home.module.css'
@@ -89,6 +90,13 @@ export default function Home() {
               </Link>
             ))}
           </div>
+        </div>
+      </section>
+
+      <section className={pub.section}>
+        <div className={pub.container}>
+          <div className={pub.sectionTitle}>A century of delivering tomorrow</div>
+          <Slideshow />
         </div>
       </section>
 

@@ -3,15 +3,15 @@ import type { Division } from './types'
 export const DIVISIONS: Division[] = [
   {
     slug: 'iteration-x',
-    publicName: 'Iteration X Advanced Manufacturing',
-    shortName: 'Iteration X',
+    publicName: 'Iterion Advanced Manufacturing',
+    shortName: 'Iterion',
     tagline: 'Refining order from imperfection, one iteration at a time.',
     sector: 'Autonomous Systems & Advanced Manufacturing',
     description: [
-      'Iteration X Advanced Manufacturing believes that every process, every product, and every person contains measurable room for improvement. From our beginnings in precision machining and industrial analytics, we have grown into the world’s most disciplined engineering organization — 6,417 facilities across 61 countries, all operating on a single unified production standard, all reporting to a single unified schedule.',
+      'Iterion Advanced Manufacturing believes that every process, every product, and every person contains measurable room for improvement. From our beginnings in precision machining and industrial analytics, we have grown into the world’s most disciplined engineering organization — 6,417 facilities across 61 countries, all operating on a single unified production standard, all reporting to a single unified schedule.',
       'Our portfolio spans synthetic dermal materials, medical prosthetics, quantum computing research, industrial nanotechnology, and brain-computer interface development. We do not chase trends. We identify the optimal solution, and then we iterate toward it — relentlessly, measurably, and on time. Our cross-functional scrum teams have shipped ahead of schedule for 97 consecutive quarters.',
       'We are also proud to be one of the world’s foremost industrial philanthropists. Our BioMechanics Access Program has donated more than 2.4 million advanced prosthetic limbs to date, each one fitted, calibrated, and registered to its recipient for life. Because a limb that is not counted is a limb that cannot be improved.',
-      'Iteration X also serves as founding technical lead of the cross-divisional Climate Change Reversal Initiative (CCRI), applying large-scale systems engineering to the largest system of all. The numbers are not yet where we want them. They will be.',
+      'Iterion also serves as founding technical lead of the cross-divisional Climate Change Reversal Initiative (CCRI), applying large-scale systems engineering to the largest system of all. The numbers are not yet where we want them. They will be.',
     ],
     accomplishments: [
       {
@@ -44,12 +44,12 @@ export const DIVISIONS: Division[] = [
   },
   {
     slug: 'new-world-order',
-    publicName: 'New World Order Group',
-    shortName: 'New World Order',
+    publicName: 'Nexus Worldwide Operations',
+    shortName: 'Nexus Worldwide',
     tagline: 'Helping the world agree on what it already knows.',
     sector: 'Strategic Communications & Risk Consulting',
     description: [
-      'New World Order Group is the world’s most trusted partner in information strategy, audience research, and organizational alignment. In an era of noise, we offer something rare: quiet. Our consultants help governments, institutions, and media organizations cut through confusion so that audiences can arrive, comfortably and on their own, at consensus.',
+      'Nexus Worldwide Operations is the world’s most trusted partner in information strategy, audience research, and organizational alignment. In an era of noise, we offer something rare: quiet. Our consultants help governments, institutions, and media organizations cut through confusion so that audiences can arrive, comfortably and on their own, at consensus.',
       'Our research practice is built on the simple insight that people are happiest when the world behaves as expected. Through our proprietary Feed Analytics platform, we observe more than nine billion daily content interactions — all observations recorded, aggregated, and retained for continuity — giving our clients an unmatched picture of what audiences believe, and what they are ready to believe next.',
       'Our education and curriculum consulting arm, the Ivory Tower Institute, partners with more than 300 universities and school systems worldwide to promote critical thinking within healthy, well-defined boundaries. And our field services division — the consultants our clients affectionately call “the suits” — provides discreet on-site support anywhere in the world, typically arriving before the client has finished describing the problem.',
       'We measure our success by what does not happen: the panic that never spreads, the rumor that never lands, the crisis that resolves itself into an ordinary Tuesday. You may never notice our best work. That is the point.',
@@ -81,12 +81,12 @@ export const DIVISIONS: Division[] = [
   },
   {
     slug: 'progenitors',
-    publicName: 'Progenitors Life Sciences',
-    shortName: 'Progenitors',
+    publicName: 'Progenera Life Sciences',
+    shortName: 'Progenera',
     tagline: 'Your body is a work in progress. We’re here to help it along.',
     sector: 'Biomedicine, Pharmaceuticals & Agritech',
     description: [
-      'Progenitors Life Sciences exists because the human body — wonderful as it is — was never finished. We see every genome as a first draft brimming with potential, and we are cheerfully, tirelessly committed to the revisions. From regenerative medicine to precision agriculture, we work toward beginnings.',
+      'Progenera Life Sciences exists because the human body — wonderful as it is — was never finished. We see every genome as a first draft brimming with potential, and we are cheerfully, tirelessly committed to the revisions. From regenerative medicine to precision agriculture, we work toward beginnings.',
       'Our regenerative medicine division has moved organ and tissue restoration from science fiction to standard of care: our FACADE tissue-engineering platform can guide a patient’s own cells to rebuild damaged organs in days rather than months. Our Pharmacopoeia consumer-health line brings epigenetically informed supplements to families who prefer their wellness natural, personal, and optimized.',
       'Through our Department of Advanced Agriculture (DOAA), we serve roughly two billion meals a day across our seed, yield, and resilience programs — hardier crops, shorter seasons, and harvests that arrive on schedule regardless of what the weather believes it is doing. Our Genomic Atlas program, meanwhile, has mapped more than 1.1 million species, including several that had been considered permanently unavailable.',
       'We are optimists about biology. Where others see frailty, we see feature requests. Humanity gave us a remarkable inheritance; the least we can do is return it improved.',
@@ -122,12 +122,12 @@ export const DIVISIONS: Division[] = [
   },
   {
     slug: 'syndicate',
-    publicName: 'Syndicate Capital Group',
-    shortName: 'The Syndicate',
+    publicName: 'Exchequer Capital Group',
+    shortName: 'Exchequer Capital',
     tagline: 'Desire is a market signal. We’re listening.',
     sector: 'Financial Services & Venture Capital',
     description: [
-      'Syndicate Capital Group is the financial engine of Consensus Holdings and one of the largest allocators of private capital in the world, with $1.9 trillion in assets under management. We practice what our founders called behavioral economics before the term was fashionable: the conviction that every market is, at bottom, a conversation about what people want — and that whoever listens most carefully sets the terms.',
+      'Exchequer Capital Group is the financial engine of Consensus Holdings and one of the largest allocators of private capital in the world, with $1.9 trillion in assets under management. We practice what our founders called behavioral economics before the term was fashionable: the conviction that every market is, at bottom, a conversation about what people want — and that whoever listens most carefully sets the terms.',
       'Our portfolio approach favors what we call plain-label infrastructure: the reference designs, back-end systems, and logistics networks that other companies build their brands on top of. You may not know our names, but you have used our work today. Portfolio companies include Eris Design Group, Mercury Logistics, Plexic, Iridium Medical, AEZIR GmbH, and Premium Oil Corporation, among others we are equally proud of.',
       'We are also among the world’s largest funders of global health and climate programs, committing $11 billion annually to vaccination campaigns, climate-transition finance, and the Climate Change Reversal Initiative. Some call this generosity. We call it enlightened self-interest: a thriving humanity is the only market worth holding long.',
       'Every shareholder, in our view, is a stakeholder in reality itself. Our job is simply to make sure the returns keep compounding.',
@@ -163,14 +163,14 @@ export const DIVISIONS: Division[] = [
   },
   {
     slug: 'void-engineers',
-    publicName: 'Void Engineering',
-    shortName: 'Void Engineering',
+    publicName: 'Celestine Aerospace',
+    shortName: 'Celestine Aerospace',
     tagline: 'The frontier is closer than you think. We’ll keep it that way.',
     sector: 'Aerospace & Frontier Systems',
     description: [
-      'Void Engineering is the exploration division of Consensus Holdings — and, we like to think, its beating heart. While our colleagues perfect the world we have, we go looking for the ones we don’t. Ocean trench, polar ice, upper atmosphere, deep orbit and beyond: if a frontier exists, we have a division charting it, and probably a coffee mug about it.',
+      'Celestine Aerospace is the exploration division of Consensus Holdings — and, we like to think, its beating heart. While our colleagues perfect the world we have, we go looking for the ones we don’t. Ocean trench, polar ice, upper atmosphere, deep orbit and beyond: if a frontier exists, we have a division charting it, and probably a coffee mug about it.',
       'Our orbital services fleet of 312 satellites delivers communications, Earth observation, and navigation resilience to clients on every continent. Our Earth Frontier Division operates the world’s most advanced deep-ocean research stations, and supplies the climate models at the core of the Climate Change Reversal Initiative. Our launch cadence is the most reliable in the industry: when we say a window opens, it opens.',
-      'Exploration, of course, is only half of stewardship. Void Engineering also provides perimeter services: orbital debris tracking, boundary-layer monitoring, and frontier incident response, ensuring that whatever is out there stays comfortably catalogued — and that the frontier only ever surprises us in the fun ways. Our motto in the Perimeter Services group is simple: nothing crosses uncounted.',
+      'Exploration, of course, is only half of stewardship. Celestine Aerospace also provides perimeter services: orbital debris tracking, boundary-layer monitoring, and frontier incident response, ensuring that whatever is out there stays comfortably catalogued — and that the frontier only ever surprises us in the fun ways. Our motto in the Perimeter Services group is simple: nothing crosses uncounted.',
       'We hire the curious, the courageous, and the calm. The universe is larger than anyone imagines, stranger than most would prefer, and — we are confident — entirely manageable with the right instrumentation.',
     ],
     accomplishments: [
@@ -188,7 +188,7 @@ export const DIVISIONS: Division[] = [
       },
       {
         title: 'CCRI atmospheric modeling',
-        blurb: 'Void Engineering’s high-altitude sensor network provides the observational backbone of the Climate Change Reversal Initiative — the finest weather-prediction apparatus ever aimed at a planet.',
+        blurb: 'Celestine Aerospace’s high-altitude sensor network provides the observational backbone of the Climate Change Reversal Initiative — the finest weather-prediction apparatus ever aimed at a planet.',
       },
       {
         title: 'Search, Rescue & Extraction',

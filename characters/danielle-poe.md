@@ -15,6 +15,8 @@ sds-degree: n/a (Sleeper; loyalty tracked informally, rated "high")
 
 # Danielle Poe
 
+**Nature:** Idealist | **Demeanor:** Celebrant
+
 ## Attributes
 - **Physical** — Strength 2, Dexterity 2, Stamina 2
 - **Social** — Charisma 3, Manipulation 3, Appearance 3
@@ -23,7 +25,7 @@ sds-degree: n/a (Sleeper; loyalty tracked informally, rated "high")
 ## Abilities
 - **Talents** — Expression 4, Subterfuge 2, Empathy 3, Awareness 1
 - **Skills** — Etiquette 2, Research 3, Technology 2
-- **Knowledges** — Academics 3 (Journalism), Linguistics 3, Politics 2, Investigation 1
+- **Knowledges** — Academics 3 (Journalism & Linguistics), Media 3, Politics 2, Investigation 1
 
 ## Sleeper Notes (no Spheres, no Enhancement)
 A talented, ordinary professional who is genuinely good at her job and understands none of what it is for. She turns a comptroller's chilling aside ("We told the planet what the numbers needed to be") into a clean, quotable line and feels proud of the polish. She thinks the odd phrasing the executives insist on ("Tuesday will proceed as scheduled," "we know what you want before you do") is just corporate-visionary tic, and she has learned to leave it in.
@@ -32,7 +34,9 @@ A talented, ordinary professional who is genuinely good at her job and understan
 5
 
 ## Backgrounds
-- Resources 2, Contacts 2 (trade press), Job Security (unusually good — she has never once been laid off, in an industry that lays everyone off)
+- Resources 2, Contacts 2 (trade press)
+
+*Not a Background, but a fact: her job security is unusually good — she has never once been laid off, in an industry that lays everyone off.*
 
 ## Merits & Flaws
 - **Merit: Wordsmith** — She can make anything sound reassuring, which is precisely why she was hired and never promoted out.

@@ -3,7 +3,7 @@ name: Field Director Marisol Ruiz-Osei
 designation: Field Director Ruiz-Osei, M. (Damage Control)
 tier: Enlightened
 convention: Progenitors
-division: Progenitors Life Sciences — Damage Control
+division: Progenera Life Sciences — Damage Control
 methodology: Damage Control (FACADE / Genegineers adjacent)
 sixTP-tier: T3 (supervisor / field director)
 role-on-site: >
@@ -16,6 +16,8 @@ damian-scale: 4 (Clever)
 
 # Field Director Marisol Ruiz-Osei
 
+**Nature:** Caregiver | **Demeanor:** Soldier
+
 ## Attributes
 - **Physical** — Strength 3, Dexterity 3, Stamina 4
 - **Social** — Charisma 3, Manipulation 3, Appearance 2
@@ -24,16 +26,18 @@ damian-scale: 4 (Clever)
 ## Abilities
 - **Talents** — Alertness 4, Athletics 3, Leadership 3, Awareness 2, Streetwise 2
 - **Skills** — Survival 4 (Boreal/Montane), Firearms 3 (Tranquilizer), Animal Ken 3, Drive 3, Stealth 3, Medicine 3
-- **Knowledges** — Science 5 (Genetics & Ecology), Investigation 3, Enlightened Science 3, Bureaucracy 2
+- **Knowledges** — Science 5 (Genetics & Ecology), Investigation 3, Esoterica 3 (Enlightened Science), Politics 2 (Union Procedure)
 
 ## Enlightenment & Spheres
-- **Enlightenment (Arete)** 3
-- **Spheres** — Life 4, Matter 2, Mind 2, Prime (Primal Utility) 2, Correspondence 2
-- **Foci / Instruments** — the field kit and cold-chain sample case; genetic assay and the necropsy table; a hunter's patience. Her Life magick reads a specimen's lineage from a scat sample and stabilizes symbiote dermis that "requires a live host, or at minimum a recently opinionated one."
+- **Enlightenment** 3
+- **Spheres** — Life 3, Matter 2, Mind 2, Prime 2, Data 2
+- **Focus** — *Paradigm:* Tech Holds All Answers (every organism is a legible design). *Practice:* Weird Science (Field Genetics) 3. *Tenets:* [Metaphysical] Every organism is a legible design; [Personal] The specimen comes back intact — and so do the teams; [Ascension] A biosphere that answers when asked.
+- **Instruments (apparatus — she cannot work Enlightened Science without them)** — the field kit and cold-chain sample case; genetic assay and the necropsy table; a hunter's patience. Her Life Sphere work reads a specimen's lineage from a scat sample and stabilizes symbiote dermis that "requires a live host, or at minimum a recently opinionated one."
 - **Genius / Paradox** — Genius as the naturalist's reverence turned to control — she loves the thing she is required to hunt. Clever Damian rating: her workings pass as fieldcraft and forensic biology. Paradox risk climbs whenever she has to explain, out loud, how THV-9 learned to tell her teams from hikers.
 
-## Willpower
-7
+## Willpower, Primal Energy & Paradox
+- **Willpower** 7 · **Primal Energy** 3 (= Genius rating) · **Paradox** 0 at baseline (see Genius / Paradox note)
+- **Resonance** — Patient 2 (a hunter's stillness; animals settle oddly around her)
 
 ## Backgrounds
 - Requisitions 3, Backup 3 (AFET teams), Resources 2, Cloaking 3, Allies 2 (cover-unit biologists), Genius 3

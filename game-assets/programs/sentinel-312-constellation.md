@@ -1,11 +1,13 @@
+---
 name: Sentinel Constellation (Sentinel-312)
 type: Program — orbital vehicle network / surveillance apparatus
 convention: Void Engineers (Fleet Operations + Perimeter Services)
-arete/rank: Enlightenment 4 system; individual satellites are Enlightened Devices in a network
-spheres-replicated: Correspondence ●●●● (whole-Earth simultaneous perception), Dimensional Science ●● (Quantum Interference Shielding / anomaly detection), Data/Correspondence ●●● (navigation + comms)
+enlightenment: 4 (system); individual satellites are Enlightened Devices in a network
+procedures-replicated: Correspondence 4 (whole-Earth simultaneous perception), Dimensional Science 2 (Quantum Interference Shielding / anomaly detection), Data 3 (navigation + comms)
 background-cost: not a personal Wonder — a Convention-scale apparatus; treat Sentinel access as a 3-pt Contact/Resource for an operative
 damian-scale: 2 (a satellite network is coincidental; what it *sees* and shields is not)
-site-appearance: divisions.ts — Void Engineering (Sentinel orbital constellation, 312 satellites, Perimeter Services); pressReleases.ts — sentinel-constellation-complete ("Sentinel-312… no longer a blind spot… assigned a satisfactory explanation before it arrives")
+site-appearance: divisions.ts — Celestine Aerospace (Sentinel orbital constellation, 312 satellites, Perimeter Services); pressReleases.ts — sentinel-constellation-complete ("Sentinel-312… no longer a blind spot… assigned a satisfactory explanation before it arrives")
+---
 
 ## Public face
 "312 satellites providing continuous global coverage for communications, observation, and
@@ -24,14 +26,14 @@ null-conditioning-screening.md) and Pan-Dimensional Entities, and hand anything 
 sight: the sky is not empty, and now nothing crosses uncounted.
 
 **Mechanics** — treat as networked infrastructure an operative can *task*, not carry:
-- **Correspondence ●●●● (whole-Earth watch):** a tasked Sentinel query treats *any* open-sky
+- **Correspondence 4 (whole-Earth watch):** a tasked Sentinel query treats *any* open-sky
   location on Earth as familiar — effectively no blind spots. A Perimeter analyst rolls
   Enlightenment to resolve a flagged trajectory; the "satisfactory explanation" is often a
   cover-narrative assignment (see procedures/narrative-de-amplification.md).
-- **Dimensional Science ●● (Quantum Interference Shielding):** the constellation reinforces the
+- **Dimensional Science 2 (Quantum Interference Shielding):** the constellation reinforces the
   Gauntlet along approach corridors, each success adding a point of local Gauntlet — the
   apparatus that keeps "aliens and spirits from touching the material world" at the boundary.
-- **Navigation/comms (Data ●●●):** genuine, and genuinely relied on by 44 governments — which
+- **Navigation/comms (Data 3):** genuine, and genuinely relied on by 44 governments — which
   makes the whole civilian world dependent on a Void Engineer sensor grid.
 
 ## Requisition notes
