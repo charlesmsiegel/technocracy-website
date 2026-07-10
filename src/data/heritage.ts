@@ -1,30 +1,30 @@
 /* The sanitized corporate history of the Union, for public consumption.
    Every claim is true. That is what makes it a lie. */
 
-import era1Craftmasons from '../assets/logos/heritage/era1-craftmasons-fellowship.png'
-import era2Artificers from '../assets/logos/heritage/era2-artificers.png'
-import era2Cabal from '../assets/logos/heritage/era2-cabal-of-pure-thought.png'
-import era2Celestial from '../assets/logos/heritage/era2-celestial-masters.png'
-import era2Craftmasons from '../assets/logos/heritage/era2-craftmasons.png'
-import era2HighGuild from '../assets/logos/heritage/era2-high-guild.png'
-import era2Hippocratic from '../assets/logos/heritage/era2-hippocratic-circle.png'
-import era2Ksirafai from '../assets/logos/heritage/era2-ksirafai.png'
-import era2VoidSeekers from '../assets/logos/heritage/era2-void-seekers.png'
-import era3Celestial from '../assets/logos/heritage/era3-celestial-masters.png'
-import era3VoidSeekers from '../assets/logos/heritage/era3-void-seekers.png'
-import era3Reckoners from '../assets/logos/heritage/era3-analytical-reckoners.png'
-import era3Hippocratic from '../assets/logos/heritage/era3-hippocratic-circle.png'
-import era3Electrodyne from '../assets/logos/heritage/era3-electrodyne-engineers.png'
-import era3Lightkeepers from '../assets/logos/heritage/era3-lightkeepers.png'
-import era3SkeletonKeys from '../assets/logos/heritage/era3-skeleton-keys.png'
-import era3Mechanicians from '../assets/logos/heritage/era3-brotherhood-of-mechanicians.png'
-import era3GoldenGuild from '../assets/logos/heritage/era3-golden-guild.png'
-import era3Exchequers from '../assets/logos/heritage/era3-invisible-exchequers.png'
-import era3BlocExploratory from '../assets/logos/heritage/era3-bloc-exploratory-society.png'
-import era3BlocGrandFaculty from '../assets/logos/heritage/era3-bloc-grand-faculty.png'
-import era3BlocIvoryTower from '../assets/logos/heritage/era3-bloc-ivory-tower.png'
-import era3BlocConstructors from '../assets/logos/heritage/era3-bloc-league-of-constructors.png'
-import era3BlocSyndicate from '../assets/logos/heritage/era3-bloc-syndicate.png'
+import era1BuildersFellowship from '../assets/logos/heritage/era1-builders-fellowship.png'
+import era2Instruments from '../assets/logos/heritage/era2-instruments-engines.png'
+import era2RightUnderstanding from '../assets/logos/heritage/era2-right-understanding.png'
+import era2Astronomical from '../assets/logos/heritage/era2-astronomical-society.png'
+import era2BuildersSociety from '../assets/logos/heritage/era2-builders-society.png'
+import era2Merchants from '../assets/logos/heritage/era2-honorable-merchants.png'
+import era2Physicians from '../assets/logos/heritage/era2-physicians-circle.png'
+import era2Unattributed from '../assets/logos/heritage/era2-unattributed.png'
+import era2Cartographic from '../assets/logos/heritage/era2-cartographic-society.png'
+import era3Meridian from '../assets/logos/heritage/era3-meridian-society.png'
+import era3FrontierSurvey from '../assets/logos/heritage/era3-frontier-survey.png'
+import era3Statistical from '../assets/logos/heritage/era3-statistical-society.png'
+import era3Clinical from '../assets/logos/heritage/era3-clinical-institute.png'
+import era3ElectricalResearch from '../assets/logos/heritage/era3-electrical-research.png'
+import era3CivicIllumination from '../assets/logos/heritage/era3-civic-illumination.png'
+import era3SpecialInquiries from '../assets/logos/heritage/era3-special-inquiries.png'
+import era3Amalgamated from '../assets/logos/heritage/era3-amalgamated-engineering.png'
+import era3CommercialArts from '../assets/logos/heritage/era3-commercial-arts.png'
+import era3ExchequerSociety from '../assets/logos/heritage/era3-exchequer-society.png'
+import era3BlocExpeditionary from '../assets/logos/heritage/era3-bloc-expeditionary-trust.png'
+import era3BlocResearchFaculties from '../assets/logos/heritage/era3-bloc-research-faculties.png'
+import era3BlocPublicInstruction from '../assets/logos/heritage/era3-bloc-public-instruction.png'
+import era3BlocIndustrialWorks from '../assets/logos/heritage/era3-bloc-industrial-works.png'
+import era3BlocCapitalCommittee from '../assets/logos/heritage/era3-bloc-capital-committee.png'
 
 export interface HeritageMark {
   id: string
@@ -59,9 +59,9 @@ export const HERITAGE_ERAS: HeritageEra[] = [
     marksLabel: 'Registered mark of the Fellowship',
     marks: [
       {
-        id: 'craftmasons-fellowship',
-        name: 'The Craftmason Fellowship',
-        mark: era1Craftmasons,
+        id: 'builders-fellowship',
+        name: 'The Builders’ Fellowship',
+        mark: era1BuildersFellowship,
         blurb:
           'Master builders for the common good. Charter retired; principles retained; retention involuntary.',
       },
@@ -78,57 +78,57 @@ export const HERITAGE_ERAS: HeritageEra[] = [
     marksLabel: 'The founding societies',
     marks: [
       {
-        id: 'craftmasons',
-        name: 'The Craftmasons',
-        mark: era2Craftmasons,
+        id: 'builders-society',
+        name: 'The Builders’ Society',
+        mark: era2BuildersSociety,
         blurb: 'The founding fellowship, continued. See above; see also everything since.',
       },
       {
-        id: 'artificers',
-        name: 'The Artificers',
-        mark: era2Artificers,
+        id: 'instruments-engines',
+        name: 'The Society of Instruments & Engines',
+        mark: era2Instruments,
         blurb:
           'Instruments, engines, and the dignity of the made thing. The direct ancestor of Iterion.',
       },
       {
-        id: 'cabal-of-pure-thought',
-        name: 'The Cabal of Pure Thought',
-        mark: era2Cabal,
+        id: 'right-understanding',
+        name: 'The Society for Right Understanding',
+        mark: era2RightUnderstanding,
         blurb:
           'Values-driven information stewardship, from an era in which values were enforced somewhat differently.',
       },
       {
-        id: 'celestial-masters',
-        name: 'The Celestial Masters',
-        mark: era2Celestial,
+        id: 'astronomical-society',
+        name: 'The Astronomical Society',
+        mark: era2Astronomical,
         blurb:
           'Astronomy, celestial navigation, and travel plans their contemporaries considered ambitious. They were ambitious.',
       },
       {
-        id: 'high-guild',
-        name: 'The High Guild',
-        mark: era2HighGuild,
+        id: 'honorable-merchants',
+        name: 'The Honorable Company of Merchants',
+        mark: era2Merchants,
         blurb:
           'Commerce as a civilizing instrument. The ancestor of Exchequer Capital Group, and of the phrase "we should discuss terms."',
       },
       {
-        id: 'hippocratic-circle',
-        name: 'The Hippocratic Circle',
-        mark: era2Hippocratic,
+        id: 'physicians-circle',
+        name: 'The Physicians’ Circle',
+        mark: era2Physicians,
         blurb:
           'Medicine made rigorous, reproducible, and available. The ancestor of Progenera Life Sciences.',
       },
       {
-        id: 'void-seekers',
-        name: 'The Void Seekers',
-        mark: era2VoidSeekers,
+        id: 'cartographic-society',
+        name: 'The Cartographic Society',
+        mark: era2Cartographic,
         blurb:
           'Cartographers of the world’s remaining blank spaces, and authors of plans for them.',
       },
       {
         id: 'unattributed',
         name: '(Unattributed)',
-        mark: era2Ksirafai,
+        mark: era2Unattributed,
         uncertain: true,
         blurb:
           'This mark recurs throughout Compact-era archives. No corresponding society appears in any roster, ledger, or minutes. Our archivists attribute it to a bookbinding workshop. Our archivists are confident.',
@@ -146,99 +146,99 @@ export const HERITAGE_ERAS: HeritageEra[] = [
     marksLabel: 'The ten guilds',
     marks: [
       {
-        id: 'mechanicians',
-        name: 'Int’l Brotherhood of Mechanicians',
-        mark: era3Mechanicians,
+        id: 'amalgamated-engineering',
+        name: 'The Amalgamated Engineering Guild',
+        mark: era3Amalgamated,
         blurb: 'Industrial invention and the modern workplace, including the concept of the shift.',
       },
       {
-        id: 'analytical-reckoners',
-        name: 'Guild of Analytical Reckoners',
-        mark: era3Reckoners,
+        id: 'statistical-society',
+        name: 'The Statistical Society',
+        mark: era3Statistical,
         blurb: 'Computation before computers. The Guild counted everything, twice, and filed both counts.',
       },
       {
-        id: 'electrodyne-engineers',
-        name: 'Guild of Electrodyne Engineers',
-        mark: era3Electrodyne,
+        id: 'electrical-research',
+        name: 'The Electrical Research Guild',
+        mark: era3ElectricalResearch,
         blurb: 'The "Frontier Electric." See Divested Divisions, below, and see it with composure.',
       },
       {
-        id: 'hippocratic-circle-v',
-        name: 'The Hippocratic Circle',
-        mark: era3Hippocratic,
+        id: 'clinical-institute',
+        name: 'The Clinical Institute',
+        mark: era3Clinical,
         blurb: 'Clinical science, sanitation, and public health — delivered at municipal scale.',
       },
       {
-        id: 'lightkeepers',
-        name: 'The Lightkeepers',
-        mark: era3Lightkeepers,
+        id: 'civic-illumination',
+        name: 'The Civic Illumination Trust',
+        mark: era3CivicIllumination,
         blurb: 'Public information and civic order. Light, aimed responsibly.',
       },
       {
-        id: 'skeleton-keys',
-        name: 'The Skeleton Keys',
-        mark: era3SkeletonKeys,
+        id: 'special-inquiries',
+        name: 'The Office of Special Inquiries',
+        mark: era3SpecialInquiries,
         blurb:
           'Specialized investigations, by royal appointment. The case files are sealed; the cases are closed; the distinction matters.',
       },
       {
-        id: 'golden-guild',
-        name: 'The Golden Guild',
-        mark: era3GoldenGuild,
+        id: 'commercial-arts',
+        name: 'The Commercial Arts Guild',
+        mark: era3CommercialArts,
         blurb: 'The persuasion sciences and market development. People want things; someone must be responsible about it.',
       },
       {
-        id: 'invisible-exchequers',
-        name: 'The Invisible Exchequers',
-        mark: era3Exchequers,
+        id: 'exchequer-society',
+        name: 'The Exchequer Society',
+        mark: era3ExchequerSociety,
         blurb:
-          'Finance. You will not have heard of them — that was the point, the name, and their only recorded joke.',
+          'Finance, conducted so discreetly that their period name was a description, a policy, and their only recorded joke. Exchequer Capital Group keeps their books and their habits.',
       },
       {
-        id: 'celestial-masters-v',
-        name: 'Society of Celestial Masters',
-        mark: era3Celestial,
+        id: 'meridian-society',
+        name: 'The Meridian Society',
+        mark: era3Meridian,
         blurb: 'Astronomy, meteorology, and the upper air, in an era when the upper air was contested.',
       },
       {
-        id: 'void-seekers-v',
-        name: 'The Void Seekers',
-        mark: era3VoidSeekers,
+        id: 'frontier-survey',
+        name: 'The Frontier Survey',
+        mark: era3FrontierSurvey,
         blurb: 'Exploration and frontier logistics: reaching the blank spaces first, with paperwork.',
       },
     ],
     marks2Label: 'The five operating blocs',
     marks2: [
       {
-        id: 'league-of-constructors',
-        name: 'League of Constructors',
-        mark: era3BlocConstructors,
+        id: 'industrial-works',
+        name: 'The Industrial Works Council',
+        mark: era3BlocIndustrialWorks,
         blurb: 'Heavy industry and manufacturing. Became Iterion Advanced Manufacturing.',
       },
       {
-        id: 'ivory-tower',
-        name: 'The Ivory Tower',
-        mark: era3BlocIvoryTower,
+        id: 'public-instruction',
+        name: 'The Committee on Public Instruction',
+        mark: era3BlocPublicInstruction,
         blurb: 'Scholarship, policy, and public alignment. Became Nexus Worldwide Operations.',
       },
       {
-        id: 'grand-faculty',
-        name: 'The Grand Faculty',
-        mark: era3BlocGrandFaculty,
+        id: 'research-faculties',
+        name: 'The Research Faculties',
+        mark: era3BlocResearchFaculties,
         blurb: 'Research and instruction. Its life-science chairs became Progenera.',
       },
       {
-        id: 'syndicate-bloc',
-        name: 'The Syndicate',
-        mark: era3BlocSyndicate,
+        id: 'capital-committee',
+        name: 'The Capital Committee',
+        mark: era3BlocCapitalCommittee,
         blurb:
-          'Capital allocation. The name proved durable internally; clients know it today as Exchequer Capital Group.',
+          'Capital allocation, known internally by a blunter period name we no longer print. Clients know it today as Exchequer Capital Group.',
       },
       {
-        id: 'exploratory-society',
-        name: 'The Exploratory Society',
-        mark: era3BlocExploratory,
+        id: 'expeditionary-trust',
+        name: 'The Expeditionary Trust',
+        mark: era3BlocExpeditionary,
         blurb: 'Expeditions, surveys, and the sky. Became Celestine Aerospace.',
       },
     ],

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { HERITAGE_ERAS } from '../../data/heritage'
 import type { HeritageMark } from '../../data/heritage'
 import sigilSonsOfEther from '../../assets/logos/sigil-sons-of-ether.png'
-import sigilVirtualAdepts from '../../assets/logos/sigil-virtual-adepts.png'
+import insigniaDfgAlumni from '../../assets/logos/insignia-dfg-alumni.png'
 import pub from './Public.module.css'
 import styles from './Heritage.module.css'
 
@@ -43,7 +43,7 @@ const DEFUNCT: DefunctDivision[] = [
     ],
     footnote:
       'Divested assets: none. Nothing was taken. We have checked repeatedly.',
-    successorMark: sigilVirtualAdepts,
+    successorMark: insigniaDfgAlumni,
     successorCaption:
       'Insignia currently circulated by group alumni, reproduced for identification purposes only. It renders correctly on our hardware.',
   },
