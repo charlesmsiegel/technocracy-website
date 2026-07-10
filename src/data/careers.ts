@@ -15,7 +15,7 @@ export const CAREERS: CareerPosting[] = [
     division: 'new-world-order',
     location: 'Global (travel required, discretion essential)',
     blurb:
-      'New World Order Group seeks composed, presentable professionals to support clients through sensitive situations on-site, worldwide, often on short notice. The ideal candidate is unflappable, forgettable in the best sense, and comfortable arriving at a situation before being fully briefed on it. A company wardrobe is provided. Successful specialists describe the work as “quiet” and their colleagues as “identical in the ways that matter.”',
+      'Nexus Worldwide Operations seeks composed, presentable professionals to support clients through sensitive situations on-site, worldwide, often on short notice. The ideal candidate is unflappable, forgettable in the best sense, and comfortable arriving at a situation before being fully briefed on it. A company wardrobe is provided. Successful specialists describe the work as “quiet” and their colleagues as “identical in the ways that matter.”',
   },
   {
     id: 'deep-systems-technician',
@@ -23,7 +23,7 @@ export const CAREERS: CareerPosting[] = [
     division: 'void-engineers',
     location: 'Rotational — remote installations (details at offer stage)',
     blurb:
-      'Void Engineering operates research stations in environments most people will never see, and a few that most people are happier not knowing about. We need technicians to keep them running. Must be comfortable with extended isolation, non-standard day lengths, and instrumentation readings that occasionally require a second opinion. Curiosity, fortitude, and know-how are mandatory; a firm sense of what is and is not out there is, frankly, negotiable.',
+      'Celestine Aerospace operates research stations in environments most people will never see, and a few that most people are happier not knowing about. We need technicians to keep them running. Must be comfortable with extended isolation, non-standard day lengths, and instrumentation readings that occasionally require a second opinion. Curiosity, fortitude, and know-how are mandatory; a firm sense of what is and is not out there is, frankly, negotiable.',
   },
   {
     id: 'regenerative-therapies-research-associate',
@@ -31,7 +31,7 @@ export const CAREERS: CareerPosting[] = [
     division: 'progenitors',
     location: 'Boston, MA',
     blurb:
-      'Progenitors Life Sciences is hiring research associates to advance the FACADE tissue-engineering platform. You will help patients’ bodies do things their bodies did not realize they could do. We offer industry-leading compensation, unlimited lab hours (in both senses), and the best employee health plan in existence — our associates are, measurably, in the best shape of anyone’s lives. A defended thesis is expected within three years. We encourage you to publish.',
+      'Progenera Life Sciences is hiring research associates to advance the FACADE tissue-engineering platform. You will help patients’ bodies do things their bodies did not realize they could do. We offer industry-leading compensation, unlimited lab hours (in both senses), and the best employee health plan in existence — our associates are, measurably, in the best shape of anyone’s lives. A defended thesis is expected within three years. We encourage you to publish.',
   },
   {
     id: 'behavioral-economics-analyst',
@@ -39,7 +39,7 @@ export const CAREERS: CareerPosting[] = [
     division: 'syndicate',
     location: 'Zurich / New York',
     blurb:
-      'Syndicate Capital Group reads desire the way other firms read balance sheets. As an analyst you will study what people want — before, during, and slightly before they want it — and translate that signal into allocation strategy for the world’s largest private capital base. Ideal candidates negotiate instinctively, dress well without being told, and have never once lost a bet they intended to win. Significant personal debt is not a disqualifier; historically, it is a strong indicator.',
+      'Exchequer Capital Group reads desire the way other firms read balance sheets. As an analyst you will study what people want — before, during, and slightly before they want it — and translate that signal into allocation strategy for the world’s largest private capital base. Ideal candidates negotiate instinctively, dress well without being told, and have never once lost a bet they intended to win. Significant personal debt is not a disqualifier; historically, it is a strong indicator.',
   },
   {
     id: 'community-narrative-coordinator',

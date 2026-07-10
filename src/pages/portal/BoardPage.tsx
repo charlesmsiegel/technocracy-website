@@ -3,7 +3,7 @@ import { BOARDS } from '../../data/boards'
 import { CONVENTIONS } from '../../data/conventions'
 import type { ConventionSlug } from '../../data/types'
 import KanbanBoard from '../../components/portal/kanban/KanbanBoard'
-import { ConventionSigil } from '../../components/shared/logos'
+import { ConventionSigil, ConventionWordmark } from '../../components/shared/logos'
 import kanbanStyles from '../../components/portal/kanban/Kanban.module.css'
 import chromeStyles from '../../components/portal/chrome/Chrome.module.css'
 
@@ -39,8 +39,13 @@ export default function BoardPage() {
             color: `var(${info.accentVar})`,
           }}
         >
-          <ConventionSigil convention={board.convention} size={44} />
+          <ConventionSigil convention={board.convention} size={52} />
           <div>
+            <ConventionWordmark
+              convention={board.convention}
+              width={190}
+              height={34}
+            />
             <div className={kanbanStyles.codename}>
               Operation {board.codename}
             </div>

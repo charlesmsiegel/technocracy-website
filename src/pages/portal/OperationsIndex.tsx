@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { BOARDS } from '../../data/boards'
 import { CONVENTIONS, CONVENTION_SLUGS } from '../../data/conventions'
-import { ConventionSigil } from '../../components/shared/logos'
+import { ConventionSigil, ConventionWordmark } from '../../components/shared/logos'
 import styles from './OperationsIndex.module.css'
 
 export default function OperationsIndex() {
@@ -31,9 +31,9 @@ export default function OperationsIndex() {
               className={styles.tile}
               style={{ '--tile-accent': `var(${info.accentVar})` } as React.CSSProperties}
             >
-              <div className={styles.tileHead}>
+              <div className={styles.tileHead} title={info.name}>
                 <ConventionSigil convention={slug} size={30} />
-                <span className={styles.tileName}>{info.name}</span>
+                <ConventionWordmark convention={slug} width={120} height={26} />
               </div>
               <div className={styles.tileCodename}>{board.codename}</div>
               <div className={styles.tileBrief}>{board.brief}</div>

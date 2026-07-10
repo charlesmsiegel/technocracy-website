@@ -5,7 +5,7 @@ export const INITIATIVES: Initiative[] = [
     id: 'climate-change-reversal-initiative',
     title: 'Climate Change Reversal Initiative',
     blurb:
-      'Our flagship cross-divisional program does not aim to slow climate change, or to adapt to it. It aims to reverse it. Iteration X builds the capture infrastructure, Progenitors engineers the sequestration biology, Void Engineering watches the sky, and Syndicate Capital pays the bills — cheerfully, because a habitable planet is the ultimate long position. The atmosphere is a system, and systems can be brought back into specification.',
+      'Our flagship cross-divisional program does not aim to slow climate change, or to adapt to it. It aims to reverse it. Iterion builds the capture infrastructure, Progenera engineers the sequestration biology, Celestine Aerospace watches the sky, and Exchequer Capital pays the bills — cheerfully, because a habitable planet is the ultimate long position. The atmosphere is a system, and systems can be brought back into specification.',
     metric: { label: 'Consecutive quarters of measured drawdown', value: '4' },
   },
   {
@@ -19,7 +19,7 @@ export const INITIATIVES: Initiative[] = [
     id: 'community-standards-media-literacy',
     title: 'Community Standards & Media Literacy',
     blurb:
-      'An informed public is a calm public. This New World Order Group initiative helps communities recognize unreliable narratives, resist explanations that make the world feel stranger than it is, and return with confidence to accredited sources. Participants report feeling noticeably more certain about things afterward. The curriculum is free, the certificates are permanent, and attendance, while voluntary, is very consistent.',
+      'An informed public is a calm public. This Nexus Worldwide Operations initiative helps communities recognize unreliable narratives, resist explanations that make the world feel stranger than it is, and return with confidence to accredited sources. Participants report feeling noticeably more certain about things afterward. The curriculum is free, the certificates are permanent, and attendance, while voluntary, is very consistent.',
     metric: { label: 'Reduction in narrative drift', value: '61%' },
   },
   {
