@@ -90,6 +90,62 @@
   outline: none;
 }
 
+.divisionLabel {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin: 1.1rem 0 0.55rem;
+}
+
+.divisionGrid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 0.45rem;
+}
+
+.divisionButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.65rem 0.25rem 0.55rem;
+  color: var(--division-accent, var(--text-muted));
+  transition: border-color 0.15s, background 0.15s, transform 0.15s;
+}
+
+.divisionButton:hover:not(:disabled) {
+  border-color: var(--division-accent, var(--accent));
+  background: var(--surface-alt);
+  transform: translateY(-2px);
+}
+
+.divisionButton:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.divisionName {
+  font-family: var(--font-mono);
+  font-size: 0.56rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  line-height: 1.3;
+  text-align: center;
+}
+
+@media (max-width: 460px) {
+  .divisionGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
 .submit {
   width: 100%;
   margin-top: 0.5rem;

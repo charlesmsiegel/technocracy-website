@@ -1,7 +1,8 @@
 import { NavLink, Outlet, useLocation, useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
 import { useSession } from '../session/SessionContext'
-import { PanopticonMark, UnionSeal } from '../components/shared/logos'
+import { CONVENTIONS } from '../data/conventions'
+import { ConventionSigil, PanopticonMark, UnionSeal } from '../components/shared/logos'
 import styles from './InternalLayout.module.css'
 
 const NAV = [
@@ -11,7 +12,8 @@ const NAV = [
 ]
 
 export default function InternalLayout() {
-  const { operativeName, logout } = useSession()
+  const { operativeName, convention, logout } = useSession()
+  const affiliation = convention ? CONVENTIONS[convention] : null
   const navigate = useNavigate()
   const { pathname } = useLocation()
 
@@ -42,6 +44,13 @@ export default function InternalLayout() {
         <div className={styles.session}>
           <div className={styles.operative}>
             <strong>{operativeName}</strong>
+            {affiliation && (
+              <span style={{ color: `var(${affiliation.accentVar})` }}>
+                {' '}
+                · <ConventionSigil convention={affiliation.slug} size={12} />{' '}
+                {affiliation.name}
+              </span>
+            )}
             <br />
             clearance verified · session monitored for quality assurance
           </div>

@@ -1,12 +1,15 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { useSession } from '../session/SessionContext'
-import { UnionSeal } from '../components/shared/logos'
+import { ConventionSigil, UnionSeal } from '../components/shared/logos'
+import { DIVISIONS } from '../data/divisions'
+import type { ConventionSlug } from '../data/types'
 import styles from './LoginPage.module.css'
 
 const VERIFY_STEPS: [string, string][] = [
   ['CREDENTIALS RECEIVED', 'OK'],
   ['DEVICE POSTURE', 'COMPLIANT'],
+  ['DIVISION AFFILIATION', 'CONFIRMED'],
   ['BIOMETRIC CADENCE', 'MATCHED'],
   ['LOYALTY INDEX', 'WITHIN TOLERANCE'],
   ['CLEARANCE', 'VERIFIED'],
@@ -27,8 +30,7 @@ export default function LoginPage() {
     return () => timers.current.forEach(clearTimeout)
   }, [])
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault()
+  const requestAccess = (convention: ConventionSlug) => {
     if (verifying) return
     setVerifying(true)
     VERIFY_STEPS.forEach((_, i) => {
@@ -38,7 +40,7 @@ export default function LoginPage() {
     })
     timers.current.push(
       setTimeout(() => {
-        login(username)
+        login(username, convention)
         navigate('/portal')
       }, STEP_MS * (VERIFY_STEPS.length + 1)),
     )
@@ -65,7 +67,7 @@ export default function LoginPage() {
             {linesShown < VERIFY_STEPS.length && <div className={styles.cursor} />}
           </div>
         ) : (
-          <form onSubmit={handleSubmit}>
+          <form onSubmit={(e) => e.preventDefault()}>
             <div className={styles.field}>
               <label htmlFor="designation">Personnel designation</label>
               <input
@@ -87,15 +89,32 @@ export default function LoginPage() {
                 onChange={(e) => setPassword(e.target.value)}
               />
             </div>
-            <button type="submit" className={styles.submit}>
-              Request Access
-            </button>
+            <div className={styles.divisionLabel}>Log in with your division</div>
+            <div className={styles.divisionGrid}>
+              {DIVISIONS.map((division) => (
+                <button
+                  key={division.slug}
+                  type="button"
+                  className={styles.divisionButton}
+                  style={
+                    {
+                      '--division-accent': `var(--cv-${division.slug})`,
+                    } as React.CSSProperties
+                  }
+                  onClick={() => requestAccess(division.slug)}
+                  aria-label={`Log in as ${division.shortName} personnel`}
+                >
+                  <ConventionSigil convention={division.slug} size={34} />
+                </button>
+              ))}
+            </div>
           </form>
         )}
 
         <p className={styles.notice}>
           Access is monitored. By proceeding you consent to observation,
-          retention, and adjustment. There is no need to be alarmed.
+          retention, and adjustment. Your division selection will be
+          verified against our records, not yours.
         </p>
       </div>
       <p className={styles.back}>

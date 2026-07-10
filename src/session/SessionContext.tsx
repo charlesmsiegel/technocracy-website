@@ -7,13 +7,16 @@ import {
   useState,
 } from 'react'
 import type { ReactNode } from 'react'
+import type { ConventionSlug } from '../data/types'
 
 export const DEFAULT_OPERATIVE = 'Operative 7741-C'
 
 interface Session {
   authenticated: boolean
   operativeName: string
-  login: (name: string) => void
+  /** The Convention selected at login; scopes which response files are visible. */
+  convention: ConventionSlug | null
+  login: (name: string, convention: ConventionSlug) => void
   logout: () => void
 }
 
@@ -22,9 +25,11 @@ const SessionContext = createContext<Session | null>(null)
 export function SessionProvider({ children }: { children: ReactNode }) {
   const [authenticated, setAuthenticated] = useState(false)
   const [operativeName, setOperativeName] = useState('')
+  const [convention, setConvention] = useState<ConventionSlug | null>(null)
 
-  const login = useCallback((name: string) => {
+  const login = useCallback((name: string, chosen: ConventionSlug) => {
     setOperativeName(name.trim() || DEFAULT_OPERATIVE)
+    setConvention(chosen)
     setAuthenticated(true)
   }, [])
 
@@ -35,12 +40,13 @@ export function SessionProvider({ children }: { children: ReactNode }) {
     startTransition(() => {
       setAuthenticated(false)
       setOperativeName('')
+      setConvention(null)
     })
   }, [])
 
   const value = useMemo(
-    () => ({ authenticated, operativeName, login, logout }),
-    [authenticated, operativeName, login, logout],
+    () => ({ authenticated, operativeName, convention, login, logout }),
+    [authenticated, operativeName, convention, login, logout],
   )
 
   return <SessionContext.Provider value={value}>{children}</SessionContext.Provider>
