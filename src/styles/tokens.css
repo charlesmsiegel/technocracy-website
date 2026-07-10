@@ -1,0 +1,57 @@
+/* Design tokens. Two faces of the same organization:
+   [data-theme='public']   — Consensus Holdings, bland Fortune-500 light corporate
+   [data-theme='internal'] — Union ops console, dark, phosphor-and-amber */
+
+:root {
+  --font-body: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', 'Cascadia Mono', Consolas, Menlo,
+    monospace;
+  --font-display: 'Grenze Gotisch', 'Times New Roman', serif;
+
+  /* Convention accents (shared across both themes) */
+  --cv-iteration-x: #64748b;
+  --cv-new-world-order: #3b5bdb;
+  --cv-progenitors: #0e8a6d;
+  --cv-syndicate: #b08a2e;
+  --cv-void-engineers: #7048b6;
+
+  /* Status colors */
+  --status-nominal: #2f9e44;
+  --status-elevated: #e8930c;
+  --status-critical: #e03131;
+}
+
+[data-theme='public'] {
+  color-scheme: light;
+  --bg: #f7f9fb;
+  --surface: #ffffff;
+  --surface-alt: #eef2f6;
+  --text: #16202b;
+  --text-muted: #5a6b7c;
+  --heading: #0b2545;
+  --accent: #0f4c81;
+  --accent-contrast: #ffffff;
+  --border: #dde5ec;
+  --shadow: 0 1px 3px rgba(11, 37, 69, 0.08), 0 8px 24px rgba(11, 37, 69, 0.06);
+  --radius: 8px;
+}
+
+[data-theme='internal'] {
+  color-scheme: dark;
+  --bg: #0a0e12;
+  --surface: #10161d;
+  --surface-alt: #161e27;
+  --text: #c4d1db;
+  --text-muted: #6e8093;
+  --heading: #e8f1f6;
+  --accent: #3fd0c0;
+  --accent-contrast: #06110f;
+  --amber: #e8a530;
+  --border: #223040;
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  --radius: 4px;
+
+  --status-nominal: #45c065;
+  --status-elevated: #f0a63a;
+  --status-critical: #ff5d5d;
+}
