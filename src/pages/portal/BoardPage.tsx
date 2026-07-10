@@ -1,60 +1,28 @@
-import { Link, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import { BOARDS } from '../../data/boards'
-import { CONVENTIONS } from '../../data/conventions'
+import { CONVENTIONS, CONVENTION_SLUGS } from '../../data/conventions'
 import type { ConventionSlug } from '../../data/types'
 import { useSession } from '../../session/SessionContext'
 import KanbanBoard from '../../components/portal/kanban/KanbanBoard'
+import NoRecord from '../../components/portal/chrome/NoRecord'
 import { ConventionSigil, ConventionWordmark } from '../../components/shared/logos'
 import kanbanStyles from '../../components/portal/kanban/Kanban.module.css'
 import chromeStyles from '../../components/portal/chrome/Chrome.module.css'
+
+const isConventionSlug = (value: string): value is ConventionSlug =>
+  (CONVENTION_SLUGS as string[]).includes(value)
 
 export default function BoardPage() {
   const { convention } = useParams()
   const session = useSession()
   const board =
-    convention && convention in BOARDS
-      ? BOARDS[convention as ConventionSlug]
-      : undefined
+    convention && isConventionSlug(convention) ? BOARDS[convention] : undefined
 
-  if (!board) {
-    return (
-      <div>
-        <h1 style={{ fontFamily: 'var(--font-mono)' }}>RECORD EXPUNGED</h1>
-        <p style={{ color: 'var(--text-muted)', marginTop: '0.5rem' }}>
-          No response file exists at this address, and it would be best not to
-          ask why. <Link to="/portal/operations">Return to operations.</Link>
-        </p>
-      </div>
-    )
-  }
-
-  if (board.convention !== session.convention) {
-    // Full compartmentalization: do not confirm the file exists, let alone
-    // whose it is. Identical language to a genuinely nonexistent address.
-    return (
-      <div>
-        <h1
-          style={{
-            fontFamily: 'var(--font-mono)',
-            color: 'var(--status-critical)',
-            letterSpacing: '0.1em',
-          }}
-        >
-          NO RECORD AT YOUR AFFILIATION
-        </h1>
-        <p style={{ color: 'var(--text-muted)', marginTop: '0.75rem', maxWidth: '62ch' }}>
-          No response file exists at this address for personnel of your
-          affiliation. If you were given this address, complete Form MX-2 and
-          identify who gave it to you. This attempt has been recorded and, in
-          the spirit of the Doctrine of Mutuality, forgiven. Once.
-        </p>
-        <p style={{ marginTop: '0.75rem' }}>
-          <Link to="/portal/operations" style={{ color: 'var(--accent)' }}>
-            Return to your assigned operations
-          </Link>
-        </p>
-      </div>
-    )
+  // Full compartmentalization: a foreign Convention's file and a genuinely
+  // nonexistent address produce byte-identical output — the response must
+  // not confirm whether anything exists here.
+  if (!board || board.convention !== session.convention) {
+    return <NoRecord kind="response file" />
   }
 
   const info = CONVENTIONS[board.convention]

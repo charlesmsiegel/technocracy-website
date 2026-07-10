@@ -1,52 +1,33 @@
 import { Link, useParams } from 'react-router-dom'
 import { getMethodology } from '../../data/methodologies'
-import { CONVENTIONS } from '../../data/conventions'
+import { CONVENTIONS, CONVENTION_SLUGS } from '../../data/conventions'
 import type { ConventionSlug } from '../../data/types'
 import { useSession } from '../../session/SessionContext'
 import KanbanBoard from '../../components/portal/kanban/KanbanBoard'
 import MetricGrid from '../../components/portal/widgets/MetricGrid'
 import IncidentTicker from '../../components/portal/widgets/IncidentTicker'
+import NoRecord from '../../components/portal/chrome/NoRecord'
 import { ConventionSigil } from '../../components/shared/logos'
 import kanbanStyles from '../../components/portal/kanban/Kanban.module.css'
 import chromeStyles from '../../components/portal/chrome/Chrome.module.css'
 
-function Denied() {
-  return (
-    <div>
-      <h1
-        style={{
-          fontFamily: 'var(--font-mono)',
-          color: 'var(--status-critical)',
-          letterSpacing: '0.1em',
-        }}
-      >
-        NO RECORD AT YOUR AFFILIATION
-      </h1>
-      <p style={{ color: 'var(--text-muted)', marginTop: '0.75rem', maxWidth: '62ch' }}>
-        No desk exists at this address for personnel of your affiliation. If
-        you were given this address, complete Form MX-2 and identify who gave
-        it to you.
-      </p>
-      <p style={{ marginTop: '0.75rem' }}>
-        <Link to="/portal/operations" style={{ color: 'var(--accent)' }}>
-          Return to your assigned operations
-        </Link>
-      </p>
-    </div>
-  )
-}
+// Own-key validation: `in` would also accept inherited properties like
+// 'constructor', which then indexes METHODOLOGIES off the prototype chain
+// and crashes the route instead of denying it.
+const isConventionSlug = (value: string): value is ConventionSlug =>
+  (CONVENTION_SLUGS as string[]).includes(value)
 
 export default function MethodologyPage() {
   const { convention, methodology } = useParams()
   const session = useSession()
 
   const panel =
-    convention && methodology && convention in CONVENTIONS
-      ? getMethodology(convention as ConventionSlug, methodology)
+    convention && methodology && isConventionSlug(convention)
+      ? getMethodology(convention, methodology)
       : undefined
 
   if (!panel || panel.convention !== session.convention) {
-    return <Denied />
+    return <NoRecord kind="desk" />
   }
 
   const info = CONVENTIONS[panel.convention]
