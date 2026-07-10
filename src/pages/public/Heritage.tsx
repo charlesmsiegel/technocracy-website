@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 import { HERITAGE_ERAS } from '../../data/heritage'
 import type { HeritageMark } from '../../data/heritage'
 import sigilSonsOfEther from '../../assets/logos/sigil-sons-of-ether.png'
-import sigilVirtualAdepts from '../../assets/logos/sigil-virtual-adepts.png'
+import insigniaDfgAlumni from '../../assets/logos/insignia-dfg-alumni.png'
 import pub from './Public.module.css'
 import styles from './Heritage.module.css'
 
@@ -43,7 +43,7 @@ const DEFUNCT: DefunctDivision[] = [
     ],
     footnote:
       'Divested assets: none. Nothing was taken. We have checked repeatedly.',
-    successorMark: sigilVirtualAdepts,
+    successorMark: insigniaDfgAlumni,
     successorCaption:
       'Insignia currently circulated by group alumni, reproduced for identification purposes only. It renders correctly on our hardware.',
   },
@@ -77,11 +77,6 @@ export default function Heritage() {
           again. Every organization below is either part of us, descended into
           us, or discussed at the bottom of this page in the section provided
           for that purpose.
-        </p>
-        <p className={pub.meta} style={{ marginTop: '0.75rem', maxWidth: '62ch' }}>
-          Historical names are rendered in their modern public forms. Certain
-          period names, while cherished, predate contemporary communications
-          guidance, and several were never intended to be read aloud.
         </p>
       </div>
 
