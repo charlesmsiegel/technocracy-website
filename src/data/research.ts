@@ -184,6 +184,34 @@ export const PAPERS: Paper[] = [
       'Full text available to qualified institutions. Qualification is assessed automatically.',
     ],
   },
+  {
+    slug: 'cultural-commodification-counter-insurgency-vector',
+    title: 'Cultural Commodification as a Counter-Insurgency Vector',
+    authors: ['S. Laurent', 'A. Voss', 'W. Castellano'],
+    venue: 'Journal of Behavioral Markets',
+    date: '2025-10',
+    division: 'Exchequer Capital Group',
+    abstract: [
+      'Movements that organize around opposition to prevailing norms typically dissolve not through suppression but through absorption: their aesthetics are licensed, their vocabulary is adopted by mainstream retailers, and their signifiers become available for purchase by people uninterested in the grievance that produced them. This paper treats that absorption not as an incidental byproduct of markets but as a mechanism, and asks how reliably it can be engineered.',
+      'We assembled a longitudinal dataset of 214 dissenting cultural formations — musical genres, fashion movements, wellness practices, and adjacent forms of stylized refusal — spanning six decades, and measured the interval between a formation’s emergence and its first mainstream commercial license. We find that time-to-license has declined steadily across the period, and that formations reaching license within eighteen months of emergence lose the capacity for sustained collective action at a significantly higher rate than formations that are not licensed at all.',
+      'The mechanism appears to be substitution rather than suppression: commodification does not silence a message, it satisfies the demand for the message’s signifiers, leaving the underlying grievance without a constituency willing to bear its costs. We show that time-to-license can be shortened deliberately, through early acquisition of adjacent trademarks and rapid retail placement, and that formations subjected to accelerated licensing dissolve faster than matched controls left alone. We report the acceleration achieved and recommend it be treated as a standard instrument rather than an opportunistic one.',
+      'Full text available to qualified institutions. Qualification is assessed automatically.',
+    ],
+  },
+  {
+    slug: 'psychiatric-containment-efficacy-reality-adjacent-presentations',
+    title: 'Psychiatric Containment Efficacy for Reality-Adjacent Presentations: A Multi-Site Outcomes Review',
+    authors: ['H. Osei', 'M. Ruiz-Osei', 'C. Marchand'],
+    venue: 'Journal of Psychiatric Outcomes',
+    date: '2026-01',
+    division: 'Progenera Life Sciences',
+    abstract: [
+      'Patients presenting with a persistent, treatment-resistant conviction of exceptional personal influence over events, probability, or the recollection of others — a presentation we term reality-adjacent, to distinguish it from primary psychotic disorders with which it is frequently confused — have historically been difficult to place within standard care pathways. This review reports outcomes for a standardized containment and re-orientation protocol applied across 41 sites over five years.',
+      'The protocol combines removal from the setting in which the belief was first reported, a structured observation period of no fewer than ninety days, and graduated, monitored reintroduction to ordinary routine. Across 6,203 enrolled patients, symptom remission — defined as the patient’s voluntary characterization of the prior belief as mistaken — was achieved in 89 percent of cases within the observation period, a rate substantially higher than published outcomes for comparable resistant presentations.',
+      'Relapse was strongly associated with return to the original setting or original social contacts, and weakly associated with everything else we measured. We also note, without proposing an explanation, that belief content across geographically and socially unconnected patients shows a degree of thematic convergence higher than base rates for culturally transmitted delusion would predict; we flag this for future study and have adjusted intake screening accordingly.',
+      'Full text available to qualified institutions. Qualification is assessed automatically.',
+    ],
+  },
 ]
 
 export function getPaper(slug: string): Paper | undefined {

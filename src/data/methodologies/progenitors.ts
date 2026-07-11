@@ -10,8 +10,8 @@ export const progenitorsMethodologies: MethodologyPanel[] = [
     board: {
       convention: 'progenitors',
       codename: 'TISSUE & IDENTITY QUEUE',
-      designation: 'METHODOLOGY QUEUE PRG-FA-2026',
-      banner: 'PROGENITOR INTERNAL — FACADE ENGINEERS / SYORKA WORKFLOW',
+      designation: 'METHODOLOGY QUEUE PGN-FA-2026',
+      banner: 'PROGENITORS INTERNAL — FACADE ENGINEERS / SYORKA WORKFLOW',
       brief:
         'Working queue for clone tissue fabrication and identity maintenance: graft scheduling, continuity verification against Life-Pattern baselines, and handover of finished units. Chiurgeons are reminded that a Type I face is a scheduled consumable and a Type II face is a promise; do not confuse the paperwork. Print quality is holding. Personalities are the part that still fails.',
       columns: [
@@ -121,8 +121,8 @@ export const progenitorsMethodologies: MethodologyPanel[] = [
     board: {
       convention: 'progenitors',
       codename: 'SEQUENCE REVIEW QUEUE',
-      designation: 'METHODOLOGY QUEUE PRG-GE-2026',
-      banner: 'PROGENITOR INTERNAL — GENEGINEERS / QUALITY ASSURANCE',
+      designation: 'METHODOLOGY QUEUE PGN-GE-2026',
+      banner: 'PROGENITORS INTERNAL — GENEGINEERS / QUALITY ASSURANCE',
       brief:
         'Standing review queue for sequence work: edit-package sign-off, germline authorizations requiring two-signature release, and periodic specimen-line audits. Scientists are reminded that "complete understanding and mastery of the genetics of every species" is a charter, not a status, and the gap between the two is where the audit findings live. Sign only what you have read. Read only what you can defend at symposium.',
       columns: [
@@ -242,8 +242,8 @@ export const progenitorsMethodologies: MethodologyPanel[] = [
     board: {
       convention: 'progenitors',
       codename: 'BATCH & TRIAL QUEUE',
-      designation: 'METHODOLOGY QUEUE PRG-PH-2026',
-      banner: 'PROGENITOR INTERNAL — PHARMACOPOEISTS / QUALITY & TRIALS',
+      designation: 'METHODOLOGY QUEUE PGN-PH-2026',
+      banner: 'PROGENITORS INTERNAL — PHARMACOPOEISTS / QUALITY & TRIALS',
       brief:
         'Working queue for the legitimate pipeline: batch quality assurance on production lots, clinical-trial scheduling, and formulation review. The street-lab side is directed elsewhere and is not tracked on this board. Chemists are reminded that the Convention’s prestige comes from the drugs that save lives and its fear from the drugs that end them; both are made in the same buildings by the same hands.',
       columns: [
@@ -354,8 +354,8 @@ export const progenitorsMethodologies: MethodologyPanel[] = [
     board: {
       convention: 'progenitors',
       codename: 'REMEDIATION & COVERAGE QUEUE',
-      designation: 'METHODOLOGY QUEUE PRG-DC-2026',
-      banner: 'PROGENITOR INTERNAL — DAMAGE CONTROL / ETHICAL COMPLIANCE ADJACENT',
+      designation: 'METHODOLOGY QUEUE PGN-DC-2026',
+      banner: 'PROGENITORS INTERNAL — DAMAGE CONTROL / ETHICAL COMPLIANCE ADJACENT',
       brief:
         'Standing cleanup queue: site remediation after facility incidents, witness aftercare, and recovery of physical evidence into Union custody. Constables and Chief Inspectors are reminded of the code — amputate the finger before the infection reaches the arm — and of its corollary, that the arm is always watching to see how neatly the finger comes off. Coverage is a science. Regret is optional and, per policy, unbillable.',
       columns: [

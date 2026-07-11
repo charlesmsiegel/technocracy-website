@@ -9,7 +9,7 @@ export type ConventionSlug =
 
 export interface Division {
   slug: ConventionSlug
-  /** Full public brand, e.g. "Iteration X Advanced Manufacturing" */
+  /** Full public brand, e.g. "Iterion Advanced Manufacturing" */
   publicName: string
   /** Short label used in nav/cards, e.g. "Iteration X" */
   shortName: string

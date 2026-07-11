@@ -46,4 +46,15 @@ export const EXPLAINED_ENTRIES: ExplainedEntry[] = [
       'So the name is not a boast and not a riddle. It is a product description, chosen by practical people who believed a company should say plainly what it makes. We make agreement. We stand behind it. And like everything we make, it is warrantied: if you should ever find your confidence in the ordinary world faltering, contact any office of Consensus Holdings, and it will be restored.',
     ],
   },
+  {
+    number: 9,
+    title: 'On Reports of Corruption at the Highest Levels',
+    paragraphs: [
+      'A version of this question reaches us in nearly every interview: that the trouble with Consensus Holdings is not visible in the annual report but sits above it, in an arrangement the org chart does not show, where the people accountable to shareholders answer instead to someone else. We take the claim seriously enough to have commissioned research into it, twice, and we will walk through what that research found.',
+      'Corruption at the highest levels leaves a signature, and it is not a subtle one. It shows in unexplained variance between reported and audited results; ours has never differed by more than a rounding error, across three concurrent external auditors who do not report to one another. It shows in short tenure among the people positioned to notice wrongdoing; our internal audit staff average eleven years in post, longer than our executive officers, which is the opposite of what a department built to look away tends to look like.',
+      'It shows, too, in decisions that quietly serve the decision-maker at the company’s expense. We invite the reader to locate one, in twelve decades of filings, and to write in if they succeed; no one yet has. And it requires, at its apex, someone accountable to no one — a description that does not fit any seat at Consensus Holdings, since every officer reports to the board, the board reports to the shareholders, and the shareholders, every April in Geneva, may ask anything they like until they stop asking.',
+      'We understand why the rumor outlives each rebuttal. An organization our size necessarily contains people who disappoint it — a regional manager, a vendor, once, memorably, an entire subcommittee — and every one of them makes a better headline than a policy does. We do not deny that individuals have let us down. We deny only that the top of this company is one of them, and the audits agree with us.',
+      'For the record, and we offer this in the spirit of full disclosure rather than reassurance: Consensus Holdings has never once failed an audit it commissioned of itself. We recognize how that sentence reads. We are publishing it anyway, because it is true, and because the alternative — not publishing it — would read worse.',
+    ],
+  },
 ]

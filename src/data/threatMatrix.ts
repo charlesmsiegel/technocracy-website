@@ -68,4 +68,20 @@ export const THREAT_MATRIX: ThreatRow[] = [
     hoarBand: '8–10',
     dtft: 6,
   },
+  {
+    code: 'CMURD',
+    gloss: 'Craft-affiliated deviant',
+    activeCases: 52,
+    trend: 'up',
+    hoarBand: '4–7',
+    dtft: 3,
+  },
+  {
+    code: 'PEE',
+    gloss: 'Paradox-effect manifestation',
+    activeCases: 21,
+    trend: 'up',
+    hoarBand: '9–10',
+    dtft: 7,
+  },
 ]
