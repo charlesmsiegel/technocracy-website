@@ -1,6 +1,9 @@
 import type { PressRelease } from './types'
 
-export const PRESS_RELEASES: PressRelease[] = [
+// Not authored in date order — sorted below so every consumer (Home's
+// slice(0, 3), Newsroom, division pages) sees the newest release first
+// without depending on manual array placement.
+const PRESS_RELEASES_RAW: PressRelease[] = [
   {
     slug: 'statement-agricultural-campus-vandalism',
     date: '2026-07-02',
@@ -180,6 +183,10 @@ export const PRESS_RELEASES: PressRelease[] = [
     ],
   },
 ]
+
+export const PRESS_RELEASES: PressRelease[] = [...PRESS_RELEASES_RAW].sort(
+  (a, b) => b.date.localeCompare(a.date),
+)
 
 export function getPressRelease(slug: string): PressRelease | undefined {
   return PRESS_RELEASES.find((p) => p.slug === slug)
