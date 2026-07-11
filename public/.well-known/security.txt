@@ -1,7 +1,7 @@
 Contact: mailto:disclosure@consensus-holdings.example
 Expires: 2031-03-25T00:00:00.000Z
 Preferred-Languages: en, all
-Policy: https://charlesmsiegel.github.io/technocracy-website/#/privacy
+Policy: https://technocratic-union.com/#/privacy
 
 # Responsible disclosure is appreciated.
 # Please note that we are typically already aware,

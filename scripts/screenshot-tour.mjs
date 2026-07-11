@@ -7,7 +7,7 @@ import { existsSync } from 'node:fs'
 import { mkdir } from 'node:fs/promises'
 import { join } from 'node:path'
 
-const baseUrl = process.argv[2] ?? 'http://localhost:4173/technocracy-website/'
+const baseUrl = process.argv[2] ?? 'http://localhost:4173/'
 const outDir = process.argv[3] ?? 'screenshots'
 
 const executablePath = ['/opt/pw-browsers/chromium', process.env.CHROMIUM_PATH]
