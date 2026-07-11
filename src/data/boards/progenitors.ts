@@ -9,7 +9,7 @@ export const progenitorsBoard: Board = {
     'FERAL BLOOM tracks the uncontained propagation of specimen line THV-9 ("Thornveldt"): a gene-edited chimeric predator chassis (canid frame, cephalopod-derived adaptive dermis, engineered symbiote flora providing wound closure and scent masking) originating from Facility GREEN WILLOW, a Damage Control-flagged site. Official containment loss date: March 2021. Field population estimates are currently reconciled against that date. Where reconciliation fails, see the cards marked accordingly, and see them quietly. Public cover: the Northern Range Invasive Predator Response Unit.',
   columns: [
     { id: 'flagged', title: 'Flagged Growth', cardIds: ['pg-01', 'pg-02', 'pg-03'] },
-    { id: 'culture-review', title: 'Under Culture Review', cardIds: ['pg-04', 'pg-05', 'pg-06', 'pg-07', 'pg-08'] },
+    { id: 'culture-review', title: 'Under Culture Review', cardIds: ['pg-04', 'pg-05', 'pg-06', 'pg-07', 'pg-08', 'pg-16'] },
     { id: 'field', title: 'Active Field Work', cardIds: ['pg-09', 'pg-10', 'pg-11', 'pg-12'] },
     { id: 'catalogued', title: 'Neutralized / Catalogued', cardIds: ['pg-13', 'pg-14', 'pg-15'] },
   ],
@@ -176,6 +176,22 @@ export const progenitorsBoard: Board = {
       clearance: 'internal',
       tags: ['the-feed', 'de-amplification', 'hoax-seeding', 'closed'],
       priority: 'routine',
+    },
+    'pg-16': {
+      id: 'pg-16',
+      title: 'Reagent diversion — Damage Control supervisor, recipient unconfirmed',
+      summary:
+        'Inventory reconciliation shows repeated small-batch withdrawals of cold-chain reagent stock signed out by a single Damage Control supervisor against field-loss codes that match no logged operation. The withdrawals correlate with unscheduled meetings at a highway rest stop forty minutes from Facility GREEN WILLOW. The recipient has not been identified. The supervisor has not been asked.',
+      clearance: 'eyes-only',
+      tags: ['damage-control', 'diversion', 'personnel', 'IG'],
+      priority: 'critical',
+      notSharedWith: 'symposium',
+      detail: [
+        'Six withdrawals over four months, each under the single-signature threshold that would otherwise require a countersignature. Reagent class matches THV-9 dermis-stabilization stock, which has no approved use outside this case file. The supervisor’s authorization to hold that stock is itself a residue of the pg-05 rebase and was never revoked.',
+        'A field asset who half-followed one meeting reports a civilian vehicle, an unmarked cooler exchanged in under ninety seconds, and a payment the asset could not characterize beyond "not currency, or not only currency." The asset was recalled before the vehicle’s plate could be logged. Reassignment of a second asset is pending budget, which is itself a joke that has stopped being funny.',
+        'Confronting the supervisor directly risks accelerating whatever this is; not confronting him risks the same. IG recommends continued passive observation. Damage Control’s own leadership has not been briefed, for reasons that should already be obvious.',
+      ],
+      redactedLines: 3,
     },
   },
 }

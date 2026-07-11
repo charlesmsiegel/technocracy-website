@@ -112,4 +112,24 @@ export const HR_FORMS: HrForm[] = [
     file: 'forms/eol-9.pdf',
     pages: 2,
   },
+  {
+    id: 'tro-1',
+    code: 'TRO-1',
+    title: 'Truce-Related Operation Authorization Request',
+    revision: 'Rev. 3 · Effective 04/2026',
+    blurb:
+      'Request authorization before initiating any operation touching a party to a standing Ascension Truce. Article Five compliance is attested, not assumed. File before, not after.',
+    file: 'forms/tro-1.pdf',
+    pages: 2,
+  },
+  {
+    id: 'cc-5',
+    code: 'CC-5',
+    title: 'Amendable Coexistence Certification',
+    revision: 'Rev. 8 · Effective 05/2026',
+    blurb:
+      'Certify and renew a sanctioned liaison relationship with an Amendable Coexistence contact. One form per contact. Recertification lapses are treated as a lapse in judgment, not a lapse in paperwork.',
+    file: 'forms/cc-5.pdf',
+    pages: 1,
+  },
 ]

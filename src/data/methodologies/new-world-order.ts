@@ -252,7 +252,7 @@ export const newWorldOrderMethodologies: MethodologyPanel[] = [
       columns: [
         { id: 'faults', title: 'Coverage Faults', cardIds: ['wa-01', 'wa-02', 'wa-03'] },
         { id: 'renewals', title: 'Renewals & Assets', cardIds: ['wa-04', 'wa-05'] },
-        { id: 'backlog', title: 'Transcription Backlog', cardIds: ['wa-06', 'wa-07', 'wa-08'] },
+        { id: 'backlog', title: 'Transcription Backlog', cardIds: ['wa-06', 'wa-07', 'wa-08', 'wa-11'] },
         { id: 'cleared', title: 'Cleared', cardIds: ['wa-09', 'wa-10'] },
       ],
       cards: {
@@ -351,6 +351,21 @@ export const newWorldOrderMethodologies: MethodologyPanel[] = [
           clearance: 'restricted',
           tags: ['informant', 'retirement', 'closed'],
           priority: 'routine',
+        },
+        'wa-11': {
+          id: 'wa-11',
+          title: 'Incoming packet self-terminated — origin unconfirmed',
+          summary:
+            'A flagged intelligence packet routed through the transcription intake queue erased itself in the four minutes between ingestion and assignment. No triage occurred. The intake log retains the packet’s checksum, size, and priority flag; the payload, and the packet’s point of origin, no longer exist anywhere on the system.',
+          clearance: 'eyes-only',
+          tags: ['intake', 'anomaly', 'self-destruct', 'unresolved'],
+          priority: 'critical',
+          notSharedWith: 'symposium',
+          redactedLines: 2,
+          detail: [
+            'The packet arrived through a routine ingest channel, was assigned intake ID WA-INT-7734, and was queued for standard triage at 04:12. At 04:16 the queue reported the payload as zero bytes. The checksum on file no longer matches anything in storage. No corruption event, network fault, or manual deletion is logged for the interval.',
+            'The priority flag set at ingestion — HANDLE BEFORE READING — is the only metadata that survived. No one who could explain that flag has been identified, and the originating channel has produced no further packets. This card exists to document that the queue is not to be treated as empty. It is to be treated as having been emptied.',
+          ],
         },
       },
     },
