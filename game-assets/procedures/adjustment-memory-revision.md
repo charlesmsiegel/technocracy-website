@@ -1,7 +1,7 @@
 ---
 name: Adjustment (Memory Revision / "Attunement")
 type: Adjustment — subtle memory and belief editing (becomes a vulgar Procedure if the subject knowingly resists)
-convention: New World Order primary; Progenitors variant ("Attuned") uses biochemistry
+convention: New World Order primary; Progenitor variant ("Attuned") uses biochemistry
 sphere-requirements: Mind 3 (erase/rewrite recent memory); Mind 2 + Life 2 for the pheromone/"scent" variant (Rats' Rage / Lost Cousin); Prime 2 to make edits permanent
 apparatus: REQUIRED — NWO route: a Neuro-Optical Transmitter (NOT / "Flashy Thing") or Psychiatric Compounds plus a controlled social frame; Progenitor "Attunement" route: pheromone/nanotech dispersal or dosed compounds. No apparatus, no Effect.
 roll: Enlightenment (+ Manipulation for social framing) vs. subject's Willpower

@@ -29,7 +29,7 @@ the medicine but in the **incentive structure and the data**:
   are ahead of the patient's knowledge and are being monetized.
 - **Every procedure is archived** (Data 2): 180,000+ patients whose cellular
   baselines, genomes, and outcomes are in Progenitor custody indefinitely (see the Genomic
-  Atlas framing on the Progenitors division page — "nothing that lives is ever truly lost to
+  Atlas framing on the Progenera division page — "nothing that lives is ever truly lost to
   us"). A FACADE patient is a permanently sampled, permanently profiled subject.
 
 **Mechanics** — a Progenitor operative with a FACADE field kit:

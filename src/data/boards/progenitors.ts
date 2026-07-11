@@ -3,8 +3,8 @@ import type { Board } from '../types'
 export const progenitorsBoard: Board = {
   convention: 'progenitors',
   codename: 'FERAL BLOOM',
-  designation: 'DAMAGE CONTROL CASE FILE PG-2021-0117',
-  banner: 'PROGENITOR INTERNAL — DAMAGE CONTROL OVERSIGHT — BIOSAFETY ANNEX ROTA ONLY',
+  designation: 'DAMAGE CONTROL CASE FILE PGN-2021-0117',
+  banner: 'PROGENITORS INTERNAL — DAMAGE CONTROL OVERSIGHT — BIOSAFETY ANNEX ROTA ONLY',
   brief:
     'FERAL BLOOM tracks the uncontained propagation of specimen line THV-9 ("Thornveldt"): a gene-edited chimeric predator chassis (canid frame, cephalopod-derived adaptive dermis, engineered symbiote flora providing wound closure and scent masking) originating from Facility GREEN WILLOW, a Damage Control-flagged site. Official containment loss date: March 2021. Field population estimates are currently reconciled against that date. Where reconciliation fails, see the cards marked accordingly, and see them quietly. Public cover: the Northern Range Invasive Predator Response Unit.',
   columns: [
