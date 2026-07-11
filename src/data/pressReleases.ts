@@ -165,6 +165,20 @@ export const PRESS_RELEASES: PressRelease[] = [
       'The partnership is provided free of charge. Completion certificates are issued to all participants, and records of participation are maintained in perpetuity for their convenience.',
     ],
   },
+  {
+    slug: 'statement-outback-tracking-station-wildlife-incident',
+    date: '2026-07-09',
+    division: 'void-engineers',
+    headline: 'Consensus Holdings Statement on Wildlife Disruption at Remote Tracking Station',
+    summary:
+      'A coordinated wildlife incursion disrupted ground equipment at a Celestine Aerospace tracking station in the Northern Territory this week. The station returned to full operations within four days, and no personnel were injured.',
+    body: [
+      'ALICE SPRINGS — Celestine Aerospace confirms that its remote deep-space tracking station in the Northern Territory experienced an unusual wildlife incursion beginning the night of July 5, when a coordinated group of native fauna crossed the perimeter and disrupted ground equipment across two receiver arrays. Data collection resumed on all affected systems within four days.',
+      'Station personnel report that the animals involved — a mixed group of dingoes, corellas, and monitor lizards not previously observed to associate — arrived within the same forty-minute window and directed their activity specifically at exposed cabling and antenna feeds, an alignment field biologists on site described as “the kind of coincidence you only get to see once in a career.” No comparable event has been recorded at any Celestine Aerospace facility, and none is expected to recur.',
+      '“Wildlife around remote infrastructure will occasionally test it; that is simply what wildlife does,” said Director Amara Okafor-Cheng of Fleet Operations. “What made this instance notable was the coordination, and we want to be precise about that word: notable, not concerning. It has been resolved, catalogued, and closed out within our normal reporting window, the same as everything else that reaches this desk.”',
+      'No personnel were injured, and no data from the affected observation window was lost; coverage of the tracking station’s assigned sector was briefly reassigned to an adjacent array and has since reverted. Celestine Aerospace notes, for the record, that the site’s perimeter classification remains unchanged.',
+    ],
+  },
 ]
 
 export function getPressRelease(slug: string): PressRelease | undefined {
