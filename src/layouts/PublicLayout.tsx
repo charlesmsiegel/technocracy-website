@@ -1,5 +1,5 @@
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom'
-import { useEffect } from 'react'
+import { useEffect, useRef } from 'react'
 import { ConsensusMark } from '../components/shared/logos'
 import CookieBanner from '../components/public/CookieBanner'
 import NewsletterSignup from '../components/public/NewsletterSignup'
@@ -26,11 +26,35 @@ function ScrollToTop() {
   return null
 }
 
+/** More primary-nav items means the header can wrap to a second line at
+    tablet/small-desktop widths. Anything elsewhere on the site that sticks
+    to the header (the careers filter bar) needs the header's *actual*
+    rendered height, not a number that only holds while the nav fits on one
+    line — so this publishes it as a custom property every layout pass. */
+function useHeaderHeightVar(ref: React.RefObject<HTMLElement | null>) {
+  useEffect(() => {
+    const el = ref.current
+    if (!el) return
+    const publish = () =>
+      document.documentElement.style.setProperty(
+        '--public-header-height',
+        `${el.offsetHeight}px`,
+      )
+    publish()
+    const observer = new ResizeObserver(publish)
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [ref])
+}
+
 export default function PublicLayout() {
+  const headerRef = useRef<HTMLElement>(null)
+  useHeaderHeightVar(headerRef)
+
   return (
     <div className={styles.shell} data-theme="public">
       <ScrollToTop />
-      <header className={styles.header}>
+      <header ref={headerRef} className={styles.header}>
         <div className={styles.headerInner}>
           <Link to="/" className={styles.brand}>
             <ConsensusMark />
