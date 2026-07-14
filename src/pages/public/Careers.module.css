@@ -1,0 +1,142 @@
+.filterBar {
+  display: grid;
+  grid-template-columns: 2fr repeat(4, 1fr);
+  gap: 0.6rem;
+  padding: 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  position: sticky;
+  top: 68px;
+  z-index: 10;
+}
+
+@media (max-width: 900px) {
+  .filterBar {
+    grid-template-columns: 1fr 1fr;
+    position: static;
+  }
+}
+
+.searchInput {
+  grid-column: 1 / -1;
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.55rem 0.8rem;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+@media (min-width: 901px) {
+  .searchInput {
+    grid-column: 1;
+  }
+}
+
+.select {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.55rem 0.6rem;
+  font-size: 0.86rem;
+  color: var(--text);
+}
+
+.resultsRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1.1rem 0 0.9rem;
+}
+
+.resultsCount {
+  font-size: 0.86rem;
+  color: var(--text-muted);
+}
+
+.clearButton {
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+.clearButton:hover {
+  color: var(--heading);
+  border-color: var(--accent);
+}
+
+.jobGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.jobCard {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.jobTags {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+}
+
+.jobTag {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+  background: var(--surface-alt);
+  border-radius: 999px;
+  padding: 0.18rem 0.6rem;
+}
+
+.jobTitle {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--heading);
+}
+
+.jobMeta {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.jobBlurb {
+  font-size: 0.88rem;
+  color: var(--text);
+  line-height: 1.55;
+}
+
+.reqList {
+  margin: 0.2rem 0 0;
+  padding-left: 1.1rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.reqList li::marker {
+  color: var(--accent);
+}
+
+.empty {
+  padding: 3rem 1rem;
+  text-align: center;
+  color: var(--text-muted);
+}

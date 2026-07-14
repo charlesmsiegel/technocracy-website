@@ -40,10 +40,29 @@ export interface Initiative {
   metric: { label: string; value: string }
 }
 
+export type JobRegion =
+  | 'North America'
+  | 'Latin America'
+  | 'Europe'
+  | 'Middle East & Africa'
+  | 'Asia-Pacific'
+  | 'Remote / Global'
+  | 'Off-World Rotation'
+
 export interface CareerPosting {
   id: string
+  jobFamily: string
+  region: JobRegion
+  /** e.g. "United States"; use "Multiple" for region-spanning postings */
+  country: string
+  /** City or site, e.g. "Louisville, KY" — kept separate from the free-text `location` line below */
+  city: string
+  employmentType: string
+  /** 3-6 short bullet requirements; occasionally one item is not like the others */
+  requirements: string[]
   title: string
   division: ConventionSlug | 'corporate'
+  /** Free-text display line, e.g. "Louisville, KY (on-site; relocation assisted)" */
   location: string
   blurb: string
 }
