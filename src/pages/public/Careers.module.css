@@ -8,7 +8,7 @@
   border-radius: var(--radius);
   box-shadow: var(--shadow);
   position: sticky;
-  top: 68px;
+  top: var(--public-header-height, 68px);
   z-index: 10;
 }
 

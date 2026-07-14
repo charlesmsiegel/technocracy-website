@@ -40,6 +40,53 @@ export interface Initiative {
   metric: { label: string; value: string }
 }
 
+export interface Executive {
+  id: string
+  name: string
+  title: string
+  /** Division they lead/represent, or 'corporate' for HQ-level roles */
+  division?: ConventionSlug | 'corporate'
+  /** 1-3 short paragraphs */
+  bio: string[]
+  /** Short "previously" CV lines shown under the bio */
+  priorRoles: string[]
+}
+
+export interface FlagshipLocation {
+  id: string
+  name: string
+  division: ConventionSlug | 'corporate'
+  city: string
+  country: string
+  region: JobRegion
+  blurb: string
+  established: string
+}
+
+export interface Product {
+  id: string
+  name: string
+  division: ConventionSlug
+  category: string
+  tagline: string
+  description: string
+  /** 3-5 short spec lines; occasionally one is not like the others */
+  specs: string[]
+  price?: string
+}
+
+export interface InsightArticle {
+  slug: string
+  title: string
+  division?: ConventionSlug | 'corporate'
+  author: string
+  /** ISO date, e.g. "2026-04-02" */
+  date: string
+  category: string
+  summary: string
+  body: string[]
+}
+
 export type JobRegion =
   | 'North America'
   | 'Latin America'
@@ -68,6 +115,21 @@ export interface CareerPosting {
 }
 
 /* ---------- Internal portal ---------- */
+
+export interface PersonnelRecord {
+  id: string
+  name: string
+  designation: string
+  convention: ConventionSlug | 'corporate'
+  /** Six-Tier Pyramid classification, e.g. "T4 — Upper Management" */
+  tier: string
+  /** Six Degrees of Separation loyalty grade, e.g. "SDS 2 — Assured Loyalty" */
+  loyaltyGrade: string
+  /** Where this person surfaces elsewhere in the record */
+  site: string
+  /** One-line internal note */
+  note: string
+}
 
 export type Clearance = 'internal' | 'restricted' | 'eyes-only'
 export type Priority = 'routine' | 'elevated' | 'critical'

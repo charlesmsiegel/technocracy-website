@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import { HR_FORMS } from '../../data/hrForms'
 import { useSession } from '../../session/SessionContext'
 import styles from './HrPage.module.css'
@@ -31,7 +32,10 @@ export default function HrPage() {
         <p>
           Serving those who serve. Download, complete in blue-black ink, and
           submit in triplicate to your Amalgam Supervisor. Digital submission
-          is coming in Q3 and has been coming in Q3 since 2019.
+          is coming in Q3 and has been coming in Q3 since 2019. Several forms
+          below have a corresponding course at the{' '}
+          <Link to="/portal/training">Training &amp; Certification Desk</Link>
+          .
         </p>
         <div className={styles.countersign}>
           Forms will be countersigned under: {operativeName}

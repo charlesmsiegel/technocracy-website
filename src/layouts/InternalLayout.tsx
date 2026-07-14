@@ -9,6 +9,10 @@ const NAV = [
   { to: '/portal', label: 'COMMAND DASHBOARD', end: true },
   { to: '/portal/operations', label: 'OPERATIONS' },
   { to: '/portal/plan', label: 'FIVE-YEAR PLAN' },
+  { to: '/portal/symposium', label: 'THE SYMPOSIUM' },
+  { to: '/portal/directory', label: 'PERSONNEL' },
+  { to: '/portal/audit-log', label: 'AUDIT LOG' },
+  { to: '/portal/training', label: 'TRAINING' },
   { to: '/portal/hr', label: 'HUMAN RESOURCES' },
 ]
 

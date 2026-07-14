@@ -1,0 +1,43 @@
+.place {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.directory {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.regionBlock {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1rem 1.25rem;
+}
+
+.regionTitle {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--heading);
+  margin-bottom: 0.5rem;
+}
+
+.regionCount {
+  font-size: 0.68rem;
+  font-weight: 700;
+  color: var(--accent);
+  background: var(--surface-alt);
+  border-radius: 999px;
+  padding: 0.1rem 0.5rem;
+}
+
+.placeList {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+}

@@ -1,0 +1,89 @@
+.filterRow {
+  display: flex;
+  gap: 0.5rem;
+  margin: 1rem 0 1.2rem;
+}
+
+.filter,
+.filterActive {
+  border-radius: 999px;
+  padding: 0.35rem 0.9rem;
+  font-size: 0.8rem;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text-muted);
+}
+
+.filterActive {
+  background: var(--accent);
+  color: var(--accent-contrast);
+  border-color: var(--accent);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.45rem;
+}
+
+.cardHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.code {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+}
+
+.badgeMandatory,
+.badgeOptional {
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-radius: 999px;
+  padding: 0.14rem 0.55rem;
+}
+
+.badgeMandatory {
+  color: var(--status-elevated);
+  background: color-mix(in srgb, var(--status-elevated) 16%, var(--surface-alt));
+}
+
+.badgeOptional {
+  color: var(--text-muted);
+  background: var(--surface-alt);
+}
+
+.title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--heading);
+}
+
+.meta {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.03em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+.description {
+  font-size: 0.84rem;
+  color: var(--text);
+  line-height: 1.55;
+}
