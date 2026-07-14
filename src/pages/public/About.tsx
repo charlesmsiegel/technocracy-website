@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom'
 import { ABOUT_PHOTO } from '../../data/photos'
 import pub from './Public.module.css'
 import styles from './About.module.css'
 
-const LEADERSHIP = [
+const GOVERNANCE = [
   {
     name: 'V. Damian',
     role: 'Founding Charter (attrib.)',
@@ -139,9 +140,9 @@ export default function About() {
       </div>
 
       <div className={pub.section}>
-        <div className={pub.sectionTitle}>Leadership</div>
+        <div className={pub.sectionTitle}>Governance</div>
         <div className={pub.grid3}>
-          {LEADERSHIP.map((leader) => (
+          {GOVERNANCE.map((leader) => (
             <div key={leader.name} className={pub.card}>
               <span className={pub.cardTitle}>{leader.name}</span>
               <span className={pub.eyebrow}>{leader.role}</span>
@@ -149,6 +150,10 @@ export default function About() {
             </div>
           ))}
         </div>
+        <p className={pub.meta} style={{ marginTop: '1rem' }}>
+          For the officers who do give interviews, see{' '}
+          <Link to="/leadership">Leadership</Link>.
+        </p>
       </div>
     </div>
   )

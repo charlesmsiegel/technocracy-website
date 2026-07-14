@@ -23,6 +23,11 @@ import Explained from './pages/public/Explained'
 import Research from './pages/public/Research'
 import ResearchPaper from './pages/public/ResearchPaper'
 import Accessibility from './pages/public/Accessibility'
+import Leadership from './pages/public/Leadership'
+import Locations from './pages/public/Locations'
+import Products from './pages/public/Products'
+import Insights from './pages/public/Insights'
+import InsightDetail from './pages/public/InsightDetail'
 import NotFound from './pages/public/NotFound'
 import LoginPage from './pages/LoginPage'
 import Dashboard from './pages/portal/Dashboard'
@@ -59,6 +64,11 @@ function App() {
             <Route path="research" element={<Research />} />
             <Route path="research/:slug" element={<ResearchPaper />} />
             <Route path="accessibility" element={<Accessibility />} />
+            <Route path="leadership" element={<Leadership />} />
+            <Route path="locations" element={<Locations />} />
+            <Route path="products" element={<Products />} />
+            <Route path="insights" element={<Insights />} />
+            <Route path="insights/:slug" element={<InsightDetail />} />
             <Route path="*" element={<NotFound />} />
           </Route>
 

@@ -7,7 +7,9 @@ import styles from './PublicLayout.module.css'
 
 const NAV = [
   { to: '/divisions', label: 'Divisions' },
+  { to: '/products', label: 'Products' },
   { to: '/research', label: 'Research' },
+  { to: '/insights', label: 'Insights' },
   { to: '/newsroom', label: 'Newsroom' },
   { to: '/initiatives', label: 'Initiatives' },
   { to: '/investors', label: 'Investors' },
@@ -63,8 +65,10 @@ export default function PublicLayout() {
             <h3>Company</h3>
             <ul>
               <li><Link to="/about">About us</Link></li>
+              <li><Link to="/leadership">Leadership</Link></li>
               <li><Link to="/heritage">Heritage</Link></li>
               <li><Link to="/divisions">Our divisions</Link></li>
+              <li><Link to="/locations">Locations</Link></li>
               <li><Link to="/initiatives">Global initiatives</Link></li>
               <li><Link to="/careers">Careers</Link></li>
               <li><Link to="/benefits">Benefits</Link></li>
@@ -74,6 +78,7 @@ export default function PublicLayout() {
             <h3>Newsroom</h3>
             <ul>
               <li><Link to="/newsroom">Press releases</Link></li>
+              <li><Link to="/insights">Insights</Link></li>
               <li><Link to="/explained">Consensus Explained</Link></li>
               <li><Link to="/research">Our Research</Link></li>
             </ul>
