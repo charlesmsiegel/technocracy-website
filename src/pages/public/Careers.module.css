@@ -1,6 +1,6 @@
 .filterBar {
-  display: grid;
-  grid-template-columns: 2fr repeat(4, 1fr);
+  display: flex;
+  flex-direction: column;
   gap: 0.6rem;
   padding: 1rem;
   background: var(--surface);
@@ -14,28 +14,34 @@
 
 @media (max-width: 900px) {
   .filterBar {
-    grid-template-columns: 1fr 1fr;
     position: static;
   }
 }
 
 .searchInput {
-  grid-column: 1 / -1;
+  width: 100%;
+  min-width: 0;
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 0.55rem 0.8rem;
+  padding: 0.6rem 0.9rem;
   font-size: 0.95rem;
   color: var(--text);
 }
 
-@media (min-width: 901px) {
-  .searchInput {
-    grid-column: 1;
-  }
+/* Filters wrap onto as many rows as needed instead of squeezing narrower
+   than their content — a fixed-column grid forces long option text
+   (e.g. "Communications & Public Affairs") to overflow its track. */
+.selectRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
 }
 
 .select {
+  flex: 1 1 170px;
+  min-width: 0;
+  max-width: 100%;
   background: var(--bg);
   border: 1px solid var(--border);
   border-radius: var(--radius);

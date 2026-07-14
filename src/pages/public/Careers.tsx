@@ -1,4 +1,5 @@
 import { useMemo, useState } from 'react'
+import { Link } from 'react-router-dom'
 import { CAREERS, JOB_FAMILY_ORDER, REGION_ORDER } from '../../data/careers'
 import { getDivision } from '../../data/divisions'
 import pub from './Public.module.css'
@@ -106,6 +107,11 @@ export default function Careers() {
             </div>
           ))}
         </div>
+        <p style={{ marginTop: '1rem' }}>
+          <Link to="/benefits" className={pub.ctaGhost}>
+            View the full benefits guide
+          </Link>
+        </p>
       </div>
 
       <div className={pub.section}>
@@ -120,61 +126,63 @@ export default function Careers() {
             onChange={(e) => setSearch(e.target.value)}
             aria-label="Search open positions"
           />
-          <select
-            className={styles.select}
-            value={region}
-            onChange={(e) => {
-              setRegion(e.target.value)
-              setCountry(ALL)
-            }}
-            aria-label="Filter by region"
-          >
-            <option value={ALL}>All regions</option>
-            {regionOptions.map((r) => (
-              <option key={r} value={r}>
-                {r}
-              </option>
-            ))}
-          </select>
-          <select
-            className={styles.select}
-            value={country}
-            onChange={(e) => setCountry(e.target.value)}
-            aria-label="Filter by country"
-          >
-            <option value={ALL}>All countries</option>
-            {countryOptions.map((c) => (
-              <option key={c} value={c}>
-                {c}
-              </option>
-            ))}
-          </select>
-          <select
-            className={styles.select}
-            value={jobFamily}
-            onChange={(e) => setJobFamily(e.target.value)}
-            aria-label="Filter by job family"
-          >
-            <option value={ALL}>All job families</option>
-            {jobFamilyOptions.map((f) => (
-              <option key={f} value={f}>
-                {f}
-              </option>
-            ))}
-          </select>
-          <select
-            className={styles.select}
-            value={division}
-            onChange={(e) => setDivision(e.target.value)}
-            aria-label="Filter by division"
-          >
-            <option value={ALL}>All divisions</option>
-            {divisionOptions.map((d) => (
-              <option key={d} value={d}>
-                {d === 'corporate' ? 'Corporate' : getDivision(d)?.shortName ?? d}
-              </option>
-            ))}
-          </select>
+          <div className={styles.selectRow}>
+            <select
+              className={styles.select}
+              value={region}
+              onChange={(e) => {
+                setRegion(e.target.value)
+                setCountry(ALL)
+              }}
+              aria-label="Filter by region"
+            >
+              <option value={ALL}>All regions</option>
+              {regionOptions.map((r) => (
+                <option key={r} value={r}>
+                  {r}
+                </option>
+              ))}
+            </select>
+            <select
+              className={styles.select}
+              value={country}
+              onChange={(e) => setCountry(e.target.value)}
+              aria-label="Filter by country"
+            >
+              <option value={ALL}>All countries</option>
+              {countryOptions.map((c) => (
+                <option key={c} value={c}>
+                  {c}
+                </option>
+              ))}
+            </select>
+            <select
+              className={styles.select}
+              value={jobFamily}
+              onChange={(e) => setJobFamily(e.target.value)}
+              aria-label="Filter by job family"
+            >
+              <option value={ALL}>All job families</option>
+              {jobFamilyOptions.map((f) => (
+                <option key={f} value={f}>
+                  {f}
+                </option>
+              ))}
+            </select>
+            <select
+              className={styles.select}
+              value={division}
+              onChange={(e) => setDivision(e.target.value)}
+              aria-label="Filter by division"
+            >
+              <option value={ALL}>All divisions</option>
+              {divisionOptions.map((d) => (
+                <option key={d} value={d}>
+                  {d === 'corporate' ? 'Corporate' : getDivision(d)?.shortName ?? d}
+                </option>
+              ))}
+            </select>
+          </div>
         </div>
 
         <div className={styles.resultsRow}>

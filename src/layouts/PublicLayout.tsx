@@ -67,6 +67,7 @@ export default function PublicLayout() {
               <li><Link to="/divisions">Our divisions</Link></li>
               <li><Link to="/initiatives">Global initiatives</Link></li>
               <li><Link to="/careers">Careers</Link></li>
+              <li><Link to="/benefits">Benefits</Link></li>
             </ul>
           </div>
           <div className={styles.footerCol}>
