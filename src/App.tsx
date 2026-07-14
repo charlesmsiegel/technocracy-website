@@ -36,6 +36,10 @@ import BoardPage from './pages/portal/BoardPage'
 import MethodologyPage from './pages/portal/MethodologyPage'
 import PlanPage from './pages/portal/PlanPage'
 import HrPage from './pages/portal/HrPage'
+import SymposiumPage from './pages/portal/SymposiumPage'
+import PersonnelDirectory from './pages/portal/PersonnelDirectory'
+import AuditLogPage from './pages/portal/AuditLogPage'
+import TrainingPage from './pages/portal/TrainingPage'
 import PortalNotFound from './pages/portal/PortalNotFound'
 
 function App() {
@@ -84,6 +88,10 @@ function App() {
                 element={<MethodologyPage />}
               />
               <Route path="plan" element={<PlanPage />} />
+              <Route path="symposium" element={<SymposiumPage />} />
+              <Route path="directory" element={<PersonnelDirectory />} />
+              <Route path="audit-log" element={<AuditLogPage />} />
+              <Route path="training" element={<TrainingPage />} />
               <Route path="hr" element={<HrPage />} />
               <Route path="*" element={<PortalNotFound />} />
             </Route>

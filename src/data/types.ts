@@ -116,6 +116,21 @@ export interface CareerPosting {
 
 /* ---------- Internal portal ---------- */
 
+export interface PersonnelRecord {
+  id: string
+  name: string
+  designation: string
+  convention: ConventionSlug | 'corporate'
+  /** Six-Tier Pyramid classification, e.g. "T4 — Upper Management" */
+  tier: string
+  /** Six Degrees of Separation loyalty grade, e.g. "SDS 2 — Assured Loyalty" */
+  loyaltyGrade: string
+  /** Where this person surfaces elsewhere in the record */
+  site: string
+  /** One-line internal note */
+  note: string
+}
+
 export type Clearance = 'internal' | 'restricted' | 'eyes-only'
 export type Priority = 'routine' | 'elevated' | 'critical'
 

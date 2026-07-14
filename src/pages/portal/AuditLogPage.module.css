@@ -1,0 +1,78 @@
+.head {
+  margin-bottom: 1rem;
+}
+
+.head h1 {
+  font-size: 1.15rem;
+  color: var(--heading);
+  margin-bottom: 0.4rem;
+}
+
+.head p {
+  font-size: 0.84rem;
+  color: var(--text-muted);
+  max-width: 64ch;
+  line-height: 1.6;
+}
+
+.summary {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+}
+
+.summary strong {
+  color: var(--heading);
+  font-variant-numeric: tabular-nums;
+}
+
+.flaggedSummary strong {
+  color: var(--status-elevated);
+}
+
+.log {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 0.9rem 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.76rem;
+  line-height: 1.9;
+  max-height: 520px;
+  overflow-y: auto;
+}
+
+.line,
+.lineFlagged {
+  display: flex;
+  gap: 1rem;
+}
+
+.time {
+  flex-shrink: 0;
+  color: var(--text-muted);
+  width: 5.5rem;
+}
+
+.text {
+  color: var(--text);
+}
+
+.lineFlagged .text {
+  color: var(--status-elevated);
+}
+
+.lineFlagged .time {
+  color: var(--status-elevated);
+}
+
+.footnote {
+  margin-top: 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
