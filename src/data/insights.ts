@@ -9,7 +9,7 @@ export const INSIGHTS_INTRO: string[] =
     'Perspective from the people who run the five divisions, published on our schedule rather than the news cycle\'s. Longer than a press release, shorter than a research paper, and — we like to think — considerably more useful than either.',
   ]
 
-export const INSIGHTS: InsightArticle[] = [
+const INSIGHTS_RAW: InsightArticle[] = [
   {
     slug: 'the-measurable-employee',
     title: 'The Measurable Employee',
@@ -161,3 +161,7 @@ export const INSIGHTS: InsightArticle[] = [
     ],
   },
 ]
+
+export const INSIGHTS: InsightArticle[] = [...INSIGHTS_RAW].sort(
+  (a, b) => b.date.localeCompare(a.date),
+)

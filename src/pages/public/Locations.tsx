@@ -6,13 +6,24 @@ import { getDivision } from '../../data/divisions'
 import pub from './Public.module.css'
 import styles from './Locations.module.css'
 
+// City placeholders that aren't an actual place — "Remote / Global" also
+// covers fixed-site postings (e.g. the Chajnantor observatory, Svalbard)
+// that belong in the directory, so only these generic stand-ins drop out.
+const PLACEHOLDER_CITIES = new Set([
+  'Multiple locations',
+  'Remote',
+  'Assigned at offer stage',
+  'Deployment site assigned at offer stage',
+])
+
 export default function Locations() {
   // Directory below the flagship cards is derived live from the careers
   // dataset — one line to maintain instead of a second list that drifts.
   const byRegion = useMemo(() => {
     const map = new Map<string, Set<string>>()
     for (const job of CAREERS) {
-      if (job.region === 'Off-World Rotation' || job.region === 'Remote / Global') continue
+      if (job.region === 'Off-World Rotation') continue
+      if (PLACEHOLDER_CITIES.has(job.city)) continue
       const key = job.region
       const line = job.country === 'Multiple' ? job.city : `${job.city}, ${job.country}`
       if (!map.has(key)) map.set(key, new Set())
