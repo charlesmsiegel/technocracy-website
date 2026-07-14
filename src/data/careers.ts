@@ -1457,3 +1457,7 @@ export const CAREERS: CareerPosting[] = [
     ],
   },
 ]
+
+export function getCareer(id: string): CareerPosting | undefined {
+  return CAREERS.find((job) => job.id === id)
+}
