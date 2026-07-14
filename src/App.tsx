@@ -10,6 +10,8 @@ import Newsroom from './pages/public/Newsroom'
 import PressReleaseDetail from './pages/public/PressReleaseDetail'
 import Initiatives from './pages/public/Initiatives'
 import Careers from './pages/public/Careers'
+import JobDetail from './pages/public/JobDetail'
+import JobApply from './pages/public/JobApply'
 import Benefits from './pages/public/Benefits'
 import About from './pages/public/About'
 import Heritage from './pages/public/Heritage'
@@ -44,6 +46,8 @@ function App() {
             <Route path="newsroom/:slug" element={<PressReleaseDetail />} />
             <Route path="initiatives" element={<Initiatives />} />
             <Route path="careers" element={<Careers />} />
+            <Route path="careers/:id" element={<JobDetail />} />
+            <Route path="careers/:id/apply" element={<JobApply />} />
             <Route path="benefits" element={<Benefits />} />
             <Route path="about" element={<About />} />
             <Route path="heritage" element={<Heritage />} />

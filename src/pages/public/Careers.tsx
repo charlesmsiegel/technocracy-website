@@ -211,7 +211,9 @@ export default function Careers() {
                     <span className={styles.jobTag}>{job.jobFamily}</span>
                     <span className={styles.jobTag}>{job.region}</span>
                   </div>
-                  <span className={styles.jobTitle}>{job.title}</span>
+                  <Link to={`/careers/${job.id}`} className={styles.jobTitle}>
+                    {job.title}
+                  </Link>
                   <span className={styles.jobMeta}>
                     {div ? div.publicName : 'Corporate'} · {job.location} ·{' '}
                     {job.employmentType}
@@ -224,10 +226,9 @@ export default function Careers() {
                       ))}
                     </ul>
                   )}
-                  <span className={pub.meta}>
-                    To apply, continue excelling. A representative will
-                    contact you at the appropriate stage of your development.
-                  </span>
+                  <Link to={`/careers/${job.id}`} className={styles.viewLink}>
+                    View details &amp; apply →
+                  </Link>
                 </div>
               )
             })}
