@@ -1487,7 +1487,7 @@ export const CAREERS: CareerPosting[] = [
     requirements: [
       '2+ years in logistics or supply chain coordination',
       'Working knowledge of freight management software (SAP TM or equivalent)',
-      'Able to move a stalled shipment weighing up to 40,000 lbs the final 200 feet to the dock without mechanical assistance',
+      'Comfortable improvising a solution when a stalled shipment needs to move the final 200 feet and the equipment on hand won\'t cut it',
       'Valid driver\'s license and clean driving record',
       'Comfortable with occasional weekend on-call rotation',
     ],
@@ -1757,7 +1757,7 @@ export const CAREERS: CareerPosting[] = [
     requirements: [
       "Master's degree in marine biology or related field",
       'Open-water dive certification (AAUS or equivalent)',
-      'Able to tolerate depth changes exceeding standard decompression limits without recorded physiological effect',
+      'Comfortable with dive profiles that run past standard decompression tables; your last three post-dive physicals are on file and available on request',
       '2+ years of field research experience',
       'Willingness to spend extended periods aboard research vessels',
     ],
@@ -4108,7 +4108,7 @@ export const CAREERS: CareerPosting[] = [
       'Valid driver’s license and clean record',
       'Excellent discretion and scheduling accuracy',
       'Willingness to travel on short notice',
-      'Able to remain outwardly unremarkable in rooms where everyone else is being watched',
+      'Comfortable being the only person in the room nobody remembers afterward',
     ],
   },
   {
