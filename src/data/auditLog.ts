@@ -37,7 +37,7 @@ export const AUDIT_LOG: AuditLogEntry[] = [
   { id: 'al-24', time: 'T-00:27:39', line: 'SENTINEL CONSTELLATION — 312/312 NOMINAL' },
   { id: 'al-25', time: 'T-00:29:11', line: 'FORM CD-4 REQUESTED — PUBLIC EXPLANATION, STANDARD TURNAROUND' },
   { id: 'al-26', time: 'T-00:30:50', line: 'OPERATIVE 3390-F — BIOMETRIC RE-VERIFICATION — PASSED' },
-  { id: 'al-27', time: 'T-00:32:07', line: '{operative} — THIS ENTRY WAS LOGGED WHILE YOU WERE READING THE LOG' },
+  { id: 'al-27', time: 'T-00:32:07', line: '{operative} — AUDIT LOG PAGE ACCESSED — ACCESS LOGGED PER STANDARD POLICY' },
 ]
 
 export function withOperative(line: string, operative: string): string {

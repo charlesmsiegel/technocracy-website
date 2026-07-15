@@ -11,7 +11,7 @@ export const SYMPOSIUM_BOARD: Board = {
   designation: 'CROSS-CONVENTION DELIBERATIVE BODY · STANDING SESSION',
   banner: 'ALL CONVENTIONS SEATED — CONSENSUS IS MANDATORY, AGREEMENT IS OPTIONAL',
   brief:
-    'Every Convention holds a standing seat and a standing obligation to disclose anything materially affecting shared resources, shared cover, or shared risk. In practice, disclosure is calibrated: each delegation reports what keeps its own file moving and withholds what would slow it down. The Symposium has never once achieved unanimous agreement on what "materially affecting" means, and has never once let that stop a vote.',
+    'Every Convention holds a standing seat and a standing obligation to disclose anything materially affecting shared resources, shared cover, or shared risk — the same obligation Professor Damian negotiated out of all five delegations, at considerable personal cost, when this body first sat. In practice, disclosure is calibrated: each delegation reports what keeps its own file moving and withholds what would slow it down. The Symposium has never once achieved unanimous agreement on what "materially affecting" means, and has never once let that stop a vote.',
   columns: [
     {
       id: 'agenda',
