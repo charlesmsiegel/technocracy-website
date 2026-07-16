@@ -139,6 +139,17 @@ export default function PublicLayout() {
             Personnel Access
           </Link>
         </div>
+        <div className={styles.finePrint}>
+          This is an unofficial, non-commercial fan work and is not affiliated
+          with or endorsed by Paradox Interactive. Portions of the materials
+          are the copyrights and trademarks of Paradox Interactive AB, and are
+          used with permission. All rights reserved. For more information
+          please visit{' '}
+          <a href="https://www.worldofdarkness.com" target="_blank" rel="noreferrer">
+            worldofdarkness.com
+          </a>
+          .
+        </div>
       </footer>
       <CookieBanner />
     </div>

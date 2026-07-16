@@ -161,3 +161,18 @@
 .legalLink:hover {
   color: #ffffff;
 }
+
+/* Real-world fan-work notice — required, not meant to compete with the
+   in-fiction copyright line above it. */
+.finePrint {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1.25rem 1rem;
+  color: #5f7189;
+  font-size: 0.64rem;
+  line-height: 1.6;
+}
+
+.finePrint a {
+  color: inherit;
+}

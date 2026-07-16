@@ -71,6 +71,13 @@ in `vite.config.ts`); routing uses hash URLs so deep links survive reloads.
 
 > The World of Darkness, Mage: the Ascension, the Technocratic Union, and all
 > related marks are property of Paradox Interactive / White Wolf / Onyx Path.
-> This is an unofficial, non-commercial fan work. No challenge to any
-> trademark is intended. Consensus Holdings would like to remind you that it
-> does not exist.
+> This is an unofficial, non-commercial fan work, created and shared under
+> Paradox Interactive's [Dark Pack
+> Agreement](https://www.paradoxinteractive.com/games/world-of-darkness/community/dark-pack-agreement).
+> No challenge to any trademark is intended, no goods or services are sold in
+> connection with this project, and Consensus Holdings would like to remind
+> you that it does not exist.
+>
+> Portions of the materials are the copyrights and trademarks of Paradox
+> Interactive AB, and are used with permission. All rights reserved. For more
+> information please visit [worldofdarkness.com](https://www.worldofdarkness.com).
